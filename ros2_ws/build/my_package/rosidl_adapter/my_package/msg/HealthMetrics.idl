@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from my_package/msg/HealthMetrics.msg
+// generated code does not contain a copyright notice
+
+
+module my_package {
+  module msg {
+    struct HealthMetrics {
+      double cpu_usage;
+
+      double memory_usage;
+
+      double disk_usage;
+
+      double cpu_frequency;
+
+      string nic_status;
+
+      double temperature;
+    };
+  };
+};
