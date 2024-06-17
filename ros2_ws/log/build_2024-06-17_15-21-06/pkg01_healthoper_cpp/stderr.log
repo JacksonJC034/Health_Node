@@ -1,0 +1,124 @@
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:68:61:[m[K [01;31m[Kerror: [m[K‘[01m[KLiftInfo[m[K’ in namespace ‘[01m[Kpkg00_base_interfaces::msg[m[K’ does not name a type
+   68 |   void lift_info_callback(const pkg00_base_interfaces::msg::[01;31m[KLiftInfo[m[K::SharedPtr msg) {
+      |                                                             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:68:81:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   68 |   void lift_info_callback(const pkg00_base_interfaces::msg::LiftInfo::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                                                 [01;31m[K^~~[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:68:80:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   68 |   void lift_info_callback[34m[K([m[Kconst pkg00_base_interfaces::msg::LiftInfo::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) {
+      |                          [34m[K~[m[K                                                     [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                                [32m[K)[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:68:71:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   68 |   void lift_info_callback(const pkg00_base_interfaces::msg::LiftInfo::[01;31m[KSharedPtr[m[K msg) {
+      |                                                                       [01;31m[K^~~~~~~~~[m[K
+      |                                                                                [32m[K;[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:68:81:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   68 |   void lift_info_callback(const pkg00_base_interfaces::msg::LiftInfo::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                                                 [01;31m[K^~~[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:88:60:[m[K [01;31m[Kerror: [m[K‘[01m[KSeekRet[m[K’ in namespace ‘[01m[Kpkg00_base_interfaces::msg[m[K’ does not name a type
+   88 |   void seek_ret_callback(const pkg00_base_interfaces::msg::[01;31m[KSeekRet[m[K::SharedPtr msg) {
+      |                                                            [01;31m[K^~~~~~~[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:88:79:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   88 |   void seek_ret_callback(const pkg00_base_interfaces::msg::SeekRet::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                                               [01;31m[K^~~[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:88:78:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   88 |   void seek_ret_callback[34m[K([m[Kconst pkg00_base_interfaces::msg::SeekRet::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) {
+      |                         [34m[K~[m[K                                                    [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                              [32m[K)[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:88:69:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   88 |   void seek_ret_callback(const pkg00_base_interfaces::msg::SeekRet::[01;31m[KSharedPtr[m[K msg) {
+      |                                                                     [01;31m[K^~~~~~~~~[m[K
+      |                                                                              [32m[K;[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:88:79:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   88 |   void seek_ret_callback(const pkg00_base_interfaces::msg::SeekRet::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                                               [01;31m[K^~~[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:92:65:[m[K [01;31m[Kerror: [m[K‘[01m[KSystemStatus[m[K’ in namespace ‘[01m[Kpkg00_base_interfaces::msg[m[K’ does not name a type
+   92 |   void system_status_callback(const pkg00_base_interfaces::msg::[01;31m[KSystemStatus[m[K::SharedPtr msg) {
+      |                                                                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:92:89:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   92 |   void system_status_callback(const pkg00_base_interfaces::msg::SystemStatus::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                                                         [01;31m[K^~~[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:92:88:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   92 |   void system_status_callback[34m[K([m[Kconst pkg00_base_interfaces::msg::SystemStatus::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) {
+      |                              [34m[K~[m[K                                                         [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                                        [32m[K)[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:92:79:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   92 |   void system_status_callback(const pkg00_base_interfaces::msg::SystemStatus::[01;31m[KSharedPtr[m[K msg) {
+      |                                                                               [01;31m[K^~~~~~~~~[m[K
+      |                                                                                        [32m[K;[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:92:89:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   92 |   void system_status_callback(const pkg00_base_interfaces::msg::SystemStatus::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                                                         [01;31m[K^~~[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:292:52:[m[K [01;31m[Kerror: [m[K‘[01m[KLiftInfo[m[K’ is not a member of ‘[01m[Kpkg00_base_interfaces::msg[m[K’
+  292 |   rclcpp::Subscription<pkg00_base_interfaces::msg::[01;31m[KLiftInfo[m[K>::SharedPtr subscriber_lift_;
+      |                                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:292:52:[m[K [01;31m[Kerror: [m[K‘[01m[KLiftInfo[m[K’ is not a member of ‘[01m[Kpkg00_base_interfaces::msg[m[K’
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:292:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  292 |   rclcpp::Subscription<pkg00_base_interfaces::msg::LiftInfo[01;31m[K>[m[K::SharedPtr subscriber_lift_;
+      |                                                            [01;31m[K^[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:292:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:292:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  292 |   rclcpp::Subscription<pkg00_base_interfaces::msg::LiftInfo>::[01;31m[KSharedPtr[m[K subscriber_lift_;
+      |                                                               [01;31m[K^~~~~~~~~[m[K
+      |                                                                        [32m[K;[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:292:73:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber_lift_[m[K’ does not name a type
+  292 |   rclcpp::Subscription<pkg00_base_interfaces::msg::LiftInfo>::SharedPtr [01;31m[Ksubscriber_lift_[m[K;
+      |                                                                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:297:52:[m[K [01;31m[Kerror: [m[K‘[01m[KSeekRet[m[K’ is not a member of ‘[01m[Kpkg00_base_interfaces::msg[m[K’
+  297 |   rclcpp::Subscription<pkg00_base_interfaces::msg::[01;31m[KSeekRet[m[K>::SharedPtr subscriber_seek_ret_;
+      |                                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:297:52:[m[K [01;31m[Kerror: [m[K‘[01m[KSeekRet[m[K’ is not a member of ‘[01m[Kpkg00_base_interfaces::msg[m[K’
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:297:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  297 |   rclcpp::Subscription<pkg00_base_interfaces::msg::SeekRet[01;31m[K>[m[K::SharedPtr subscriber_seek_ret_;
+      |                                                           [01;31m[K^[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:297:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:297:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  297 |   rclcpp::Subscription<pkg00_base_interfaces::msg::SeekRet>::[01;31m[KSharedPtr[m[K subscriber_seek_ret_;
+      |                                                              [01;31m[K^~~~~~~~~[m[K
+      |                                                                       [32m[K;[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:297:62:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint HealthOperator::SharedPtr[m[K’
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:292:63:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint HealthOperator::SharedPtr[m[K’
+  292 |   rclcpp::Subscription<pkg00_base_interfaces::msg::LiftInfo>::[01;36m[KSharedPtr[m[K subscriber_lift_;
+      |                                                               [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:297:72:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber_seek_ret_[m[K’ does not name a type
+  297 |   rclcpp::Subscription<pkg00_base_interfaces::msg::SeekRet>::SharedPtr [01;31m[Ksubscriber_seek_ret_[m[K;
+      |                                                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:298:52:[m[K [01;31m[Kerror: [m[K‘[01m[KSystemStatus[m[K’ is not a member of ‘[01m[Kpkg00_base_interfaces::msg[m[K’
+  298 |   rclcpp::Subscription<pkg00_base_interfaces::msg::[01;31m[KSystemStatus[m[K>::SharedPtr subscriber_system_status_;
+      |                                                    [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:298:52:[m[K [01;31m[Kerror: [m[K‘[01m[KSystemStatus[m[K’ is not a member of ‘[01m[Kpkg00_base_interfaces::msg[m[K’
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:298:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  298 |   rclcpp::Subscription<pkg00_base_interfaces::msg::SystemStatus[01;31m[K>[m[K::SharedPtr subscriber_system_status_;
+      |                                                                [01;31m[K^[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:298:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:298:67:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  298 |   rclcpp::Subscription<pkg00_base_interfaces::msg::SystemStatus>::[01;31m[KSharedPtr[m[K subscriber_system_status_;
+      |                                                                   [01;31m[K^~~~~~~~~[m[K
+      |                                                                            [32m[K;[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:298:67:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint HealthOperator::SharedPtr[m[K’
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:292:63:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint HealthOperator::SharedPtr[m[K’
+  292 |   rclcpp::Subscription<pkg00_base_interfaces::msg::LiftInfo>::[01;36m[KSharedPtr[m[K subscriber_lift_;
+      |                                                               [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:298:77:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber_system_status_[m[K’ does not name a type
+  298 |   rclcpp::Subscription<pkg00_base_interfaces::msg::SystemStatus>::SharedPtr [01;31m[Ksubscriber_system_status_[m[K;
+      |                                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:306:31:[m[K [01;31m[Kerror: [m[K‘[01m[KLiftInfo[m[K’ in namespace ‘[01m[Kpkg00_base_interfaces::msg[m[K’ does not name a type
+  306 |   pkg00_base_interfaces::msg::[01;31m[KLiftInfo[m[K latest_lift_info_;
+      |                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:311:31:[m[K [01;31m[Kerror: [m[K‘[01m[KSeekRet[m[K’ in namespace ‘[01m[Kpkg00_base_interfaces::msg[m[K’ does not name a type
+  311 |   pkg00_base_interfaces::msg::[01;31m[KSeekRet[m[K latest_seek_ret_;
+      |                               [01;31m[K^~~~~~~[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:312:31:[m[K [01;31m[Kerror: [m[K‘[01m[KSystemStatus[m[K’ in namespace ‘[01m[Kpkg00_base_interfaces::msg[m[K’ does not name a type
+  312 |   pkg00_base_interfaces::msg::[01;31m[KSystemStatus[m[K latest_system_status_;
+      |                               [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:[m[K In member function ‘[01m[Kvoid HealthOperator::publish_core_info()[m[K’:
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:108:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct pkg00_base_interfaces::msg::CoreInfo_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kstatus[m[K’; did you mean ‘[01m[Knic_status[m[K’?
+  108 |     message.[01;31m[Kstatus[m[K = latest_bms_info_.status;
+      |             [01;31m[K^~~~~~[m[K
+      |             [32m[Knic_status[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:109:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct pkg00_base_interfaces::msg::CoreInfo_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kerror_code[m[K’
+  109 |     message.[01;31m[Kerror_code[m[K = latest_bms_info_.error_code;
+      |             [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/health_oper.dir/build.make:63: CMakeFiles/health_oper.dir/src/health_oper.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/health_oper.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,16 @@
+[0.020s] Invoking command in '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp': AMENT_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp -- -j4 -l4
+[0.099s] [35m[1mScanning dependencies of target health_oper[0m
+[0.151s] [ 50%] Built target listener
+[0.175s] [ 75%] [32mBuilding CXX object CMakeFiles/health_oper.dir/src/health_oper.cpp.o[0m
+[1.972s] [01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:[m[K In member function ‘[01m[Kvoid HealthOperator::publish_core_info()[m[K’:
+[1.972s] [01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:96:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct pkg00_base_interfaces::msg::CoreInfo_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kstatus[m[K’; did you mean ‘[01m[Knic_status[m[K’?
+[1.972s]    96 |     message.[01;31m[Kstatus[m[K = latest_bms_info_.status;
+[1.972s]       |             [01;31m[K^~~~~~[m[K
+[1.972s]       |             [32m[Knic_status[m[K
+[1.972s] [01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:97:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct pkg00_base_interfaces::msg::CoreInfo_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kerror_code[m[K’
+[1.972s]    97 |     message.[01;31m[Kerror_code[m[K = latest_bms_info_.error_code;
+[1.972s]       |             [01;31m[K^~~~~~~~~~[m[K
+[8.867s] make[2]: *** [CMakeFiles/health_oper.dir/build.make:63: CMakeFiles/health_oper.dir/src/health_oper.cpp.o] Error 1
+[8.870s] make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/health_oper.dir/all] Error 2
+[8.870s] make: *** [Makefile:141: all] Error 2
+[8.871s] Invoked command in '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp' returned '2': AMENT_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp -- -j4 -l4

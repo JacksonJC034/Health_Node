@@ -53,7 +53,17 @@ CMAKE_BINARY_DIR = /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces
 # Include the progress variables for this target.
 include CMakeFiles/pkg00_base_interfaces.dir/progress.make
 
+CMakeFiles/pkg00_base_interfaces: /home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces/msg/BmsInfo.msg
+CMakeFiles/pkg00_base_interfaces: /home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces/msg/ChargerInfo.msg
+CMakeFiles/pkg00_base_interfaces: /home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces/msg/ColorInfo.msg
 CMakeFiles/pkg00_base_interfaces: /home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces/msg/CoreInfo.msg
+CMakeFiles/pkg00_base_interfaces: /home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces/msg/HallInfo.msg
+CMakeFiles/pkg00_base_interfaces: /home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces/msg/Location.msg
+CMakeFiles/pkg00_base_interfaces: /home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces/msg/MotorCmd.msg
+CMakeFiles/pkg00_base_interfaces: /home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces/msg/MotorStatus.msg
+CMakeFiles/pkg00_base_interfaces: /home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces/msg/ObsLaser.msg
+CMakeFiles/pkg00_base_interfaces: /home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces/msg/SeekRet.msg
+CMakeFiles/pkg00_base_interfaces: /home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces/msg/SystemStatus.msg
 
 
 pkg00_base_interfaces: CMakeFiles/pkg00_base_interfaces

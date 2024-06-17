@@ -1,16 +1,13 @@
 #include "rclcpp/rclcpp.hpp"
-#include "pkg00_base_interfaces/msg/core_info.hpp"
 #include "pkg00_base_interfaces/msg/bms_info.hpp"
 #include "pkg00_base_interfaces/msg/charger_info.hpp"
 #include "pkg00_base_interfaces/msg/color_info.hpp"
+#include "pkg00_base_interfaces/msg/core_info.hpp"
 #include "pkg00_base_interfaces/msg/hall_info.hpp"
-#include "pkg00_base_interfaces/msg/lift_info.hpp"
 #include "pkg00_base_interfaces/msg/location.hpp"
 #include "pkg00_base_interfaces/msg/motor_cmd.hpp"
 #include "pkg00_base_interfaces/msg/motor_status.hpp"
 #include "pkg00_base_interfaces/msg/obs_laser.hpp"
-#include "pkg00_base_interfaces/msg/seek_ret.hpp"
-#include "pkg00_base_interfaces/msg/system_status.hpp"
 #include <sys/statvfs.h>
 #include <fstream>
 #include <sstream>
@@ -33,10 +30,7 @@ public:
     
     subscriber_hall_ = this->create_subscription<pkg00_base_interfaces::msg::HallInfo>(
       "hall_info_topic", 10, std::bind(&HealthOperator::hall_info_callback, this, std::placeholders::_1));
-    
-    subscriber_lift_ = this->create_subscription<pkg00_base_interfaces::msg::LiftInfo>(
-      "lift_info_topic", 10, std::bind(&HealthOperator::lift_info_callback, this, std::placeholders::_1));
-    
+  
     subscriber_location_ = this->create_subscription<pkg00_base_interfaces::msg::Location>(
       "location_topic", 10, std::bind(&HealthOperator::location_callback, this, std::placeholders::_1));
     
@@ -48,12 +42,6 @@ public:
     
     subscriber_obs_laser_ = this->create_subscription<pkg00_base_interfaces::msg::ObsLaser>(
       "obs_laser_topic", 10, std::bind(&HealthOperator::obs_laser_callback, this, std::placeholders::_1));
-    
-    subscriber_seek_ret_ = this->create_subscription<pkg00_base_interfaces::msg::SeekRet>(
-      "seek_ret_topic", 10, std::bind(&HealthOperator::seek_ret_callback, this, std::placeholders::_1));
-    
-    subscriber_system_status_ = this->create_subscription<pkg00_base_interfaces::msg::SystemStatus>(
-      "system_status_topic", 10, std::bind(&HealthOperator::system_status_callback, this, std::placeholders::_1));
 
     timer_ = this->create_wall_timer(
       std::chrono::seconds(1),
@@ -77,10 +65,6 @@ private:
     latest_hall_info_ = *msg; // Store the latest HallInfo message
   }
 
-  void lift_info_callback(const pkg00_base_interfaces::msg::LiftInfo::SharedPtr msg) {
-    latest_lift_info_ = *msg; // Store the latest LiftInfo message
-  }
-
   void location_callback(const pkg00_base_interfaces::msg::Location::SharedPtr msg) {
     latest_location_ = *msg; // Store the latest Location message
   }
@@ -97,14 +81,6 @@ private:
     latest_obs_laser_ = *msg; // Store the latest ObsLaser message
   }
 
-  void seek_ret_callback(const pkg00_base_interfaces::msg::SeekRet::SharedPtr msg) {
-    latest_seek_ret_ = *msg; // Store the latest SeekRet message
-  }
-
-  void system_status_callback(const pkg00_base_interfaces::msg::SystemStatus::SharedPtr msg) {
-    latest_system_status_ = *msg; // Store the latest SystemStatus message
-  }
-
   void publish_core_info() {
     auto message = pkg00_base_interfaces::msg::CoreInfo();
 
@@ -115,10 +91,6 @@ private:
     message.cpu_frequency = get_cpu_frequency();
     message.nic_status = get_ping_time();
     message.temperature = get_temperature();
-
-    // Add the BmsInfo data
-    message.status = latest_bms_info_.status;
-    message.error_code = latest_bms_info_.error_code;
 
     publisher_->publish(message);
   }
@@ -301,13 +273,10 @@ private:
   rclcpp::Subscription<pkg00_base_interfaces::msg::ChargerInfo>::SharedPtr subscriber_charger_;
   rclcpp::Subscription<pkg00_base_interfaces::msg::ColorInfo>::SharedPtr subscriber_color_;
   rclcpp::Subscription<pkg00_base_interfaces::msg::HallInfo>::SharedPtr subscriber_hall_;
-  rclcpp::Subscription<pkg00_base_interfaces::msg::LiftInfo>::SharedPtr subscriber_lift_;
   rclcpp::Subscription<pkg00_base_interfaces::msg::Location>::SharedPtr subscriber_location_;
   rclcpp::Subscription<pkg00_base_interfaces::msg::MotorCmd>::SharedPtr subscriber_motor_cmd_;
   rclcpp::Subscription<pkg00_base_interfaces::msg::MotorStatus>::SharedPtr subscriber_motor_status_;
   rclcpp::Subscription<pkg00_base_interfaces::msg::ObsLaser>::SharedPtr subscriber_obs_laser_;
-  rclcpp::Subscription<pkg00_base_interfaces::msg::SeekRet>::SharedPtr subscriber_seek_ret_;
-  rclcpp::Subscription<pkg00_base_interfaces::msg::SystemStatus>::SharedPtr subscriber_system_status_;
   rclcpp::TimerBase::SharedPtr timer_;
 
   // Store the latest messages for each type
@@ -315,13 +284,10 @@ private:
   pkg00_base_interfaces::msg::ChargerInfo latest_charger_info_;
   pkg00_base_interfaces::msg::ColorInfo latest_color_info_;
   pkg00_base_interfaces::msg::HallInfo latest_hall_info_;
-  pkg00_base_interfaces::msg::LiftInfo latest_lift_info_;
   pkg00_base_interfaces::msg::Location latest_location_;
   pkg00_base_interfaces::msg::MotorCmd latest_motor_cmd_;
   pkg00_base_interfaces::msg::MotorStatus latest_motor_status_;
   pkg00_base_interfaces::msg::ObsLaser latest_obs_laser_;
-  pkg00_base_interfaces::msg::SeekRet latest_seek_ret_;
-  pkg00_base_interfaces::msg::SystemStatus latest_system_status_;
 };
 
 int main(int argc, char *argv[]) {

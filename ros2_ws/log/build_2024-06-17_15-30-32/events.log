@@ -1,0 +1,227 @@
+[0.000000] (-) TimerEvent: {}
+[0.001326] (-) JobUnselected: {'identifier': 'pkg00_base_interfaces'}
+[0.001393] (pkg01_healthoper_cpp) JobQueued: {'identifier': 'pkg01_healthoper_cpp', 'dependencies': OrderedDict([('pkg00_base_interfaces', '/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces')])}
+[0.001442] (pkg01_healthoper_cpp) JobStarted: {'identifier': 'pkg01_healthoper_cpp'}
+[0.028979] (pkg01_healthoper_cpp) JobProgress: {'identifier': 'pkg01_healthoper_cpp', 'progress': 'cmake'}
+[0.030135] (pkg01_healthoper_cpp) JobProgress: {'identifier': 'pkg01_healthoper_cpp', 'progress': 'build'}
+[0.032249] (pkg01_healthoper_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp', '--', '-j4', '-l4'], 'cwd': '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cjs'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1819'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/161/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/cjs'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/cjs/Health_Node'), ('TERM_PROGRAM_VERSION', '1.90.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ALL', 'en.US.UTF-8'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/161/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/161/usr/share/code/code'), ('MANAGERPID', '1722'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c9aadd6a024d1cde6df68e5e666f8739'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'cjs'), ('JOURNAL_STREAM', '8:58805'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'cjs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/cjs-virtual-machine:@/tmp/.ICE-unix/1854,unix/cjs-virtual-machine:/tmp/.ICE-unix/1854'), ('INVOCATION_ID', 'bbc7ff015ff24d29ab20c6bd341804bc'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d89b8957_eea6_4b98_bd4d_e8dd7030fb47'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8011e79f48.sock'), ('GNOME_TERMINAL_SERVICE', ':1.190'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c9aadd6a024d1cde6df68e5e666f8739'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces:/opt/ros/foxy')]), 'shell': False}
+[0.099722] (-) TimerEvent: {}
+[0.130653] (pkg01_healthoper_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target health_oper\x1b[0m\n'}
+[0.182185] (pkg01_healthoper_cpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/health_oper.dir/src/health_oper.cpp.o\x1b[0m\n'}
+[0.186304] (pkg01_healthoper_cpp) StdoutLine: {'line': b'[ 75%] Built target listener\n'}
+[0.200066] (-) TimerEvent: {}
+[0.300609] (-) TimerEvent: {}
+[0.401227] (-) TimerEvent: {}
+[0.501824] (-) TimerEvent: {}
+[0.602393] (-) TimerEvent: {}
+[0.703755] (-) TimerEvent: {}
+[0.804437] (-) TimerEvent: {}
+[0.904935] (-) TimerEvent: {}
+[1.005497] (-) TimerEvent: {}
+[1.106147] (-) TimerEvent: {}
+[1.206730] (-) TimerEvent: {}
+[1.307291] (-) TimerEvent: {}
+[1.407747] (-) TimerEvent: {}
+[1.508368] (-) TimerEvent: {}
+[1.608908] (-) TimerEvent: {}
+[1.709408] (-) TimerEvent: {}
+[1.810479] (-) TimerEvent: {}
+[1.911536] (-) TimerEvent: {}
+[2.012176] (-) TimerEvent: {}
+[2.112732] (-) TimerEvent: {}
+[2.213427] (-) TimerEvent: {}
+[2.314921] (-) TimerEvent: {}
+[2.415602] (-) TimerEvent: {}
+[2.516947] (-) TimerEvent: {}
+[2.617451] (-) TimerEvent: {}
+[2.717926] (-) TimerEvent: {}
+[2.818536] (-) TimerEvent: {}
+[2.919087] (-) TimerEvent: {}
+[3.019745] (-) TimerEvent: {}
+[3.120234] (-) TimerEvent: {}
+[3.220711] (-) TimerEvent: {}
+[3.321422] (-) TimerEvent: {}
+[3.421904] (-) TimerEvent: {}
+[3.522502] (-) TimerEvent: {}
+[3.623091] (-) TimerEvent: {}
+[3.724459] (-) TimerEvent: {}
+[3.825087] (-) TimerEvent: {}
+[3.925640] (-) TimerEvent: {}
+[4.026311] (-) TimerEvent: {}
+[4.126984] (-) TimerEvent: {}
+[4.228282] (-) TimerEvent: {}
+[4.328817] (-) TimerEvent: {}
+[4.429327] (-) TimerEvent: {}
+[4.530088] (-) TimerEvent: {}
+[4.631525] (-) TimerEvent: {}
+[4.732040] (-) TimerEvent: {}
+[4.832628] (-) TimerEvent: {}
+[4.934103] (-) TimerEvent: {}
+[5.034701] (-) TimerEvent: {}
+[5.135397] (-) TimerEvent: {}
+[5.236741] (-) TimerEvent: {}
+[5.337371] (-) TimerEvent: {}
+[5.437883] (-) TimerEvent: {}
+[5.538426] (-) TimerEvent: {}
+[5.639496] (-) TimerEvent: {}
+[5.740050] (-) TimerEvent: {}
+[5.840660] (-) TimerEvent: {}
+[5.942044] (-) TimerEvent: {}
+[6.042617] (-) TimerEvent: {}
+[6.143200] (-) TimerEvent: {}
+[6.243704] (-) TimerEvent: {}
+[6.344269] (-) TimerEvent: {}
+[6.444916] (-) TimerEvent: {}
+[6.546345] (-) TimerEvent: {}
+[6.647317] (-) TimerEvent: {}
+[6.748520] (-) TimerEvent: {}
+[6.849239] (-) TimerEvent: {}
+[6.950664] (-) TimerEvent: {}
+[7.051704] (-) TimerEvent: {}
+[7.152298] (-) TimerEvent: {}
+[7.252746] (-) TimerEvent: {}
+[7.353653] (-) TimerEvent: {}
+[7.454837] (-) TimerEvent: {}
+[7.555804] (-) TimerEvent: {}
+[7.656599] (-) TimerEvent: {}
+[7.757491] (-) TimerEvent: {}
+[7.857978] (-) TimerEvent: {}
+[7.958587] (-) TimerEvent: {}
+[8.059105] (-) TimerEvent: {}
+[8.159689] (-) TimerEvent: {}
+[8.260098] (-) TimerEvent: {}
+[8.360728] (-) TimerEvent: {}
+[8.461291] (-) TimerEvent: {}
+[8.561825] (-) TimerEvent: {}
+[8.662436] (-) TimerEvent: {}
+[8.762857] (-) TimerEvent: {}
+[8.863806] (-) TimerEvent: {}
+[8.966090] (-) TimerEvent: {}
+[9.067204] (-) TimerEvent: {}
+[9.167706] (-) TimerEvent: {}
+[9.269486] (-) TimerEvent: {}
+[9.370386] (-) TimerEvent: {}
+[9.470984] (-) TimerEvent: {}
+[9.571358] (-) TimerEvent: {}
+[9.671992] (-) TimerEvent: {}
+[9.773487] (-) TimerEvent: {}
+[9.875089] (-) TimerEvent: {}
+[9.975757] (-) TimerEvent: {}
+[10.076835] (-) TimerEvent: {}
+[10.177372] (-) TimerEvent: {}
+[10.278725] (-) TimerEvent: {}
+[10.379373] (-) TimerEvent: {}
+[10.479960] (-) TimerEvent: {}
+[10.580566] (-) TimerEvent: {}
+[10.681311] (-) TimerEvent: {}
+[10.783339] (-) TimerEvent: {}
+[10.884072] (-) TimerEvent: {}
+[10.984586] (-) TimerEvent: {}
+[11.085551] (-) TimerEvent: {}
+[11.186753] (-) TimerEvent: {}
+[11.287391] (-) TimerEvent: {}
+[11.388040] (-) TimerEvent: {}
+[11.488625] (-) TimerEvent: {}
+[11.589115] (-) TimerEvent: {}
+[11.689666] (-) TimerEvent: {}
+[11.790395] (-) TimerEvent: {}
+[11.890837] (-) TimerEvent: {}
+[11.991467] (-) TimerEvent: {}
+[12.092152] (-) TimerEvent: {}
+[12.192605] (-) TimerEvent: {}
+[12.293437] (-) TimerEvent: {}
+[12.395022] (-) TimerEvent: {}
+[12.495506] (-) TimerEvent: {}
+[12.596137] (-) TimerEvent: {}
+[12.697586] (-) TimerEvent: {}
+[12.798142] (-) TimerEvent: {}
+[12.898694] (-) TimerEvent: {}
+[12.999225] (-) TimerEvent: {}
+[13.099839] (-) TimerEvent: {}
+[13.201230] (-) TimerEvent: {}
+[13.301778] (-) TimerEvent: {}
+[13.403320] (-) TimerEvent: {}
+[13.503847] (-) TimerEvent: {}
+[13.604458] (-) TimerEvent: {}
+[13.704973] (-) TimerEvent: {}
+[13.806550] (-) TimerEvent: {}
+[13.907066] (-) TimerEvent: {}
+[14.007647] (-) TimerEvent: {}
+[14.108150] (-) TimerEvent: {}
+[14.208615] (-) TimerEvent: {}
+[14.309184] (-) TimerEvent: {}
+[14.409602] (-) TimerEvent: {}
+[14.510676] (-) TimerEvent: {}
+[14.611285] (-) TimerEvent: {}
+[14.711986] (-) TimerEvent: {}
+[14.813436] (-) TimerEvent: {}
+[14.914036] (-) TimerEvent: {}
+[15.014546] (-) TimerEvent: {}
+[15.115010] (-) TimerEvent: {}
+[15.215626] (-) TimerEvent: {}
+[15.316181] (-) TimerEvent: {}
+[15.416728] (-) TimerEvent: {}
+[15.517170] (-) TimerEvent: {}
+[15.617880] (-) TimerEvent: {}
+[15.719252] (-) TimerEvent: {}
+[15.819729] (-) TimerEvent: {}
+[15.920458] (-) TimerEvent: {}
+[16.021906] (-) TimerEvent: {}
+[16.122419] (-) TimerEvent: {}
+[16.222890] (-) TimerEvent: {}
+[16.323552] (-) TimerEvent: {}
+[16.424022] (-) TimerEvent: {}
+[16.524551] (-) TimerEvent: {}
+[16.625212] (-) TimerEvent: {}
+[16.725676] (-) TimerEvent: {}
+[16.826121] (-) TimerEvent: {}
+[16.926811] (-) TimerEvent: {}
+[17.027252] (-) TimerEvent: {}
+[17.127831] (-) TimerEvent: {}
+[17.228732] (-) TimerEvent: {}
+[17.329577] (-) TimerEvent: {}
+[17.431368] (-) TimerEvent: {}
+[17.532106] (-) TimerEvent: {}
+[17.632585] (-) TimerEvent: {}
+[17.648347] (pkg01_healthoper_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable health_oper\x1b[0m\n'}
+[17.734664] (-) TimerEvent: {}
+[17.836198] (-) TimerEvent: {}
+[17.938016] (-) TimerEvent: {}
+[18.039358] (-) TimerEvent: {}
+[18.140934] (-) TimerEvent: {}
+[18.241798] (-) TimerEvent: {}
+[18.343270] (-) TimerEvent: {}
+[18.444508] (-) TimerEvent: {}
+[18.545020] (-) TimerEvent: {}
+[18.645573] (-) TimerEvent: {}
+[18.746850] (-) TimerEvent: {}
+[18.793104] (pkg01_healthoper_cpp) StdoutLine: {'line': b'[100%] Built target health_oper\n'}
+[18.813831] (pkg01_healthoper_cpp) CommandEnded: {'returncode': 0}
+[18.848122] (-) TimerEvent: {}
+[18.886010] (pkg01_healthoper_cpp) JobProgress: {'identifier': 'pkg01_healthoper_cpp', 'progress': 'install'}
+[18.909026] (pkg01_healthoper_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp'], 'cwd': '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cjs'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1819'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/161/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/cjs'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/cjs/Health_Node'), ('TERM_PROGRAM_VERSION', '1.90.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ALL', 'en.US.UTF-8'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/161/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/161/usr/share/code/code'), ('MANAGERPID', '1722'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c9aadd6a024d1cde6df68e5e666f8739'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'cjs'), ('JOURNAL_STREAM', '8:58805'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'cjs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/cjs-virtual-machine:@/tmp/.ICE-unix/1854,unix/cjs-virtual-machine:/tmp/.ICE-unix/1854'), ('INVOCATION_ID', 'bbc7ff015ff24d29ab20c6bd341804bc'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d89b8957_eea6_4b98_bd4d_e8dd7030fb47'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8011e79f48.sock'), ('GNOME_TERMINAL_SERVICE', ':1.190'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c9aadd6a024d1cde6df68e5e666f8739'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces:/opt/ros/foxy')]), 'shell': False}
+[18.935859] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.936201] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/lib/pkg01_healthoper_cpp/health_oper\n'}
+[18.942362] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/lib/pkg01_healthoper_cpp/health_oper" to ""\n'}
+[18.942684] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/lib/pkg01_healthoper_cpp/listener\n'}
+[18.944521] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/lib/pkg01_healthoper_cpp/listener" to ""\n'}
+[18.944804] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/ament_index/resource_index/package_run_dependencies/pkg01_healthoper_cpp\n'}
+[18.945013] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/ament_index/resource_index/parent_prefix_path/pkg01_healthoper_cpp\n'}
+[18.945974] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/environment/ament_prefix_path.sh\n'}
+[18.946724] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/environment/ament_prefix_path.dsv\n'}
+[18.946970] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/environment/path.sh\n'}
+[18.947506] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/environment/path.dsv\n'}
+[18.947726] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/local_setup.bash\n'}
+[18.947950] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/local_setup.sh\n'}
+[18.948242] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/local_setup.zsh\n'}
+[18.948385] (-) TimerEvent: {}
+[18.948995] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/local_setup.dsv\n'}
+[18.949099] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/package.dsv\n'}
+[18.949372] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/ament_index/resource_index/packages/pkg01_healthoper_cpp\n'}
+[18.949461] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/cmake/pkg01_healthoper_cppConfig.cmake\n'}
+[18.949528] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/cmake/pkg01_healthoper_cppConfig-version.cmake\n'}
+[18.949622] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/package.xml\n'}
+[18.955270] (pkg01_healthoper_cpp) CommandEnded: {'returncode': 0}
+[19.050228] (-) TimerEvent: {}
+[19.057688] (pkg01_healthoper_cpp) JobEnded: {'identifier': 'pkg01_healthoper_cpp', 'rc': 0}
+[19.059063] (-) EventReactorShutdown: {}

@@ -1,4 +1,0 @@
-[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:[m[K In member function ‘[01m[Kstd::string HealthOperator::get_ping_time()[m[K’:
-[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:169:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kping_time_o[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
-  169 |     [01;35m[Ksprintf(ping_time_o, "%.2f", ping_time)[m[K;
-      |     [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

@@ -57,38 +57,237 @@ include CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/flags.make
 
-rosidl_generator_c/pkg00_base_interfaces/msg/core_info.h: /opt/ros/foxy/lib/rosidl_generator_c/rosidl_generator_c
-rosidl_generator_c/pkg00_base_interfaces/msg/core_info.h: /opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_c/__init__.py
-rosidl_generator_c/pkg00_base_interfaces/msg/core_info.h: /opt/ros/foxy/share/rosidl_generator_c/resource/action__type_support.h.em
-rosidl_generator_c/pkg00_base_interfaces/msg/core_info.h: /opt/ros/foxy/share/rosidl_generator_c/resource/idl.h.em
-rosidl_generator_c/pkg00_base_interfaces/msg/core_info.h: /opt/ros/foxy/share/rosidl_generator_c/resource/idl__functions.c.em
-rosidl_generator_c/pkg00_base_interfaces/msg/core_info.h: /opt/ros/foxy/share/rosidl_generator_c/resource/idl__functions.h.em
-rosidl_generator_c/pkg00_base_interfaces/msg/core_info.h: /opt/ros/foxy/share/rosidl_generator_c/resource/idl__struct.h.em
-rosidl_generator_c/pkg00_base_interfaces/msg/core_info.h: /opt/ros/foxy/share/rosidl_generator_c/resource/idl__type_support.h.em
-rosidl_generator_c/pkg00_base_interfaces/msg/core_info.h: /opt/ros/foxy/share/rosidl_generator_c/resource/msg__functions.c.em
-rosidl_generator_c/pkg00_base_interfaces/msg/core_info.h: /opt/ros/foxy/share/rosidl_generator_c/resource/msg__functions.h.em
-rosidl_generator_c/pkg00_base_interfaces/msg/core_info.h: /opt/ros/foxy/share/rosidl_generator_c/resource/msg__struct.h.em
-rosidl_generator_c/pkg00_base_interfaces/msg/core_info.h: /opt/ros/foxy/share/rosidl_generator_c/resource/msg__type_support.h.em
-rosidl_generator_c/pkg00_base_interfaces/msg/core_info.h: /opt/ros/foxy/share/rosidl_generator_c/resource/srv__type_support.h.em
-rosidl_generator_c/pkg00_base_interfaces/msg/core_info.h: rosidl_adapter/pkg00_base_interfaces/msg/CoreInfo.idl
+rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h: /opt/ros/foxy/lib/rosidl_generator_c/rosidl_generator_c
+rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h: /opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_c/__init__.py
+rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h: /opt/ros/foxy/share/rosidl_generator_c/resource/action__type_support.h.em
+rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h: /opt/ros/foxy/share/rosidl_generator_c/resource/idl.h.em
+rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h: /opt/ros/foxy/share/rosidl_generator_c/resource/idl__functions.c.em
+rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h: /opt/ros/foxy/share/rosidl_generator_c/resource/idl__functions.h.em
+rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h: /opt/ros/foxy/share/rosidl_generator_c/resource/idl__struct.h.em
+rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h: /opt/ros/foxy/share/rosidl_generator_c/resource/idl__type_support.h.em
+rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h: /opt/ros/foxy/share/rosidl_generator_c/resource/msg__functions.c.em
+rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h: /opt/ros/foxy/share/rosidl_generator_c/resource/msg__functions.h.em
+rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h: /opt/ros/foxy/share/rosidl_generator_c/resource/msg__struct.h.em
+rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h: /opt/ros/foxy/share/rosidl_generator_c/resource/msg__type_support.h.em
+rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h: /opt/ros/foxy/share/rosidl_generator_c/resource/srv__type_support.h.em
+rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h: rosidl_adapter/pkg00_base_interfaces/msg/BmsInfo.idl
+rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h: rosidl_adapter/pkg00_base_interfaces/msg/ChargerInfo.idl
+rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h: rosidl_adapter/pkg00_base_interfaces/msg/ColorInfo.idl
+rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h: rosidl_adapter/pkg00_base_interfaces/msg/CoreInfo.idl
+rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h: rosidl_adapter/pkg00_base_interfaces/msg/HallInfo.idl
+rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h: rosidl_adapter/pkg00_base_interfaces/msg/Location.idl
+rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h: rosidl_adapter/pkg00_base_interfaces/msg/MotorCmd.idl
+rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h: rosidl_adapter/pkg00_base_interfaces/msg/MotorStatus.idl
+rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h: rosidl_adapter/pkg00_base_interfaces/msg/ObsLaser.idl
+rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h: rosidl_adapter/pkg00_base_interfaces/msg/SeekRet.idl
+rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h: rosidl_adapter/pkg00_base_interfaces/msg/SystemStatus.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c__arguments.json
 
-rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__functions.h: rosidl_generator_c/pkg00_base_interfaces/msg/core_info.h
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__functions.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__functions.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__struct.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__struct.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__type_support.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__type_support.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/charger_info.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/charger_info.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__functions.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__functions.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__struct.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__struct.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__type_support.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__type_support.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/color_info.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/color_info.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__functions.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__functions.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__struct.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__struct.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__type_support.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__type_support.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/core_info.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/core_info.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__functions.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__functions.h
 
-rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__struct.h: rosidl_generator_c/pkg00_base_interfaces/msg/core_info.h
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__struct.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__struct.h
 
-rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__type_support.h: rosidl_generator_c/pkg00_base_interfaces/msg/core_info.h
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__type_support.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__type_support.h
 
-rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__functions.c: rosidl_generator_c/pkg00_base_interfaces/msg/core_info.h
+rosidl_generator_c/pkg00_base_interfaces/msg/hall_info.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/hall_info.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__functions.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__functions.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__struct.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__struct.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__type_support.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__type_support.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/location.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/location.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__functions.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__functions.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__struct.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__struct.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__type_support.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__type_support.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/motor_cmd.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/motor_cmd.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__functions.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__functions.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__struct.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__struct.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__type_support.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__type_support.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/motor_status.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/motor_status.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__functions.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__functions.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__struct.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__struct.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__type_support.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__type_support.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/obs_laser.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/obs_laser.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__functions.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__functions.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__struct.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__struct.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__type_support.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__type_support.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/seek_ret.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/seek_ret.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__functions.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__functions.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__struct.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__struct.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__type_support.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__type_support.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/system_status.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/system_status.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__functions.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__functions.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__struct.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__struct.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__type_support.h: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__type_support.h
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__functions.c: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__functions.c
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__functions.c: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__functions.c
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__functions.c: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__functions.c
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__functions.c: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__functions.c
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__functions.c: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__functions.c
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__functions.c: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__functions.c
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__functions.c: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__functions.c
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__functions.c: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__functions.c
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__functions.c: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__functions.c
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__functions.c: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__functions.c
+
+rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__functions.c: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__functions.c
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__functions.c.o: CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__functions.c.o: rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__functions.c.o   -c /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__functions.c
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__functions.c > CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__functions.c.i
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__functions.c -o CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__functions.c.s
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__functions.c.o: CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__functions.c.o: rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__functions.c.o   -c /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__functions.c
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__functions.c > CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__functions.c.i
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__functions.c -o CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__functions.c.s
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__functions.c.o: CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__functions.c.o: rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__functions.c.o   -c /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__functions.c
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__functions.c > CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__functions.c.i
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__functions.c -o CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__functions.c.s
 
 CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__functions.c.o: CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__functions.c.o: rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__functions.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__functions.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__functions.c.o   -c /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__functions.c
 
 CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__functions.c.i: cmake_force
@@ -99,19 +298,130 @@ CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg0
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__functions.c -o CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__functions.c.s
 
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__functions.c.o: CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__functions.c.o: rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__functions.c.o   -c /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__functions.c
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__functions.c > CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__functions.c.i
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__functions.c -o CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__functions.c.s
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__functions.c.o: CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__functions.c.o: rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__functions.c.o   -c /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__functions.c
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__functions.c > CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__functions.c.i
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__functions.c -o CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__functions.c.s
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__functions.c.o: CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__functions.c.o: rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__functions.c.o   -c /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__functions.c
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__functions.c > CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__functions.c.i
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__functions.c -o CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__functions.c.s
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__functions.c.o: CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__functions.c.o: rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__functions.c.o   -c /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__functions.c
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__functions.c > CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__functions.c.i
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__functions.c -o CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__functions.c.s
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__functions.c.o: CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__functions.c.o: rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__functions.c.o   -c /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__functions.c
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__functions.c > CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__functions.c.i
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__functions.c -o CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__functions.c.s
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__functions.c.o: CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__functions.c.o: rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__functions.c.o   -c /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__functions.c
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__functions.c > CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__functions.c.i
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__functions.c -o CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__functions.c.s
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__functions.c.o: CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__functions.c.o: rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__functions.c.o   -c /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__functions.c
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__functions.c > CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__functions.c.i
+
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__functions.c -o CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__functions.c.s
+
 # Object files for target pkg00_base_interfaces__rosidl_generator_c
 pkg00_base_interfaces__rosidl_generator_c_OBJECTS = \
-"CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__functions.c.o"
+"CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__functions.c.o" \
+"CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__functions.c.o" \
+"CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__functions.c.o" \
+"CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__functions.c.o" \
+"CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__functions.c.o" \
+"CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__functions.c.o" \
+"CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__functions.c.o" \
+"CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__functions.c.o" \
+"CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__functions.c.o" \
+"CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__functions.c.o" \
+"CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__functions.c.o"
 
 # External object files for target pkg00_base_interfaces__rosidl_generator_c
 pkg00_base_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 
+libpkg00_base_interfaces__rosidl_generator_c.so: CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__functions.c.o
+libpkg00_base_interfaces__rosidl_generator_c.so: CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__functions.c.o
+libpkg00_base_interfaces__rosidl_generator_c.so: CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__functions.c.o
 libpkg00_base_interfaces__rosidl_generator_c.so: CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__functions.c.o
+libpkg00_base_interfaces__rosidl_generator_c.so: CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__functions.c.o
+libpkg00_base_interfaces__rosidl_generator_c.so: CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__functions.c.o
+libpkg00_base_interfaces__rosidl_generator_c.so: CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__functions.c.o
+libpkg00_base_interfaces__rosidl_generator_c.so: CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__functions.c.o
+libpkg00_base_interfaces__rosidl_generator_c.so: CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__functions.c.o
+libpkg00_base_interfaces__rosidl_generator_c.so: CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__functions.c.o
+libpkg00_base_interfaces__rosidl_generator_c.so: CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__functions.c.o
 libpkg00_base_interfaces__rosidl_generator_c.so: CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/build.make
 libpkg00_base_interfaces__rosidl_generator_c.so: /opt/ros/foxy/lib/librosidl_runtime_c.so
 libpkg00_base_interfaces__rosidl_generator_c.so: /opt/ros/foxy/lib/librcutils.so
 libpkg00_base_interfaces__rosidl_generator_c.so: CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libpkg00_base_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking C shared library libpkg00_base_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,11 +433,61 @@ CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/clean
 
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/bms_info.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__functions.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__struct.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__type_support.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/charger_info.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__functions.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__struct.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__type_support.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/color_info.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__functions.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__struct.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__type_support.h
 CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/core_info.h
 CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__functions.h
 CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__struct.h
 CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__type_support.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/hall_info.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__functions.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__struct.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__type_support.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/location.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__functions.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__struct.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__type_support.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/motor_cmd.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__functions.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__struct.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__type_support.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/motor_status.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__functions.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__struct.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__type_support.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/obs_laser.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__functions.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__struct.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__type_support.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/seek_ret.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__functions.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__struct.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__type_support.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/system_status.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__functions.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__struct.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__type_support.h
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__functions.c
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__functions.c
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__functions.c
 CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__functions.c
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__functions.c
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__functions.c
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__functions.c
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__functions.c
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__functions.c
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__functions.c
+CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__functions.c
 	cd /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces /home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/depend
 

@@ -1,2 +1,0 @@
-Invoking command in '/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces -DCMAKE_INSTALL_PREFIX=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces
-Invoked command in '/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces -DCMAKE_INSTALL_PREFIX=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces

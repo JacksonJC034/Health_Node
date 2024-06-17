@@ -56,9 +56,29 @@ include pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py.dir/progr
 pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_c.c
+pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_bms_info.py
+pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_charger_info.py
+pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_color_info.py
 pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_core_info.py
+pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_hall_info.py
+pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_location.py
+pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_motor_cmd.py
+pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_motor_status.py
+pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_obs_laser.py
+pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_seek_ret.py
+pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_system_status.py
 pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/__init__.py
+pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_bms_info_s.c
+pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_charger_info_s.c
+pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_color_info_s.c
 pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_core_info_s.c
+pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_hall_info_s.c
+pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_location_s.c
+pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_motor_cmd_s.c
+pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_motor_status_s.c
+pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_obs_laser_s.c
+pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_seek_ret_s.c
+pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_system_status_s.c
 
 
 rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/lib/rosidl_generator_py/rosidl_generator_py
@@ -74,7 +94,17 @@ rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typ
 rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_msg.py.em
 rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv.py.em
+rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/pkg00_base_interfaces/msg/BmsInfo.idl
+rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/pkg00_base_interfaces/msg/ChargerInfo.idl
+rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/pkg00_base_interfaces/msg/ColorInfo.idl
 rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/pkg00_base_interfaces/msg/CoreInfo.idl
+rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/pkg00_base_interfaces/msg/HallInfo.idl
+rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/pkg00_base_interfaces/msg/Location.idl
+rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/pkg00_base_interfaces/msg/MotorCmd.idl
+rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/pkg00_base_interfaces/msg/MotorStatus.idl
+rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/pkg00_base_interfaces/msg/ObsLaser.idl
+rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/pkg00_base_interfaces/msg/SeekRet.idl
+rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/pkg00_base_interfaces/msg/SystemStatus.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/pkg00_base_interfaces__py && /usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -84,22 +114,102 @@ rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typ
 rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_c.c: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_c.c
 
+rosidl_generator_py/pkg00_base_interfaces/msg/_bms_info.py: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg00_base_interfaces/msg/_bms_info.py
+
+rosidl_generator_py/pkg00_base_interfaces/msg/_charger_info.py: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg00_base_interfaces/msg/_charger_info.py
+
+rosidl_generator_py/pkg00_base_interfaces/msg/_color_info.py: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg00_base_interfaces/msg/_color_info.py
+
 rosidl_generator_py/pkg00_base_interfaces/msg/_core_info.py: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg00_base_interfaces/msg/_core_info.py
+
+rosidl_generator_py/pkg00_base_interfaces/msg/_hall_info.py: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg00_base_interfaces/msg/_hall_info.py
+
+rosidl_generator_py/pkg00_base_interfaces/msg/_location.py: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg00_base_interfaces/msg/_location.py
+
+rosidl_generator_py/pkg00_base_interfaces/msg/_motor_cmd.py: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg00_base_interfaces/msg/_motor_cmd.py
+
+rosidl_generator_py/pkg00_base_interfaces/msg/_motor_status.py: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg00_base_interfaces/msg/_motor_status.py
+
+rosidl_generator_py/pkg00_base_interfaces/msg/_obs_laser.py: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg00_base_interfaces/msg/_obs_laser.py
+
+rosidl_generator_py/pkg00_base_interfaces/msg/_seek_ret.py: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg00_base_interfaces/msg/_seek_ret.py
+
+rosidl_generator_py/pkg00_base_interfaces/msg/_system_status.py: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg00_base_interfaces/msg/_system_status.py
 
 rosidl_generator_py/pkg00_base_interfaces/msg/__init__.py: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg00_base_interfaces/msg/__init__.py
 
+rosidl_generator_py/pkg00_base_interfaces/msg/_bms_info_s.c: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg00_base_interfaces/msg/_bms_info_s.c
+
+rosidl_generator_py/pkg00_base_interfaces/msg/_charger_info_s.c: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg00_base_interfaces/msg/_charger_info_s.c
+
+rosidl_generator_py/pkg00_base_interfaces/msg/_color_info_s.c: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg00_base_interfaces/msg/_color_info_s.c
+
 rosidl_generator_py/pkg00_base_interfaces/msg/_core_info_s.c: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg00_base_interfaces/msg/_core_info_s.c
+
+rosidl_generator_py/pkg00_base_interfaces/msg/_hall_info_s.c: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg00_base_interfaces/msg/_hall_info_s.c
+
+rosidl_generator_py/pkg00_base_interfaces/msg/_location_s.c: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg00_base_interfaces/msg/_location_s.c
+
+rosidl_generator_py/pkg00_base_interfaces/msg/_motor_cmd_s.c: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg00_base_interfaces/msg/_motor_cmd_s.c
+
+rosidl_generator_py/pkg00_base_interfaces/msg/_motor_status_s.c: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg00_base_interfaces/msg/_motor_status_s.c
+
+rosidl_generator_py/pkg00_base_interfaces/msg/_obs_laser_s.c: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg00_base_interfaces/msg/_obs_laser_s.c
+
+rosidl_generator_py/pkg00_base_interfaces/msg/_seek_ret_s.c: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg00_base_interfaces/msg/_seek_ret_s.c
+
+rosidl_generator_py/pkg00_base_interfaces/msg/_system_status_s.c: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pkg00_base_interfaces/msg/_system_status_s.c
 
 pkg00_base_interfaces__py: pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py
 pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_c.c
+pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_bms_info.py
+pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_charger_info.py
+pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_color_info.py
 pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_core_info.py
+pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_hall_info.py
+pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_location.py
+pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_motor_cmd.py
+pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_motor_status.py
+pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_obs_laser.py
+pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_seek_ret.py
+pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_system_status.py
 pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/__init__.py
+pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_bms_info_s.c
+pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_charger_info_s.c
+pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_color_info_s.c
 pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_core_info_s.c
+pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_hall_info_s.c
+pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_location_s.c
+pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_motor_cmd_s.c
+pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_motor_status_s.c
+pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_obs_laser_s.c
+pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_seek_ret_s.c
+pkg00_base_interfaces__py: rosidl_generator_py/pkg00_base_interfaces/msg/_system_status_s.c
 pkg00_base_interfaces__py: pkg00_base_interfaces__py/CMakeFiles/pkg00_base_interfaces__py.dir/build.make
 
 .PHONY : pkg00_base_interfaces__py

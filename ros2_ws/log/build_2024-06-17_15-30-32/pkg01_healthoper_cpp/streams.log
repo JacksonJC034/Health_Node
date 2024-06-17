@@ -1,0 +1,29 @@
+[0.033s] Invoking command in '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp': AMENT_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp -- -j4 -l4
+[0.129s] [35m[1mScanning dependencies of target health_oper[0m
+[0.181s] [ 25%] [32mBuilding CXX object CMakeFiles/health_oper.dir/src/health_oper.cpp.o[0m
+[0.185s] [ 75%] Built target listener
+[17.647s] [100%] [32m[1mLinking CXX executable health_oper[0m
+[18.792s] [100%] Built target health_oper
+[18.813s] Invoked command in '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp' returned '0': AMENT_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp -- -j4 -l4
+[18.909s] Invoking command in '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp': AMENT_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp
+[18.935s] -- Install configuration: ""
+[18.935s] -- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/lib/pkg01_healthoper_cpp/health_oper
+[18.941s] -- Set runtime path of "/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/lib/pkg01_healthoper_cpp/health_oper" to ""
+[18.941s] -- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/lib/pkg01_healthoper_cpp/listener
+[18.943s] -- Set runtime path of "/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/lib/pkg01_healthoper_cpp/listener" to ""
+[18.943s] -- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/ament_index/resource_index/package_run_dependencies/pkg01_healthoper_cpp
+[18.944s] -- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/ament_index/resource_index/parent_prefix_path/pkg01_healthoper_cpp
+[18.945s] -- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/environment/ament_prefix_path.sh
+[18.945s] -- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/environment/ament_prefix_path.dsv
+[18.946s] -- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/environment/path.sh
+[18.946s] -- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/environment/path.dsv
+[18.946s] -- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/local_setup.bash
+[18.947s] -- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/local_setup.sh
+[18.947s] -- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/local_setup.zsh
+[18.948s] -- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/local_setup.dsv
+[18.948s] -- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/package.dsv
+[18.948s] -- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/ament_index/resource_index/packages/pkg01_healthoper_cpp
+[18.948s] -- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/cmake/pkg01_healthoper_cppConfig.cmake
+[18.948s] -- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/cmake/pkg01_healthoper_cppConfig-version.cmake
+[18.948s] -- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/package.xml
+[18.954s] Invoked command in '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp' returned '0': AMENT_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp

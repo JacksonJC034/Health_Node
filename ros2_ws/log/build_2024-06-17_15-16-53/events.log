@@ -1,0 +1,815 @@
+[0.000000] (-) TimerEvent: {}
+[0.001968] (-) JobUnselected: {'identifier': 'pkg01_healthoper_cpp'}
+[0.002073] (pkg00_base_interfaces) JobQueued: {'identifier': 'pkg00_base_interfaces', 'dependencies': OrderedDict()}
+[0.003064] (pkg00_base_interfaces) JobStarted: {'identifier': 'pkg00_base_interfaces'}
+[0.035042] (pkg00_base_interfaces) JobProgress: {'identifier': 'pkg00_base_interfaces', 'progress': 'cmake'}
+[0.035499] (pkg00_base_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces'], 'cwd': '/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cjs'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1819'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/161/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/cjs'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/cjs/Health_Node'), ('TERM_PROGRAM_VERSION', '1.90.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ALL', 'en.US.UTF-8'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/161/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/161/usr/share/code/code'), ('MANAGERPID', '1722'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c9aadd6a024d1cde6df68e5e666f8739'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'cjs'), ('JOURNAL_STREAM', '8:58805'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'cjs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/cjs-virtual-machine:@/tmp/.ICE-unix/1854,unix/cjs-virtual-machine:/tmp/.ICE-unix/1854'), ('INVOCATION_ID', 'bbc7ff015ff24d29ab20c6bd341804bc'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d89b8957_eea6_4b98_bd4d_e8dd7030fb47'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8011e79f48.sock'), ('GNOME_TERMINAL_SERVICE', ':1.190'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c9aadd6a024d1cde6df68e5e666f8739'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.100837] (-) TimerEvent: {}
+[0.204129] (-) TimerEvent: {}
+[0.206749] (pkg00_base_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.292149] (pkg00_base_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.304635] (-) TimerEvent: {}
+[0.307542] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.405636] (-) TimerEvent: {}
+[0.448589] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.451367] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.506363] (-) TimerEvent: {}
+[0.575996] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.584821] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.585366] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.595287] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.606930] (-) TimerEvent: {}
+[0.708310] (-) TimerEvent: {}
+[0.741008] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.741901] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.808935] (-) TimerEvent: {}
+[0.898075] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.907132] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.907987] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.909648] (-) TimerEvent: {}
+[0.912876] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.949103] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.949421] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.010405] (-) TimerEvent: {}
+[1.111187] (-) TimerEvent: {}
+[1.204610] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.209151] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.211719] (-) TimerEvent: {}
+[1.220768] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.312454] (-) TimerEvent: {}
+[1.410701] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.413126] (-) TimerEvent: {}
+[1.455075] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.520133] (-) TimerEvent: {}
+[1.571500] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.624137] (-) TimerEvent: {}
+[1.660476] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.724884] (-) TimerEvent: {}
+[1.825559] (-) TimerEvent: {}
+[1.902844] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.926184] (-) TimerEvent: {}
+[2.027048] (-) TimerEvent: {}
+[2.046354] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.063463] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.102696] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.109566] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.127732] (-) TimerEvent: {}
+[2.146818] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.147031] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.147090] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.147134] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.174773] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.228378] (-) TimerEvent: {}
+[2.231354] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.282948] (pkg00_base_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.289380] (pkg00_base_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.293470] (pkg00_base_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.300347] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.328991] (-) TimerEvent: {}
+[2.372621] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.377442] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces\n'}
+[2.387278] (pkg00_base_interfaces) CommandEnded: {'returncode': 0}
+[2.387904] (pkg00_base_interfaces) JobProgress: {'identifier': 'pkg00_base_interfaces', 'progress': 'build'}
+[2.391228] (pkg00_base_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cjs'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1819'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/161/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/cjs'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/cjs/Health_Node'), ('TERM_PROGRAM_VERSION', '1.90.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ALL', 'en.US.UTF-8'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/161/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/161/usr/share/code/code'), ('MANAGERPID', '1722'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c9aadd6a024d1cde6df68e5e666f8739'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'cjs'), ('JOURNAL_STREAM', '8:58805'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'cjs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/cjs-virtual-machine:@/tmp/.ICE-unix/1854,unix/cjs-virtual-machine:/tmp/.ICE-unix/1854'), ('INVOCATION_ID', 'bbc7ff015ff24d29ab20c6bd341804bc'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d89b8957_eea6_4b98_bd4d_e8dd7030fb47'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8011e79f48.sock'), ('GNOME_TERMINAL_SERVICE', ':1.190'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c9aadd6a024d1cde6df68e5e666f8739'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.429824] (-) TimerEvent: {}
+[2.472572] (pkg00_base_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.478566] (pkg00_base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pkg00_base_interfaces__cpp\x1b[0m\n'}
+[2.498435] (pkg00_base_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.532183] (-) TimerEvent: {}
+[2.634861] (-) TimerEvent: {}
+[2.738857] (-) TimerEvent: {}
+[2.840621] (-) TimerEvent: {}
+[2.941891] (-) TimerEvent: {}
+[3.042750] (-) TimerEvent: {}
+[3.144452] (-) TimerEvent: {}
+[3.244777] (-) TimerEvent: {}
+[3.346711] (-) TimerEvent: {}
+[3.447142] (-) TimerEvent: {}
+[3.551531] (-) TimerEvent: {}
+[3.652112] (-) TimerEvent: {}
+[3.760657] (-) TimerEvent: {}
+[3.861610] (-) TimerEvent: {}
+[3.967945] (-) TimerEvent: {}
+[4.069019] (-) TimerEvent: {}
+[4.173696] (-) TimerEvent: {}
+[4.252839] (pkg00_base_interfaces) StdoutLine: {'line': b'[  1%] Built target pkg00_base_interfaces__cpp\n'}
+[4.256802] (pkg00_base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pkg00_base_interfaces__rosidl_generator_c\x1b[0m\n'}
+[4.268735] (pkg00_base_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.276676] (-) TimerEvent: {}
+[4.289363] (pkg00_base_interfaces) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/bms_info__functions.c.o\x1b[0m\n'}
+[4.379668] (-) TimerEvent: {}
+[4.380920] (pkg00_base_interfaces) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/charger_info__functions.c.o\x1b[0m\n'}
+[4.484194] (-) TimerEvent: {}
+[4.485629] (pkg00_base_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/color_info__functions.c.o\x1b[0m\n'}
+[4.566657] (pkg00_base_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/core_info__functions.c.o\x1b[0m\n'}
+[4.587106] (-) TimerEvent: {}
+[4.643850] (pkg00_base_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/hall_info__functions.c.o\x1b[0m\n'}
+[4.691680] (-) TimerEvent: {}
+[4.719808] (pkg00_base_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/location__functions.c.o\x1b[0m\n'}
+[4.796115] (-) TimerEvent: {}
+[4.811438] (pkg00_base_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_cmd__functions.c.o\x1b[0m\n'}
+[4.880587] (pkg00_base_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/motor_status__functions.c.o\x1b[0m\n'}
+[4.896519] (-) TimerEvent: {}
+[4.956369] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/obs_laser__functions.c.o\x1b[0m\n'}
+[4.998440] (-) TimerEvent: {}
+[5.036358] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/seek_ret__functions.c.o\x1b[0m\n'}
+[5.099897] (-) TimerEvent: {}
+[5.134374] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg00_base_interfaces/msg/detail/system_status__functions.c.o\x1b[0m\n'}
+[5.202078] (-) TimerEvent: {}
+[5.209447] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32m\x1b[1mLinking C shared library libpkg00_base_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[5.291091] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 13%] Built target pkg00_base_interfaces__rosidl_generator_c\n'}
+[5.302447] (-) TimerEvent: {}
+[5.321568] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.350073] (pkg00_base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pkg00_base_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.392879] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pkg00_base_interfaces/msg/detail/bms_info__type_support.cpp.o\x1b[0m\n'}
+[5.402919] (-) TimerEvent: {}
+[5.504488] (-) TimerEvent: {}
+[5.605341] (-) TimerEvent: {}
+[5.705957] (-) TimerEvent: {}
+[5.796190] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pkg00_base_interfaces/msg/detail/charger_info__type_support.cpp.o\x1b[0m\n'}
+[5.806634] (-) TimerEvent: {}
+[5.907280] (-) TimerEvent: {}
+[6.008060] (-) TimerEvent: {}
+[6.053058] (pkg00_base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pkg00_base_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[6.078808] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pkg00_base_interfaces/msg/bms_info__type_support.cpp.o\x1b[0m\n'}
+[6.108885] (-) TimerEvent: {}
+[6.140750] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pkg00_base_interfaces/msg/detail/color_info__type_support.cpp.o\x1b[0m\n'}
+[6.209615] (-) TimerEvent: {}
+[6.310378] (-) TimerEvent: {}
+[6.417120] (-) TimerEvent: {}
+[6.497781] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pkg00_base_interfaces/msg/charger_info__type_support.cpp.o\x1b[0m\n'}
+[6.517851] (-) TimerEvent: {}
+[6.520007] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pkg00_base_interfaces/msg/detail/core_info__type_support.cpp.o\x1b[0m\n'}
+[6.618088] (-) TimerEvent: {}
+[6.718842] (-) TimerEvent: {}
+[6.822333] (-) TimerEvent: {}
+[6.839698] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pkg00_base_interfaces/msg/color_info__type_support.cpp.o\x1b[0m\n'}
+[6.843153] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pkg00_base_interfaces/msg/detail/hall_info__type_support.cpp.o\x1b[0m\n'}
+[6.924223] (-) TimerEvent: {}
+[7.025181] (-) TimerEvent: {}
+[7.127826] (-) TimerEvent: {}
+[7.193006] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pkg00_base_interfaces/msg/detail/location__type_support.cpp.o\x1b[0m\n'}
+[7.206910] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pkg00_base_interfaces/msg/core_info__type_support.cpp.o\x1b[0m\n'}
+[7.232794] (-) TimerEvent: {}
+[7.335457] (-) TimerEvent: {}
+[7.436239] (-) TimerEvent: {}
+[7.540497] (-) TimerEvent: {}
+[7.562419] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pkg00_base_interfaces/msg/detail/motor_cmd__type_support.cpp.o\x1b[0m\n'}
+[7.629053] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pkg00_base_interfaces/msg/hall_info__type_support.cpp.o\x1b[0m\n'}
+[7.644156] (-) TimerEvent: {}
+[7.745003] (-) TimerEvent: {}
+[7.848787] (-) TimerEvent: {}
+[7.936222] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pkg00_base_interfaces/msg/detail/motor_status__type_support.cpp.o\x1b[0m\n'}
+[7.944151] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pkg00_base_interfaces/msg/location__type_support.cpp.o\x1b[0m\n'}
+[7.950618] (-) TimerEvent: {}
+[8.051273] (-) TimerEvent: {}
+[8.152133] (-) TimerEvent: {}
+[8.252844] (-) TimerEvent: {}
+[8.309346] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pkg00_base_interfaces/msg/motor_cmd__type_support.cpp.o\x1b[0m\n'}
+[8.321313] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pkg00_base_interfaces/msg/detail/obs_laser__type_support.cpp.o\x1b[0m\n'}
+[8.353511] (-) TimerEvent: {}
+[8.457115] (-) TimerEvent: {}
+[8.559928] (-) TimerEvent: {}
+[8.660951] (-) TimerEvent: {}
+[8.662373] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pkg00_base_interfaces/msg/motor_status__type_support.cpp.o\x1b[0m\n'}
+[8.675838] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pkg00_base_interfaces/msg/detail/seek_ret__type_support.cpp.o\x1b[0m\n'}
+[8.762470] (-) TimerEvent: {}
+[8.864233] (-) TimerEvent: {}
+[8.967149] (-) TimerEvent: {}
+[9.009038] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pkg00_base_interfaces/msg/detail/system_status__type_support.cpp.o\x1b[0m\n'}
+[9.009492] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pkg00_base_interfaces/msg/obs_laser__type_support.cpp.o\x1b[0m\n'}
+[9.067837] (-) TimerEvent: {}
+[9.168668] (-) TimerEvent: {}
+[9.269376] (-) TimerEvent: {}
+[9.298418] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libpkg00_base_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.340467] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pkg00_base_interfaces/msg/seek_ret__type_support.cpp.o\x1b[0m\n'}
+[9.370152] (-) TimerEvent: {}
+[9.424990] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 34%] Built target pkg00_base_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[9.470994] (-) TimerEvent: {}
+[9.573669] (-) TimerEvent: {}
+[9.675116] (-) TimerEvent: {}
+[9.683636] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pkg00_base_interfaces/msg/system_status__type_support.cpp.o\x1b[0m\n'}
+[9.775886] (-) TimerEvent: {}
+[9.876607] (-) TimerEvent: {}
+[9.977297] (-) TimerEvent: {}
+[10.071051] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX shared library libpkg00_base_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.077945] (-) TimerEvent: {}
+[10.148054] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 36%] Built target pkg00_base_interfaces__rosidl_typesupport_cpp\n'}
+[10.168121] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.178525] (-) TimerEvent: {}
+[10.279846] (-) TimerEvent: {}
+[10.380369] (-) TimerEvent: {}
+[10.480807] (-) TimerEvent: {}
+[10.581748] (-) TimerEvent: {}
+[10.683275] (-) TimerEvent: {}
+[10.783924] (-) TimerEvent: {}
+[10.875630] (pkg00_base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pkg00_base_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[10.884491] (-) TimerEvent: {}
+[10.900101] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pkg00_base_interfaces/msg/bms_info__type_support.cpp.o\x1b[0m\n'}
+[10.951684] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pkg00_base_interfaces/msg/charger_info__type_support.cpp.o\x1b[0m\n'}
+[10.985874] (-) TimerEvent: {}
+[10.998279] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pkg00_base_interfaces/msg/color_info__type_support.cpp.o\x1b[0m\n'}
+[11.055194] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pkg00_base_interfaces/msg/core_info__type_support.cpp.o\x1b[0m\n'}
+[11.087102] (-) TimerEvent: {}
+[11.109466] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pkg00_base_interfaces/msg/hall_info__type_support.cpp.o\x1b[0m\n'}
+[11.160294] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pkg00_base_interfaces/msg/location__type_support.cpp.o\x1b[0m\n'}
+[11.187842] (-) TimerEvent: {}
+[11.210036] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pkg00_base_interfaces/msg/motor_cmd__type_support.cpp.o\x1b[0m\n'}
+[11.257522] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pkg00_base_interfaces/msg/motor_status__type_support.cpp.o\x1b[0m\n'}
+[11.288682] (-) TimerEvent: {}
+[11.314492] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pkg00_base_interfaces/msg/obs_laser__type_support.cpp.o\x1b[0m\n'}
+[11.371100] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pkg00_base_interfaces/msg/seek_ret__type_support.cpp.o\x1b[0m\n'}
+[11.389155] (-) TimerEvent: {}
+[11.427948] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pkg00_base_interfaces/msg/system_status__type_support.cpp.o\x1b[0m\n'}
+[11.473651] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libpkg00_base_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.489999] (-) TimerEvent: {}
+[11.567467] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 48%] Built target pkg00_base_interfaces__rosidl_typesupport_c\n'}
+[11.587462] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[11.591445] (-) TimerEvent: {}
+[11.692274] (-) TimerEvent: {}
+[11.793186] (-) TimerEvent: {}
+[11.893718] (-) TimerEvent: {}
+[11.994391] (-) TimerEvent: {}
+[12.095151] (-) TimerEvent: {}
+[12.196361] (-) TimerEvent: {}
+[12.297473] (-) TimerEvent: {}
+[12.398440] (-) TimerEvent: {}
+[12.451628] (pkg00_base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pkg00_base_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[12.489030] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg00_base_interfaces/msg/detail/bms_info__type_support.c.o\x1b[0m\n'}
+[12.500077] (-) TimerEvent: {}
+[12.540076] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg00_base_interfaces/msg/detail/color_info__type_support.c.o\x1b[0m\n'}
+[12.590887] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg00_base_interfaces/msg/detail/core_info__type_support.c.o\x1b[0m\n'}
+[12.600256] (-) TimerEvent: {}
+[12.649293] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg00_base_interfaces/msg/detail/hall_info__type_support.c.o\x1b[0m\n'}
+[12.701229] (-) TimerEvent: {}
+[12.711584] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg00_base_interfaces/msg/detail/location__type_support.c.o\x1b[0m\n'}
+[12.758454] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg00_base_interfaces/msg/detail/motor_cmd__type_support.c.o\x1b[0m\n'}
+[12.802900] (-) TimerEvent: {}
+[12.823761] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg00_base_interfaces/msg/detail/motor_status__type_support.c.o\x1b[0m\n'}
+[12.877306] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg00_base_interfaces/msg/detail/obs_laser__type_support.c.o\x1b[0m\n'}
+[12.902993] (-) TimerEvent: {}
+[12.936265] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg00_base_interfaces/msg/detail/seek_ret__type_support.c.o\x1b[0m\n'}
+[13.000987] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg00_base_interfaces/msg/detail/system_status__type_support.c.o\x1b[0m\n'}
+[13.003564] (-) TimerEvent: {}
+[13.046114] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg00_base_interfaces/msg/detail/charger_info__type_support.c.o\x1b[0m\n'}
+[13.099828] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking C shared library libpkg00_base_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[13.104484] (-) TimerEvent: {}
+[13.151781] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 60%] Built target pkg00_base_interfaces__rosidl_typesupport_introspection_c\n'}
+[13.175043] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.204999] (-) TimerEvent: {}
+[13.305621] (-) TimerEvent: {}
+[13.406471] (-) TimerEvent: {}
+[13.507282] (-) TimerEvent: {}
+[13.608113] (-) TimerEvent: {}
+[13.709353] (-) TimerEvent: {}
+[13.810116] (-) TimerEvent: {}
+[13.910947] (-) TimerEvent: {}
+[14.011556] (-) TimerEvent: {}
+[14.112339] (-) TimerEvent: {}
+[14.127538] (pkg00_base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pkg00_base_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[14.165754] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pkg00_base_interfaces/msg/detail/dds_fastrtps/bms_info__type_support.cpp.o\x1b[0m\n'}
+[14.213017] (-) TimerEvent: {}
+[14.314771] (-) TimerEvent: {}
+[14.416414] (-) TimerEvent: {}
+[14.517060] (-) TimerEvent: {}
+[14.618005] (-) TimerEvent: {}
+[14.695275] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pkg00_base_interfaces/msg/detail/dds_fastrtps/core_info__type_support.cpp.o\x1b[0m\n'}
+[14.718222] (-) TimerEvent: {}
+[14.819309] (-) TimerEvent: {}
+[14.919816] (-) TimerEvent: {}
+[15.020812] (-) TimerEvent: {}
+[15.121504] (-) TimerEvent: {}
+[15.213051] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pkg00_base_interfaces/msg/detail/dds_fastrtps/hall_info__type_support.cpp.o\x1b[0m\n'}
+[15.222295] (-) TimerEvent: {}
+[15.323048] (-) TimerEvent: {}
+[15.423894] (-) TimerEvent: {}
+[15.524737] (-) TimerEvent: {}
+[15.625243] (-) TimerEvent: {}
+[15.683481] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pkg00_base_interfaces/msg/detail/dds_fastrtps/location__type_support.cpp.o\x1b[0m\n'}
+[15.726026] (-) TimerEvent: {}
+[15.826850] (-) TimerEvent: {}
+[15.927524] (-) TimerEvent: {}
+[16.028387] (-) TimerEvent: {}
+[16.102035] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pkg00_base_interfaces/msg/detail/dds_fastrtps/motor_cmd__type_support.cpp.o\x1b[0m\n'}
+[16.129090] (-) TimerEvent: {}
+[16.229723] (-) TimerEvent: {}
+[16.330373] (-) TimerEvent: {}
+[16.431204] (-) TimerEvent: {}
+[16.532050] (-) TimerEvent: {}
+[16.599503] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pkg00_base_interfaces/msg/detail/dds_fastrtps/motor_status__type_support.cpp.o\x1b[0m\n'}
+[16.632500] (-) TimerEvent: {}
+[16.733155] (-) TimerEvent: {}
+[16.833874] (-) TimerEvent: {}
+[16.934576] (-) TimerEvent: {}
+[17.035324] (-) TimerEvent: {}
+[17.085904] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pkg00_base_interfaces/msg/detail/dds_fastrtps/obs_laser__type_support.cpp.o\x1b[0m\n'}
+[17.136272] (-) TimerEvent: {}
+[17.236969] (-) TimerEvent: {}
+[17.337612] (-) TimerEvent: {}
+[17.438544] (-) TimerEvent: {}
+[17.511545] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pkg00_base_interfaces/msg/detail/dds_fastrtps/seek_ret__type_support.cpp.o\x1b[0m\n'}
+[17.539143] (-) TimerEvent: {}
+[17.640052] (-) TimerEvent: {}
+[17.740906] (-) TimerEvent: {}
+[17.841520] (-) TimerEvent: {}
+[17.942463] (-) TimerEvent: {}
+[18.040367] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pkg00_base_interfaces/msg/detail/dds_fastrtps/system_status__type_support.cpp.o\x1b[0m\n'}
+[18.043229] (-) TimerEvent: {}
+[18.143679] (-) TimerEvent: {}
+[18.244633] (-) TimerEvent: {}
+[18.345325] (-) TimerEvent: {}
+[18.446126] (-) TimerEvent: {}
+[18.485665] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pkg00_base_interfaces/msg/detail/dds_fastrtps/color_info__type_support.cpp.o\x1b[0m\n'}
+[18.546807] (-) TimerEvent: {}
+[18.647420] (-) TimerEvent: {}
+[18.748208] (-) TimerEvent: {}
+[18.848837] (-) TimerEvent: {}
+[18.944760] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pkg00_base_interfaces/msg/detail/dds_fastrtps/charger_info__type_support.cpp.o\x1b[0m\n'}
+[18.949959] (-) TimerEvent: {}
+[19.051293] (-) TimerEvent: {}
+[19.152060] (-) TimerEvent: {}
+[19.253050] (-) TimerEvent: {}
+[19.353777] (-) TimerEvent: {}
+[19.454870] (-) TimerEvent: {}
+[19.490933] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libpkg00_base_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[19.556204] (-) TimerEvent: {}
+[19.643380] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 71%] Built target pkg00_base_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[19.656436] (-) TimerEvent: {}
+[19.669406] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[19.756990] (-) TimerEvent: {}
+[19.857682] (-) TimerEvent: {}
+[19.958470] (-) TimerEvent: {}
+[20.059180] (-) TimerEvent: {}
+[20.160004] (-) TimerEvent: {}
+[20.261030] (-) TimerEvent: {}
+[20.362376] (-) TimerEvent: {}
+[20.463163] (-) TimerEvent: {}
+[20.565089] (-) TimerEvent: {}
+[20.666133] (pkg00_base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pkg00_base_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[20.666374] (-) TimerEvent: {}
+[20.709862] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pkg00_base_interfaces/msg/detail/bms_info__type_support_c.cpp.o\x1b[0m\n'}
+[20.766686] (-) TimerEvent: {}
+[20.867507] (-) TimerEvent: {}
+[20.967947] (-) TimerEvent: {}
+[21.068473] (-) TimerEvent: {}
+[21.160758] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pkg00_base_interfaces/msg/detail/core_info__type_support_c.cpp.o\x1b[0m\n'}
+[21.168754] (-) TimerEvent: {}
+[21.270265] (-) TimerEvent: {}
+[21.371154] (-) TimerEvent: {}
+[21.472889] (-) TimerEvent: {}
+[21.574684] (-) TimerEvent: {}
+[21.596193] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pkg00_base_interfaces/msg/detail/hall_info__type_support_c.cpp.o\x1b[0m\n'}
+[21.675306] (-) TimerEvent: {}
+[21.775923] (-) TimerEvent: {}
+[21.876752] (-) TimerEvent: {}
+[21.977481] (-) TimerEvent: {}
+[21.993129] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pkg00_base_interfaces/msg/detail/location__type_support_c.cpp.o\x1b[0m\n'}
+[22.078152] (-) TimerEvent: {}
+[22.179930] (-) TimerEvent: {}
+[22.280811] (-) TimerEvent: {}
+[22.381607] (-) TimerEvent: {}
+[22.397836] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pkg00_base_interfaces/msg/detail/motor_cmd__type_support_c.cpp.o\x1b[0m\n'}
+[22.482343] (-) TimerEvent: {}
+[22.583770] (-) TimerEvent: {}
+[22.684729] (-) TimerEvent: {}
+[22.786096] (-) TimerEvent: {}
+[22.855320] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pkg00_base_interfaces/msg/detail/motor_status__type_support_c.cpp.o\x1b[0m\n'}
+[22.887000] (-) TimerEvent: {}
+[22.987799] (-) TimerEvent: {}
+[23.088590] (-) TimerEvent: {}
+[23.189238] (-) TimerEvent: {}
+[23.269320] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pkg00_base_interfaces/msg/detail/obs_laser__type_support_c.cpp.o\x1b[0m\n'}
+[23.290144] (-) TimerEvent: {}
+[23.391235] (-) TimerEvent: {}
+[23.492098] (-) TimerEvent: {}
+[23.592601] (-) TimerEvent: {}
+[23.693115] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pkg00_base_interfaces/msg/detail/seek_ret__type_support_c.cpp.o\x1b[0m\n'}
+[23.693378] (-) TimerEvent: {}
+[23.793847] (-) TimerEvent: {}
+[23.894585] (-) TimerEvent: {}
+[23.995341] (-) TimerEvent: {}
+[24.096059] (-) TimerEvent: {}
+[24.105232] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pkg00_base_interfaces/msg/detail/system_status__type_support_c.cpp.o\x1b[0m\n'}
+[24.196800] (-) TimerEvent: {}
+[24.297376] (-) TimerEvent: {}
+[24.398231] (-) TimerEvent: {}
+[24.498982] (-) TimerEvent: {}
+[24.545665] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pkg00_base_interfaces/msg/detail/color_info__type_support_c.cpp.o\x1b[0m\n'}
+[24.599287] (-) TimerEvent: {}
+[24.700720] (-) TimerEvent: {}
+[24.801501] (-) TimerEvent: {}
+[24.902223] (-) TimerEvent: {}
+[24.939339] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pkg00_base_interfaces/msg/detail/charger_info__type_support_c.cpp.o\x1b[0m\n'}
+[25.002946] (-) TimerEvent: {}
+[25.103776] (-) TimerEvent: {}
+[25.204571] (-) TimerEvent: {}
+[25.305243] (-) TimerEvent: {}
+[25.316807] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libpkg00_base_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[25.406860] (-) TimerEvent: {}
+[25.456272] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 83%] Built target pkg00_base_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[25.476112] (pkg00_base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pkg00_base_interfaces\x1b[0m\n'}
+[25.495870] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 83%] Built target pkg00_base_interfaces\n'}
+[25.507837] (-) TimerEvent: {}
+[25.515101] (pkg00_base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pkg00_base_interfaces__py\x1b[0m\n'}
+[25.534887] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[25.608063] (-) TimerEvent: {}
+[25.708445] (-) TimerEvent: {}
+[25.808786] (-) TimerEvent: {}
+[25.909399] (-) TimerEvent: {}
+[26.010253] (-) TimerEvent: {}
+[26.110865] (-) TimerEvent: {}
+[26.211820] (-) TimerEvent: {}
+[26.312411] (-) TimerEvent: {}
+[26.413205] (-) TimerEvent: {}
+[26.513670] (-) TimerEvent: {}
+[26.615074] (-) TimerEvent: {}
+[26.716420] (-) TimerEvent: {}
+[26.817127] (-) TimerEvent: {}
+[26.917799] (-) TimerEvent: {}
+[27.018716] (-) TimerEvent: {}
+[27.119364] (-) TimerEvent: {}
+[27.220029] (-) TimerEvent: {}
+[27.320688] (-) TimerEvent: {}
+[27.421499] (-) TimerEvent: {}
+[27.522402] (-) TimerEvent: {}
+[27.623146] (-) TimerEvent: {}
+[27.668701] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 84%] Built target pkg00_base_interfaces__py\n'}
+[27.688122] (pkg00_base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pkg00_base_interfaces__python\x1b[0m\n'}
+[27.723392] (-) TimerEvent: {}
+[27.740169] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__python.dir/rosidl_generator_py/pkg00_base_interfaces/msg/_bms_info_s.c.o\x1b[0m\n'}
+[27.824229] (-) TimerEvent: {}
+[27.900358] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__python.dir/rosidl_generator_py/pkg00_base_interfaces/msg/_core_info_s.c.o\x1b[0m\n'}
+[27.925132] (-) TimerEvent: {}
+[28.005933] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__python.dir/rosidl_generator_py/pkg00_base_interfaces/msg/_hall_info_s.c.o\x1b[0m\n'}
+[28.025589] (-) TimerEvent: {}
+[28.126384] (-) TimerEvent: {}
+[28.137568] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__python.dir/rosidl_generator_py/pkg00_base_interfaces/msg/_location_s.c.o\x1b[0m\n'}
+[28.227243] (-) TimerEvent: {}
+[28.261796] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__python.dir/rosidl_generator_py/pkg00_base_interfaces/msg/_motor_cmd_s.c.o\x1b[0m\n'}
+[28.328138] (-) TimerEvent: {}
+[28.386024] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__python.dir/rosidl_generator_py/pkg00_base_interfaces/msg/_motor_status_s.c.o\x1b[0m\n'}
+[28.428904] (-) TimerEvent: {}
+[28.511314] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__python.dir/rosidl_generator_py/pkg00_base_interfaces/msg/_obs_laser_s.c.o\x1b[0m\n'}
+[28.529647] (-) TimerEvent: {}
+[28.624754] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__python.dir/rosidl_generator_py/pkg00_base_interfaces/msg/_seek_ret_s.c.o\x1b[0m\n'}
+[28.632129] (-) TimerEvent: {}
+[28.733213] (-) TimerEvent: {}
+[28.735378] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__python.dir/rosidl_generator_py/pkg00_base_interfaces/msg/_system_status_s.c.o\x1b[0m\n'}
+[28.833655] (-) TimerEvent: {}
+[28.850045] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__python.dir/rosidl_generator_py/pkg00_base_interfaces/msg/_color_info_s.c.o\x1b[0m\n'}
+[28.934430] (-) TimerEvent: {}
+[28.963116] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__python.dir/rosidl_generator_py/pkg00_base_interfaces/msg/_charger_info_s.c.o\x1b[0m\n'}
+[29.035187] (-) TimerEvent: {}
+[29.075091] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pkg00_base_interfaces/libpkg00_base_interfaces__python.so\x1b[0m\n'}
+[29.135830] (-) TimerEvent: {}
+[29.156408] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 95%] Built target pkg00_base_interfaces__python\n'}
+[29.176013] (pkg00_base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pkg00_base_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[29.225801] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[29.237454] (-) TimerEvent: {}
+[29.338646] (-) TimerEvent: {}
+[29.396402] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pkg00_base_interfaces/pkg00_base_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[29.443439] (-) TimerEvent: {}
+[29.453915] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 97%] Built target pkg00_base_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[29.474931] (pkg00_base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pkg00_base_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[29.509921] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[29.544320] (-) TimerEvent: {}
+[29.647956] (-) TimerEvent: {}
+[29.666851] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pkg00_base_interfaces/pkg00_base_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[29.725054] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 98%] Built target pkg00_base_interfaces__rosidl_typesupport_c__pyext\n'}
+[29.748747] (-) TimerEvent: {}
+[29.751935] (pkg00_base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pkg00_base_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[29.783640] (pkg00_base_interfaces) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/pkg00_base_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pkg00_base_interfaces/_pkg00_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[29.849361] (-) TimerEvent: {}
+[29.933556] (pkg00_base_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/pkg00_base_interfaces/pkg00_base_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[29.949852] (-) TimerEvent: {}
+[30.039816] (pkg00_base_interfaces) StdoutLine: {'line': b'[100%] Built target pkg00_base_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[30.050617] (-) TimerEvent: {}
+[30.057358] (pkg00_base_interfaces) CommandEnded: {'returncode': 0}
+[30.151323] (-) TimerEvent: {}
+[30.252737] (-) TimerEvent: {}
+[30.360476] (-) TimerEvent: {}
+[30.461326] (-) TimerEvent: {}
+[30.561867] (-) TimerEvent: {}
+[30.617952] (pkg00_base_interfaces) JobProgress: {'identifier': 'pkg00_base_interfaces', 'progress': 'install'}
+[30.638523] (pkg00_base_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces'], 'cwd': '/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cjs'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1819'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/161/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/cjs'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/cjs/Health_Node'), ('TERM_PROGRAM_VERSION', '1.90.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ALL', 'en.US.UTF-8'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/161/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/161/usr/share/code/code'), ('MANAGERPID', '1722'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c9aadd6a024d1cde6df68e5e666f8739'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'cjs'), ('JOURNAL_STREAM', '8:58805'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'cjs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/cjs-virtual-machine:@/tmp/.ICE-unix/1854,unix/cjs-virtual-machine:/tmp/.ICE-unix/1854'), ('INVOCATION_ID', 'bbc7ff015ff24d29ab20c6bd341804bc'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d89b8957_eea6_4b98_bd4d_e8dd7030fb47'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8011e79f48.sock'), ('GNOME_TERMINAL_SERVICE', ':1.190'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c9aadd6a024d1cde6df68e5e666f8739'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[30.655517] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.656852] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/ament_index/resource_index/rosidl_interfaces/pkg00_base_interfaces\n'}
+[30.657762] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces\n'}
+[30.658072] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg\n'}
+[30.658308] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/bms_info.h\n'}
+[30.658602] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/motor_cmd.h\n'}
+[30.658784] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[30.658954] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail\n'}
+[30.659585] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_status__functions.c\n'}
+[30.659780] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/core_info__functions.c\n'}
+[30.660318] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/bms_info__type_support.h\n'}
+[30.660610] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/seek_ret__type_support.h\n'}
+[30.660932] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/color_info__functions.c\n'}
+[30.660982] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/obs_laser__type_support.h\n'}
+[30.661098] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_status__struct.h\n'}
+[30.661151] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_cmd__functions.c\n'}
+[30.661271] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_status__type_support.h\n'}
+[30.661439] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/core_info__struct.h\n'}
+[30.661494] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/charger_info__functions.h\n'}
+[30.661727] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/core_info__type_support.h\n'}
+[30.661870] (-) TimerEvent: {}
+[30.662940] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_status__functions.h\n'}
+[30.664466] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_cmd__functions.h\n'}
+[30.664706] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/hall_info__functions.h\n'}
+[30.665000] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/color_info__functions.h\n'}
+[30.665235] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/bms_info__functions.h\n'}
+[30.665285] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/system_status__functions.h\n'}
+[30.665330] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/location__functions.c\n'}
+[30.665372] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_cmd__struct.h\n'}
+[30.665512] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/system_status__functions.c\n'}
+[30.665621] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/location__struct.h\n'}
+[30.665671] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_cmd__type_support.h\n'}
+[30.665785] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/hall_info__functions.c\n'}
+[30.665831] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/core_info__functions.h\n'}
+[30.665958] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/seek_ret__functions.h\n'}
+[30.666103] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/color_info__struct.h\n'}
+[30.666150] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/charger_info__functions.c\n'}
+[30.666261] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/obs_laser__functions.h\n'}
+[30.666318] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/system_status__type_support.h\n'}
+[30.666362] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/seek_ret__functions.c\n'}
+[30.666413] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/hall_info__type_support.h\n'}
+[30.666458] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/obs_laser__struct.h\n'}
+[30.666503] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/location__type_support.h\n'}
+[30.666632] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/seek_ret__struct.h\n'}
+[30.666675] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/hall_info__struct.h\n'}
+[30.666718] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/bms_info__struct.h\n'}
+[30.666851] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/charger_info__struct.h\n'}
+[30.666913] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/charger_info__type_support.h\n'}
+[30.666958] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/bms_info__functions.c\n'}
+[30.666999] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/location__functions.h\n'}
+[30.667600] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/system_status__struct.h\n'}
+[30.667674] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/obs_laser__functions.c\n'}
+[30.667718] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/color_info__type_support.h\n'}
+[30.669462] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/motor_status.h\n'}
+[30.669611] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/location.h\n'}
+[30.669726] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/charger_info.h\n'}
+[30.669772] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/core_info.h\n'}
+[30.669884] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/color_info.h\n'}
+[30.669930] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/obs_laser.h\n'}
+[30.669971] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/hall_info.h\n'}
+[30.670012] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/system_status.h\n'}
+[30.670052] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/seek_ret.h\n'}
+[30.670178] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/environment/library_path.sh\n'}
+[30.670223] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/environment/library_path.dsv\n'}
+[30.670264] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/libpkg00_base_interfaces__rosidl_generator_c.so\n'}
+[30.670305] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/libpkg00_base_interfaces__rosidl_generator_c.so" to ""\n'}
+[30.670347] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces\n'}
+[30.670397] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg\n'}
+[30.670437] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail\n'}
+[30.670485] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/hall_info__rosidl_typesupport_fastrtps_c.h\n'}
+[30.670528] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/location__rosidl_typesupport_fastrtps_c.h\n'}
+[30.670569] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/bms_info__rosidl_typesupport_fastrtps_c.h\n'}
+[30.670612] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/color_info__rosidl_typesupport_fastrtps_c.h\n'}
+[30.670652] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/core_info__rosidl_typesupport_fastrtps_c.h\n'}
+[30.670715] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/seek_ret__rosidl_typesupport_fastrtps_c.h\n'}
+[30.672230] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/charger_info__rosidl_typesupport_fastrtps_c.h\n'}
+[30.672416] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h\n'}
+[30.672644] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[30.672727] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/obs_laser__rosidl_typesupport_fastrtps_c.h\n'}
+[30.672790] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_status__rosidl_typesupport_fastrtps_c.h\n'}
+[30.672938] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[30.673093] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/libpkg00_base_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[30.673169] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/libpkg00_base_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[30.673233] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces\n'}
+[30.673389] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg\n'}
+[30.673456] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail\n'}
+[30.673518] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/hall_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.673584] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/seek_ret__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.673646] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/color_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.673706] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/location__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.673767] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/dds_fastrtps\n'}
+[30.673829] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.673891] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/core_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.675712] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/bms_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.675889] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/charger_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.675986] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.676146] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.676303] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/obs_laser__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.676470] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[30.676701] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/libpkg00_base_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[30.676774] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/libpkg00_base_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[30.676912] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces\n'}
+[30.677050] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg\n'}
+[30.677122] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail\n'}
+[30.677270] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_status__type_support.c\n'}
+[30.677426] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/core_info__rosidl_typesupport_introspection_c.h\n'}
+[30.677579] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_status__rosidl_typesupport_introspection_c.h\n'}
+[30.677691] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/bms_info__rosidl_typesupport_introspection_c.h\n'}
+[30.677786] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/hall_info__rosidl_typesupport_introspection_c.h\n'}
+[30.677927] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/system_status__type_support.c\n'}
+[30.678079] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/obs_laser__rosidl_typesupport_introspection_c.h\n'}
+[30.678212] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/location__type_support.c\n'}
+[30.678283] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/charger_info__type_support.c\n'}
+[30.678348] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h\n'}
+[30.678423] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/seek_ret__type_support.c\n'}
+[30.678569] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/color_info__type_support.c\n'}
+[30.678635] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/bms_info__type_support.c\n'}
+[30.678699] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/charger_info__rosidl_typesupport_introspection_c.h\n'}
+[30.678762] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/hall_info__type_support.c\n'}
+[30.678824] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_cmd__type_support.c\n'}
+[30.678886] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/obs_laser__type_support.c\n'}
+[30.678956] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/seek_ret__rosidl_typesupport_introspection_c.h\n'}
+[30.679017] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/core_info__type_support.c\n'}
+[30.681267] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_cmd__rosidl_typesupport_introspection_c.h\n'}
+[30.681608] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/location__rosidl_typesupport_introspection_c.h\n'}
+[30.681779] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/color_info__rosidl_typesupport_introspection_c.h\n'}
+[30.682134] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[30.682602] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/libpkg00_base_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[30.683179] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/libpkg00_base_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[30.683275] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/libpkg00_base_interfaces__rosidl_typesupport_c.so\n'}
+[30.683357] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/libpkg00_base_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[30.684001] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces\n'}
+[30.684465] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg\n'}
+[30.684879] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/color_info.hpp\n'}
+[30.685199] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/seek_ret.hpp\n'}
+[30.685277] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/motor_cmd.hpp\n'}
+[30.685415] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail\n'}
+[30.685795] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/obs_laser__builder.hpp\n'}
+[30.685980] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/charger_info__traits.hpp\n'}
+[30.686065] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_cmd__struct.hpp\n'}
+[30.686413] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/core_info__struct.hpp\n'}
+[30.686584] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/core_info__type_support.hpp\n'}
+[30.686779] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/system_status__traits.hpp\n'}
+[30.686927] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/seek_ret__type_support.hpp\n'}
+[30.687070] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/system_status__struct.hpp\n'}
+[30.687223] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/seek_ret__traits.hpp\n'}
+[30.687293] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_cmd__builder.hpp\n'}
+[30.687450] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/location__traits.hpp\n'}
+[30.687604] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/core_info__traits.hpp\n'}
+[30.687757] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/system_status__type_support.hpp\n'}
+[30.687902] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/system_status__builder.hpp\n'}
+[30.688030] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/bms_info__struct.hpp\n'}
+[30.688124] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/obs_laser__struct.hpp\n'}
+[30.688282] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_status__type_support.hpp\n'}
+[30.688434] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_cmd__traits.hpp\n'}
+[30.688670] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/obs_laser__traits.hpp\n'}
+[30.688757] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/core_info__builder.hpp\n'}
+[30.688822] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/color_info__type_support.hpp\n'}
+[30.688972] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/charger_info__builder.hpp\n'}
+[30.689118] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/hall_info__struct.hpp\n'}
+[30.689280] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/bms_info__builder.hpp\n'}
+[30.689442] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/color_info__traits.hpp\n'}
+[30.689590] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/obs_laser__type_support.hpp\n'}
+[30.689675] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/charger_info__type_support.hpp\n'}
+[30.689821] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/color_info__builder.hpp\n'}
+[30.689963] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/hall_info__traits.hpp\n'}
+[30.690108] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/color_info__struct.hpp\n'}
+[30.690257] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/location__builder.hpp\n'}
+[30.690406] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_cmd__type_support.hpp\n'}
+[30.690564] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/seek_ret__builder.hpp\n'}
+[30.690718] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_status__struct.hpp\n'}
+[30.690870] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/bms_info__type_support.hpp\n'}
+[30.691020] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_status__builder.hpp\n'}
+[30.691087] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/bms_info__traits.hpp\n'}
+[30.691150] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/hall_info__type_support.hpp\n'}
+[30.691211] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/hall_info__builder.hpp\n'}
+[30.691583] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/location__type_support.hpp\n'}
+[30.691700] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/charger_info__struct.hpp\n'}
+[30.691803] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_status__traits.hpp\n'}
+[30.691946] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/location__struct.hpp\n'}
+[30.692097] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/seek_ret__struct.hpp\n'}
+[30.692227] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/core_info.hpp\n'}
+[30.692306] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/motor_status.hpp\n'}
+[30.692456] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/hall_info.hpp\n'}
+[30.692598] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/charger_info.hpp\n'}
+[30.692830] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[30.692911] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/location.hpp\n'}
+[30.693065] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/obs_laser.hpp\n'}
+[30.693217] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/system_status.hpp\n'}
+[30.693346] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/bms_info.hpp\n'}
+[30.693440] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces\n'}
+[30.693596] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg\n'}
+[30.693745] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail\n'}
+[30.693883] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.693956] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/location__type_support.cpp\n'}
+[30.694102] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/seek_ret__type_support.cpp\n'}
+[30.694243] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/charger_info__type_support.cpp\n'}
+[30.694380] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/color_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.694452] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/location__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.694616] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/core_info__type_support.cpp\n'}
+[30.694761] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/bms_info__type_support.cpp\n'}
+[30.694834] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/core_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.694982] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/system_status__type_support.cpp\n'}
+[30.695124] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/charger_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.695263] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/obs_laser__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.695345] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/color_info__type_support.cpp\n'}
+[30.695411] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_cmd__type_support.cpp\n'}
+[30.695474] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_status__type_support.cpp\n'}
+[30.695624] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/bms_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.695697] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/seek_ret__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.695761] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.695831] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/hall_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.695894] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/motor_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.695957] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/obs_laser__type_support.cpp\n'}
+[30.696018] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include/pkg00_base_interfaces/msg/detail/hall_info__type_support.cpp\n'}
+[30.696080] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/libpkg00_base_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[30.698897] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/libpkg00_base_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[30.699034] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/libpkg00_base_interfaces__rosidl_typesupport_cpp.so\n'}
+[30.699098] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/libpkg00_base_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[30.699157] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/environment/pythonpath.sh\n'}
+[30.699220] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/environment/pythonpath.dsv\n'}
+[30.699291] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/__init__.py\n'}
+[30.734820] (pkg00_base_interfaces) StdoutLine: {'line': b"Compiling '/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/__init__.py'...\n"}
+[30.742103] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/msg\n'}
+[30.742442] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/msg/_hall_info_s.c\n'}
+[30.742543] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/msg/_core_info_s.c\n'}
+[30.742610] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/msg/_color_info.py\n'}
+[30.742718] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/msg/_motor_status.py\n'}
+[30.742788] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/msg/_obs_laser.py\n'}
+[30.742852] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/msg/_seek_ret_s.c\n'}
+[30.742953] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/msg/_motor_cmd_s.c\n'}
+[30.743034] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/msg/_obs_laser_s.c\n'}
+[30.743095] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/msg/_charger_info_s.c\n'}
+[30.743183] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/msg/_system_status.py\n'}
+[30.743296] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/msg/_core_info.py\n'}
+[30.743394] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/msg/_charger_info.py\n'}
+[30.743497] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/msg/_hall_info.py\n'}
+[30.743852] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/msg/_location_s.c\n'}
+[30.743963] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/msg/_seek_ret.py\n'}
+[30.744116] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/msg/_system_status_s.c\n'}
+[30.744227] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/msg/_location.py\n'}
+[30.744341] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/msg/_motor_cmd.py\n'}
+[30.744631] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/msg/_color_info_s.c\n'}
+[30.745006] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/msg/_motor_status_s.c\n'}
+[30.745167] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/msg/_bms_info_s.c\n'}
+[30.745332] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/msg/__init__.py\n'}
+[30.745412] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/msg/_bms_info.py\n'}
+[30.745844] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/pkg00_base_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[30.746936] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/pkg00_base_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[30.747498] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/pkg00_base_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[30.748895] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/pkg00_base_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[30.749345] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/pkg00_base_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[30.749941] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/python3.8/site-packages/pkg00_base_interfaces/pkg00_base_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[30.750155] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/libpkg00_base_interfaces__python.so\n'}
+[30.750867] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/libpkg00_base_interfaces__python.so" to ""\n'}
+[30.751084] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/msg/BmsInfo.idl\n'}
+[30.751279] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/msg/ChargerInfo.idl\n'}
+[30.751527] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/msg/ColorInfo.idl\n'}
+[30.751741] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/msg/CoreInfo.idl\n'}
+[30.751974] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/msg/HallInfo.idl\n'}
+[30.752190] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/msg/Location.idl\n'}
+[30.752571] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/msg/MotorCmd.idl\n'}
+[30.752739] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/msg/MotorStatus.idl\n'}
+[30.752895] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/msg/ObsLaser.idl\n'}
+[30.753065] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/msg/SeekRet.idl\n'}
+[30.753284] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/msg/SystemStatus.idl\n'}
+[30.753531] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/msg/BmsInfo.msg\n'}
+[30.753748] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/msg/ChargerInfo.msg\n'}
+[30.753986] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/msg/ColorInfo.msg\n'}
+[30.754216] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/msg/CoreInfo.msg\n'}
+[30.754453] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/msg/HallInfo.msg\n'}
+[30.754673] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/msg/Location.msg\n'}
+[30.754874] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/msg/MotorCmd.msg\n'}
+[30.755090] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/msg/MotorStatus.msg\n'}
+[30.755304] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/msg/ObsLaser.msg\n'}
+[30.755548] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/msg/SeekRet.msg\n'}
+[30.755775] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/msg/SystemStatus.msg\n'}
+[30.756085] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/ament_index/resource_index/package_run_dependencies/pkg00_base_interfaces\n'}
+[30.756471] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/ament_index/resource_index/parent_prefix_path/pkg00_base_interfaces\n'}
+[30.757635] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/environment/ament_prefix_path.sh\n'}
+[30.757830] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/environment/ament_prefix_path.dsv\n'}
+[30.758057] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/environment/path.sh\n'}
+[30.758267] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/environment/path.dsv\n'}
+[30.758530] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/local_setup.bash\n'}
+[30.758744] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/local_setup.sh\n'}
+[30.758967] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/local_setup.zsh\n'}
+[30.759158] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/local_setup.dsv\n'}
+[30.759391] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/package.dsv\n'}
+[30.759636] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/ament_index/resource_index/packages/pkg00_base_interfaces\n'}
+[30.759934] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/cmake/pkg00_base_interfaces__rosidl_generator_cExport.cmake\n'}
+[30.760145] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/cmake/pkg00_base_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[30.760550] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/cmake/pkg00_base_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[30.760700] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/cmake/pkg00_base_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[30.760980] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/cmake/pkg00_base_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[30.761215] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/cmake/pkg00_base_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[30.761520] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/cmake/pkg00_base_interfaces__rosidl_generator_cppExport.cmake\n'}
+[30.761803] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/cmake/pkg00_base_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[30.761887] (-) TimerEvent: {}
+[30.762032] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/cmake/pkg00_base_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[30.762285] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/cmake/pkg00_base_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[30.762511] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/cmake/pkg00_base_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[30.762730] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[30.762956] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[30.763160] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[30.763398] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[30.763652] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[30.763844] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[30.764074] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[30.764329] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/cmake/pkg00_base_interfacesConfig.cmake\n'}
+[30.764590] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/cmake/pkg00_base_interfacesConfig-version.cmake\n'}
+[30.764801] (pkg00_base_interfaces) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/package.xml\n'}
+[30.771654] (pkg00_base_interfaces) CommandEnded: {'returncode': 0}
+[30.863530] (-) TimerEvent: {}
+[30.965528] (-) TimerEvent: {}
+[31.066705] (-) TimerEvent: {}
+[31.167445] (-) TimerEvent: {}
+[31.268186] (-) TimerEvent: {}
+[31.368908] (-) TimerEvent: {}
+[31.469583] (-) TimerEvent: {}
+[31.491019] (pkg00_base_interfaces) JobEnded: {'identifier': 'pkg00_base_interfaces', 'rc': 0}
+[31.493181] (-) EventReactorShutdown: {}

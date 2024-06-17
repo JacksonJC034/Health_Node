@@ -53,55 +53,315 @@ CMAKE_BINARY_DIR = /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces
 # Include the progress variables for this target.
 include CMakeFiles/pkg00_base_interfaces__cpp.dir/progress.make
 
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/bms_info__builder.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/bms_info__struct.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/bms_info__traits.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/bms_info__type_support.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/charger_info.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/charger_info__builder.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/charger_info__struct.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/charger_info__traits.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/charger_info__type_support.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/color_info.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/color_info__builder.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/color_info__struct.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/color_info__traits.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/color_info__type_support.hpp
 CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp
 CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/core_info__builder.hpp
 CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/core_info__struct.hpp
 CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/core_info__traits.hpp
 CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/core_info__type_support.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/hall_info.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/hall_info__builder.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/hall_info__struct.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/hall_info__traits.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/hall_info__type_support.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/location.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/location__builder.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/location__struct.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/location__traits.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/location__type_support.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/motor_cmd.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_cmd__builder.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_cmd__struct.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_cmd__traits.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_cmd__type_support.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/motor_status.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_status__builder.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_status__struct.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_status__traits.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_status__type_support.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/obs_laser.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/obs_laser__builder.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/obs_laser__struct.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/obs_laser__traits.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/obs_laser__type_support.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/seek_ret.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/seek_ret__builder.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/seek_ret__struct.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/seek_ret__traits.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/seek_ret__type_support.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/system_status.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/system_status__builder.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/system_status__struct.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/system_status__traits.hpp
+CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/system_status__type_support.hpp
 CMakeFiles/pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 
-rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp: /opt/ros/foxy/lib/rosidl_generator_cpp/rosidl_generator_cpp
-rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp: /opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_cpp/__init__.py
-rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/action__builder.hpp.em
-rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/action__struct.hpp.em
-rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/action__traits.hpp.em
-rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/action__type_support.hpp.em
-rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl.hpp.em
-rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
-rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
-rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
-rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl__type_support.hpp.em
-rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
-rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
-rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
-rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/msg__type_support.hpp.em
-rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
-rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
-rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
-rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
-rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp: rosidl_adapter/pkg00_base_interfaces/msg/CoreInfo.idl
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: /opt/ros/foxy/lib/rosidl_generator_cpp/rosidl_generator_cpp
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: /opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_cpp/__init__.py
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/action__builder.hpp.em
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/action__struct.hpp.em
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/action__traits.hpp.em
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/action__type_support.hpp.em
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl.hpp.em
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl__type_support.hpp.em
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/msg__type_support.hpp.em
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: rosidl_adapter/pkg00_base_interfaces/msg/BmsInfo.idl
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: rosidl_adapter/pkg00_base_interfaces/msg/ChargerInfo.idl
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: rosidl_adapter/pkg00_base_interfaces/msg/ColorInfo.idl
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: rosidl_adapter/pkg00_base_interfaces/msg/CoreInfo.idl
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: rosidl_adapter/pkg00_base_interfaces/msg/HallInfo.idl
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: rosidl_adapter/pkg00_base_interfaces/msg/Location.idl
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: rosidl_adapter/pkg00_base_interfaces/msg/MotorCmd.idl
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: rosidl_adapter/pkg00_base_interfaces/msg/MotorStatus.idl
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: rosidl_adapter/pkg00_base_interfaces/msg/ObsLaser.idl
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: rosidl_adapter/pkg00_base_interfaces/msg/SeekRet.idl
+rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp: rosidl_adapter/pkg00_base_interfaces/msg/SystemStatus.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_generator_cpp__arguments.json
 
-rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/core_info__builder.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/bms_info__builder.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/bms_info__builder.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/bms_info__struct.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/bms_info__struct.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/bms_info__traits.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/bms_info__traits.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/bms_info__type_support.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/bms_info__type_support.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/charger_info.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/charger_info.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/charger_info__builder.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/charger_info__builder.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/charger_info__struct.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/charger_info__struct.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/charger_info__traits.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/charger_info__traits.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/charger_info__type_support.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/charger_info__type_support.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/color_info.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/color_info.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/color_info__builder.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/color_info__builder.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/color_info__struct.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/color_info__struct.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/color_info__traits.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/color_info__traits.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/color_info__type_support.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/color_info__type_support.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/core_info__builder.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/core_info__builder.hpp
 
-rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/core_info__struct.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/core_info__struct.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/core_info__struct.hpp
 
-rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/core_info__traits.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/core_info__traits.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/core_info__traits.hpp
 
-rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/core_info__type_support.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/core_info__type_support.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/core_info__type_support.hpp
 
+rosidl_generator_cpp/pkg00_base_interfaces/msg/hall_info.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/hall_info.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/hall_info__builder.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/hall_info__builder.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/hall_info__struct.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/hall_info__struct.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/hall_info__traits.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/hall_info__traits.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/hall_info__type_support.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/hall_info__type_support.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/location.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/location.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/location__builder.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/location__builder.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/location__struct.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/location__struct.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/location__traits.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/location__traits.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/location__type_support.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/location__type_support.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/motor_cmd.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/motor_cmd.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_cmd__builder.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_cmd__builder.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_cmd__struct.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_cmd__struct.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_cmd__traits.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_cmd__traits.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_cmd__type_support.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_cmd__type_support.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/motor_status.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/motor_status.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_status__builder.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_status__builder.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_status__struct.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_status__struct.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_status__traits.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_status__traits.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_status__type_support.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_status__type_support.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/obs_laser.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/obs_laser.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/obs_laser__builder.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/obs_laser__builder.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/obs_laser__struct.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/obs_laser__struct.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/obs_laser__traits.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/obs_laser__traits.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/obs_laser__type_support.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/obs_laser__type_support.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/seek_ret.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/seek_ret.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/seek_ret__builder.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/seek_ret__builder.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/seek_ret__struct.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/seek_ret__struct.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/seek_ret__traits.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/seek_ret__traits.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/seek_ret__type_support.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/seek_ret__type_support.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/system_status.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/system_status.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/system_status__builder.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/system_status__builder.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/system_status__struct.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/system_status__struct.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/system_status__traits.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/system_status__traits.hpp
+
+rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/system_status__type_support.hpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/system_status__type_support.hpp
+
 pkg00_base_interfaces__cpp: CMakeFiles/pkg00_base_interfaces__cpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/bms_info.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/bms_info__builder.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/bms_info__struct.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/bms_info__traits.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/bms_info__type_support.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/charger_info.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/charger_info__builder.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/charger_info__struct.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/charger_info__traits.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/charger_info__type_support.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/color_info.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/color_info__builder.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/color_info__struct.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/color_info__traits.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/color_info__type_support.hpp
 pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/core_info.hpp
 pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/core_info__builder.hpp
 pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/core_info__struct.hpp
 pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/core_info__traits.hpp
 pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/core_info__type_support.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/hall_info.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/hall_info__builder.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/hall_info__struct.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/hall_info__traits.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/hall_info__type_support.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/location.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/location__builder.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/location__struct.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/location__traits.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/location__type_support.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/motor_cmd.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_cmd__builder.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_cmd__struct.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_cmd__traits.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_cmd__type_support.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/motor_status.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_status__builder.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_status__struct.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_status__traits.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/motor_status__type_support.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/obs_laser.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/obs_laser__builder.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/obs_laser__struct.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/obs_laser__traits.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/obs_laser__type_support.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/seek_ret.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/seek_ret__builder.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/seek_ret__struct.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/seek_ret__traits.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/seek_ret__type_support.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/system_status.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/system_status__builder.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/system_status__struct.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/system_status__traits.hpp
+pkg00_base_interfaces__cpp: rosidl_generator_cpp/pkg00_base_interfaces/msg/detail/system_status__type_support.hpp
 pkg00_base_interfaces__cpp: CMakeFiles/pkg00_base_interfaces__cpp.dir/build.make
 
 .PHONY : pkg00_base_interfaces__cpp

@@ -351,11 +351,91 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg00_base_interfaces/msg" TYPE FILE FILES "/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_adapter/pkg00_base_interfaces/msg/BmsInfo.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg00_base_interfaces/msg" TYPE FILE FILES "/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_adapter/pkg00_base_interfaces/msg/ChargerInfo.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg00_base_interfaces/msg" TYPE FILE FILES "/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_adapter/pkg00_base_interfaces/msg/ColorInfo.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg00_base_interfaces/msg" TYPE FILE FILES "/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_adapter/pkg00_base_interfaces/msg/CoreInfo.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg00_base_interfaces/msg" TYPE FILE FILES "/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_adapter/pkg00_base_interfaces/msg/HallInfo.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg00_base_interfaces/msg" TYPE FILE FILES "/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_adapter/pkg00_base_interfaces/msg/Location.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg00_base_interfaces/msg" TYPE FILE FILES "/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_adapter/pkg00_base_interfaces/msg/MotorCmd.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg00_base_interfaces/msg" TYPE FILE FILES "/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_adapter/pkg00_base_interfaces/msg/MotorStatus.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg00_base_interfaces/msg" TYPE FILE FILES "/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_adapter/pkg00_base_interfaces/msg/ObsLaser.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg00_base_interfaces/msg" TYPE FILE FILES "/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_adapter/pkg00_base_interfaces/msg/SeekRet.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg00_base_interfaces/msg" TYPE FILE FILES "/home/cjs/Health_Node/ros2_ws/build/pkg00_base_interfaces/rosidl_adapter/pkg00_base_interfaces/msg/SystemStatus.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg00_base_interfaces/msg" TYPE FILE FILES "/home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces/msg/BmsInfo.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg00_base_interfaces/msg" TYPE FILE FILES "/home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces/msg/ChargerInfo.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg00_base_interfaces/msg" TYPE FILE FILES "/home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces/msg/ColorInfo.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg00_base_interfaces/msg" TYPE FILE FILES "/home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces/msg/CoreInfo.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg00_base_interfaces/msg" TYPE FILE FILES "/home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces/msg/HallInfo.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg00_base_interfaces/msg" TYPE FILE FILES "/home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces/msg/Location.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg00_base_interfaces/msg" TYPE FILE FILES "/home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces/msg/MotorCmd.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg00_base_interfaces/msg" TYPE FILE FILES "/home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces/msg/MotorStatus.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg00_base_interfaces/msg" TYPE FILE FILES "/home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces/msg/ObsLaser.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg00_base_interfaces/msg" TYPE FILE FILES "/home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces/msg/SeekRet.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg00_base_interfaces/msg" TYPE FILE FILES "/home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces/msg/SystemStatus.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

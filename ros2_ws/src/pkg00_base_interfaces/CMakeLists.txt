@@ -25,7 +25,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ColorInfo.msg"
   "msg/CoreInfo.msg"
   "msg/HallInfo.msg"
-  "msg/LiftInfo.msg"
   "msg/Location.msg"
   "msg/MotorCmd.msg"
   "msg/MotorStatus.msg"
