@@ -1,0 +1,9 @@
+float64 x
+float64 y
+int32 error
+int32 status
+float64 distance
+int32 hall_location
+int32 lift_son_loc_cali
+int32 lift_current_loc
+int32 lift_horseshoe_en

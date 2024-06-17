@@ -1,0 +1,12 @@
+/home/cjs/Health_Node/build/pkg00_base_interfaces/rosidl_adapter/pkg00_base_interfaces:msg/BmsInfo.idl
+/home/cjs/Health_Node/build/pkg00_base_interfaces/rosidl_adapter/pkg00_base_interfaces:msg/ChargerInfo.idl
+/home/cjs/Health_Node/build/pkg00_base_interfaces/rosidl_adapter/pkg00_base_interfaces:msg/ColorInfo.idl
+/home/cjs/Health_Node/build/pkg00_base_interfaces/rosidl_adapter/pkg00_base_interfaces:msg/CoreInfo.idl
+/home/cjs/Health_Node/build/pkg00_base_interfaces/rosidl_adapter/pkg00_base_interfaces:msg/HallInfo.idl
+/home/cjs/Health_Node/build/pkg00_base_interfaces/rosidl_adapter/pkg00_base_interfaces:msg/LiftInfo.idl
+/home/cjs/Health_Node/build/pkg00_base_interfaces/rosidl_adapter/pkg00_base_interfaces:msg/Location.idl
+/home/cjs/Health_Node/build/pkg00_base_interfaces/rosidl_adapter/pkg00_base_interfaces:msg/MotorCmd.idl
+/home/cjs/Health_Node/build/pkg00_base_interfaces/rosidl_adapter/pkg00_base_interfaces:msg/MotorStatus.idl
+/home/cjs/Health_Node/build/pkg00_base_interfaces/rosidl_adapter/pkg00_base_interfaces:msg/ObsLaser.idl
+/home/cjs/Health_Node/build/pkg00_base_interfaces/rosidl_adapter/pkg00_base_interfaces:msg/SeekRet.idl
+/home/cjs/Health_Node/build/pkg00_base_interfaces/rosidl_adapter/pkg00_base_interfaces:msg/SystemStatus.idl

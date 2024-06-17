@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from pkg00_base_interfaces/msg/SeekRet.msg
+// generated code does not contain a copyright notice
+
+
+module pkg00_base_interfaces {
+  module msg {
+    struct SeekRet {
+      int32 ret;
+    };
+  };
+};

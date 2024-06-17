@@ -1,0 +1,6 @@
+{
+  "package_name": "pkg00_base_interfaces",
+  "non_idl_tuples": [
+    "/home/cjs/Health_Node/ros2_ws/src/pkg00_base_interfaces:msg/CoreInfo.msg"
+  ]
+}
