@@ -1,0 +1,411 @@
+main_errors:
+  0:
+    code: 11701
+    level: 1
+    description: "cpu占用率过高"
+  1:
+    code: 11702
+    level: 1
+    description: "磁盘空间不足"
+  2:
+    code: 11703
+    level: 1
+    description: "内存占用率过高"
+  3:
+    code: 11704
+    level: 1
+    description: "网络异常"
+  4:
+    code: 11705
+    level: 1
+    description: "内核温度过高"
+
+bms_errors:
+  0:
+    code: 11801
+    level: 1
+    description: "过压"
+  1:
+    code: 11802
+    level: 1
+    description: "欠压"
+  2:
+    code: 11803
+    level: 1
+    description: "过流"
+  3:
+    code: 11804
+    level: 1
+    description: "过温"
+  4:
+    code: 11805
+    level: 1
+    description: "低温"
+  5:
+    code: 30101
+    level: 3
+    description: "小车电量过低"
+  6:
+    code: 30102
+    level: 3
+    description: "电芯不平衡"
+
+charger_errors:
+  0:
+    code: 30301
+    level: 3
+    description: "充电开启未检测到充电电流"
+  1:
+    code: 30302
+    level: 3
+    description: "充电电压异常"
+  2:
+    code: 30303
+    level: 3
+    description: "充电电流异常"
+  3:
+    code: 30304
+    level: 3
+    description: "充电桩通信握手失败"
+
+comm_errors:
+  0:
+    code: 10101
+    level: 1
+    description: "当前换向状态不对"
+  1:
+    code: 10102
+    level: 1
+    description: "当前顶升状态不对"
+  2:
+    code: 10108
+    level: 1
+    description: "顶升/换向标定异常"
+  3:
+    code: 11501
+    level: 1
+    description: "霍尔传感器通信异常"
+  4:
+    code: 11601
+    level: 1
+    description: "霍尔数值无变化"
+  5:
+    code: 11901
+    level: 1
+    description: "子轨伺服通信异常"
+  6:
+    code: 11902
+    level: 1
+    description: "母轨伺服位置异常"
+  7:
+    code: 11903
+    level: 1
+    description: "举升伺服通信异常"
+  8:
+    code: 11904
+    level: 1
+    description: "灯板通信异常"
+  9:
+    code: 11906
+    level: 1
+    description: "左后托盘检测传感器通信异常"
+  10:
+    code: 11907
+    level: 1
+    description: "右前托盘检测传感器通信异常"
+  11:
+    code: 11909
+    level: 1
+    description: "2/3面避障传感器通信异常"
+  12:
+    code: 11910
+    level: 1
+    description: "1/4面避障传感器通信异常"
+  13:
+    code: 11911
+    level: 1
+    description: "BMS通信异常"
+
+servo_errors:
+  0:
+    code: 10301
+    level: 1
+    description: "子道行走伺服超过峰值电流"
+  1:
+    code: 10303
+    level: 1
+    description: "子道行走伺服位置跟踪误差超限"
+  2:
+    code: 10304
+    level: 1
+    description: "子道行走伺服心跳故障"
+  3:
+    code: 10305
+    level: 1
+    description: "子道行走伺服超过限速"
+  4:
+    code: 10306
+    level: 1
+    description: "子道行走伺服电机卡死，电机有动力但不运动"
+  5:
+    code: 10309
+    level: 1
+    description: "子道行走伺服驱动器过热"
+  6:
+    code: 10310
+    level: 1
+    description: "子道行走伺服不支持操作模式下使能电机"
+  7:
+    code: 10311
+    level: 1
+    description: "母道行走伺服超过峰值电流"
+  8:
+    code: 10313
+    level: 1
+    description: "母道行走伺服位置跟踪误差超限"
+  9:
+    code: 10314
+    level: 1
+    description: "母道行走伺服心跳故障"
+  10:
+    code: 10315
+    level: 1
+    description: "母道行走伺服超过限速"
+  11:
+    code: 10316
+    level: 1
+    description: "母道行走伺服电机卡死，电机有动力但不运动"
+  12:
+    code: 10319
+    level: 1
+    description: "母道行走伺服驱动器过热。"
+  13:
+    code: 10320
+    level: 1
+    description: "母道行走伺服不支持操作模式下使能电机"
+  14:
+    code: 10501
+    level: 1
+    description: "顶升伺服超过峰值电流"
+  15:
+    code: 10503
+    level: 1
+    description: "顶升伺服位置跟踪误差超限"
+  16:
+    code: 10504
+    level: 1
+    description: "顶升伺服心跳故障"
+  17:
+    code: 10505
+    level: 1
+    description: "顶升伺服超过限速"
+  18:
+    code: 10506
+    level: 1
+    description: "顶升伺服电机卡死，电机有动力但不运动"
+  19:
+    code: 10509
+    level: 1
+    description: "顶升伺服驱动器过热。"
+  20:
+    code: 10510
+    level: 1
+    description: "顶升伺服反馈电流超过1.5倍"
+  21:
+    code: 10512
+    level: 1
+    description: "顶升伺服不支持操作模式下使能电机"
+
+lift_errors:
+  0:
+    code: 10601
+    level: 1
+    description: "小车顶升换向动作超时"
+  1:
+    code: 11201
+    level: 1
+    description: "马蹄零点编码器校验值偏差过大"
+  2:
+    code: 11202
+    level: 1
+    description: "顶升换向到位未触发马蹄光电"
+
+pallet_errors:
+  0:
+    code: 10701
+    level: 3
+    description: "小车取货时无货"
+  1:
+    code: 10702
+    level: 1
+    description: "小车取货时位姿解算失败"
+  2:
+    code: 10703
+    level: 1
+    description: "小车取货时货物歪斜"
+  3:
+    code: 10801
+    level: 1
+    description: "小车载货行走时货物掉落"
+  4:
+    code: 10802
+    level: 1
+    description: "小车载货行走时位姿解算失败"
+  5:
+    code: 10803
+    level: 1
+    description: "小车载货行走时货物偏移"
+  6:
+    code: 10804
+    level: 1
+    description: "小车载货行走时货物歪斜"
+
+obs_errors:
+  0:
+    code: 10901
+    level: 1
+    description: "小车顶升情况下,1号面探货触发"
+  1:
+    code: 10902
+    level: 1
+    description: "小车顶升情况下,3号面探货触发"
+  2:
+    code: 11001
+    level: 1
+    description: "小车行进时前方有障碍,1号面避障光电触发"
+  3:
+    code: 11002
+    level: 1
+    description: "小车行进时前方有障碍,3号面避障光电触发"
+  4:
+    code: 11003
+    level: 1
+    description: "小车行进时前方有障碍,2号面避障光电触发"
+  5:
+    code: 11004
+    level: 1
+    description: "小车行进时前方有障碍,4号面避障光电触发"
+  6:
+    code: 11301
+    level: 1
+    description: "传感器遮挡 - 小车运动过程中,仓位定位-前光电无变化"
+  7:
+    code: 11302
+    level: 1
+    description: "传感器遮挡 - 小车运动过程中,仓位定位-后光电无变化"
+  8:
+    code: 11303
+    level: 1
+    description: "传感器遮挡 - 小车运动过程中,2号面定位光电无变化"
+  9:
+    code: 11304
+    level: 1
+    description: "传感器遮挡 - 小车运动过程中,4号面定位光电无变化"
+  10:
+    code: 11305
+    level: 1
+    description: "传感器遮挡 - 小车运动过程中,4号面辅助定位光电无变化"
+
+location_errors:
+  0:
+    code: 20101
+    level: 1
+    description: "小车自动定位状态下,寻签失败"
+  1:
+    code: 21101
+    level: 1
+    description: "换向启动时小车不在交叉口"
+  2:
+    code: 21103
+    level: 1
+    description: "定位丢失"
+  3:
+    code: 21104
+    level: 1
+    description: "RFID值未建模 - 当前RFID值不在模型数据库内"
+  4:
+    code: 30801
+    level: 3
+    description: "霍尔偏差过大未修值 - 一次未修值"
+  5:
+    code: 30802
+    level: 3
+    description: "RFID值异常 - 读取RFID值异常"
+
+order_errors:  
+  0:
+    code: 20601
+    level: 1
+    description: "RCS指令启停位置错误 - 启动校验错误"
+  1:
+    code: 20602
+    level: 1
+    description: "RCS指令启停位置错误 - 停止校验错误"
+  2:
+    code: 20603
+    level: 1
+    description: "RCS指令启停位置错误 - 小车地图数据目标坐标Y为0"
+  3:
+    code: 20604
+    level: 1
+    description: "RCS指令启停位置错误 - 小车地图数据目标坐标X为0"
+  4:
+    code: 20701
+    level: 1
+    description: "RCS指令错误 - 充电中行走开启"
+  5:
+    code: 20801
+    level: 1
+    description: "RCS指令错误 - 小车目标位置输入有误 - 小车目标位置数据排校验不通过"
+  6:
+    code: 20802
+    level: 1
+    description: "RCS指令错误 - 小车目标位置输入有误 - 小车目标位置数据列校验不通过"
+  7:
+    code: 20803
+    level: 1
+    description: "RCS指令错误 - 小车目标位置输入有误 - 小车子道状态下，发送母道行走命令"
+  8:
+    code: 20804
+    level: 1
+    description: "RCS指令错误 - 小车目标位置输入有误 - 小车母道状态下，发送子道行走命令"
+  9:
+    code: 21001
+    level: 1
+    description: "小车未就绪状态下子道行走启动"
+  10:
+    code: 21002
+    level: 1
+    description: "小车未就绪状态下母道行走启动"
+  11:
+    code: 21003
+    level: 1
+    description: "小车未就绪状态下切联机"
+  12:
+    code: 30501
+    level: 3
+    description: "WCS任务指令有误 - WCS下发节点ID不大于0,或重复, ..."
+
+motion_errors:
+  0:
+    code: 21201
+    level: 1
+    description: "撞车"
+  1:
+    code: 21202
+    level: 1
+    description: "脱轨"
+  2:
+    code: 30901
+    level: 3
+    description: "打滑"
+  3:
+    code: 30902
+    level: 3
+    description: "颠簸"
+
+stop_errors:
+  0:
+    code: 20901
+    level: 1
+    description: "急停"

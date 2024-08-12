@@ -1,0 +1,22 @@
+[0.101s] Invoking command in '/home/cjs/Health_Node/ros2_ws/build/pkg02_lifecycle_cpp': AMENT_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/opt/ros/foxy LD_LIBRARY_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cjs/Health_Node/ros2_ws/build/pkg02_lifecycle_cpp -- -j4 -l4
+[0.515s] [100%] Built target lifecycle_node
+[0.616s] Invoked command in '/home/cjs/Health_Node/ros2_ws/build/pkg02_lifecycle_cpp' returned '0': AMENT_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/opt/ros/foxy LD_LIBRARY_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cjs/Health_Node/ros2_ws/build/pkg02_lifecycle_cpp -- -j4 -l4
+[0.828s] Invoking command in '/home/cjs/Health_Node/ros2_ws/build/pkg02_lifecycle_cpp': AMENT_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/opt/ros/foxy LD_LIBRARY_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cjs/Health_Node/ros2_ws/build/pkg02_lifecycle_cpp
+[0.862s] -- Install configuration: ""
+[0.863s] -- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg02_lifecycle_cpp/lib/pkg02_lifecycle_cpp/lifecycle_node
+[0.866s] -- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg02_lifecycle_cpp/share/ament_index/resource_index/package_run_dependencies/pkg02_lifecycle_cpp
+[0.867s] -- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg02_lifecycle_cpp/share/ament_index/resource_index/parent_prefix_path/pkg02_lifecycle_cpp
+[0.868s] -- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg02_lifecycle_cpp/share/pkg02_lifecycle_cpp/environment/ament_prefix_path.sh
+[0.869s] -- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg02_lifecycle_cpp/share/pkg02_lifecycle_cpp/environment/ament_prefix_path.dsv
+[0.869s] -- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg02_lifecycle_cpp/share/pkg02_lifecycle_cpp/environment/path.sh
+[0.870s] -- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg02_lifecycle_cpp/share/pkg02_lifecycle_cpp/environment/path.dsv
+[0.871s] -- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg02_lifecycle_cpp/share/pkg02_lifecycle_cpp/local_setup.bash
+[0.871s] -- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg02_lifecycle_cpp/share/pkg02_lifecycle_cpp/local_setup.sh
+[0.872s] -- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg02_lifecycle_cpp/share/pkg02_lifecycle_cpp/local_setup.zsh
+[0.873s] -- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg02_lifecycle_cpp/share/pkg02_lifecycle_cpp/local_setup.dsv
+[0.873s] -- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg02_lifecycle_cpp/share/pkg02_lifecycle_cpp/package.dsv
+[0.875s] -- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg02_lifecycle_cpp/share/ament_index/resource_index/packages/pkg02_lifecycle_cpp
+[0.875s] -- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg02_lifecycle_cpp/share/pkg02_lifecycle_cpp/cmake/pkg02_lifecycle_cppConfig.cmake
+[0.877s] -- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg02_lifecycle_cpp/share/pkg02_lifecycle_cpp/cmake/pkg02_lifecycle_cppConfig-version.cmake
+[0.878s] -- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg02_lifecycle_cpp/share/pkg02_lifecycle_cpp/package.xml
+[0.895s] Invoked command in '/home/cjs/Health_Node/ros2_ws/build/pkg02_lifecycle_cpp' returned '0': AMENT_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/opt/ros/foxy LD_LIBRARY_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cjs/Health_Node/ros2_ws/build/pkg02_lifecycle_cpp

@@ -1,0 +1,1068 @@
+[0.000000] (-) TimerEvent: {}
+[0.000194] (base_interfaces_demo) JobQueued: {'identifier': 'base_interfaces_demo', 'dependencies': OrderedDict()}
+[0.000251] (pkg01_healthoper_cpp) JobQueued: {'identifier': 'pkg01_healthoper_cpp', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo')])}
+[0.000277] (base_interfaces_demo) JobStarted: {'identifier': 'base_interfaces_demo'}
+[0.011794] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'cmake'}
+[0.012736] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'build'}
+[0.014035] (base_interfaces_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cjs/Health_Node/ros2_ws/build/base_interfaces_demo', '--', '-j4', '-l4'], 'cwd': '/home/cjs/Health_Node/ros2_ws/build/base_interfaces_demo', 'env': OrderedDict([('LC_TIME', 'zh_CN.UTF-8'), ('USER', 'cjs'), ('SSH_AGENT_PID', '1542'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/164/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('HOME', '/home/cjs'), ('LESS', '-R'), ('OLDPWD', '/home/cjs/Health_Node/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ZSH', '/home/cjs/.oh-my-zsh'), ('ALL', 'en.US.UTF-8'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/164/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1446'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/164/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0fa02c7d661b6b7cbfd27f1066a0581b'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/cjs/Health_Node/ros2_ws/install'), ('LOGNAME', 'cjs'), ('JOURNAL_STREAM', '8:56620'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_SESSION_CLASS', 'user'), ('USER_ZDOTDIR', '/home/cjs'), ('TERM', 'xterm-256color'), ('USERNAME', 'cjs'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '9e60448dcc804a64942f76a12b382da6'), ('SESSION_MANAGER', 'local/cjs-virtual-machine:@/tmp/.ICE-unix/1577,unix/cjs-virtual-machine:/tmp/.ICE-unix/1577'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('TILIX_ID', '0475dc24-3fd7-4d53-9f63-2f607d7583a8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8011e79f48.sock'), ('AMENT_PREFIX_PATH', '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp:/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/cjs/Health_Node/ros2_ws/build/base_interfaces_demo'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0fa02c7d661b6b7cbfd27f1066a0581b'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ZDOTDIR', '/home/cjs'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp:/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/opt/ros/foxy')]), 'shell': False}
+[0.098484] (-) TimerEvent: {}
+[0.108322] (base_interfaces_demo) StdoutLine: {'line': b'[  0%] Built target base_interfaces_demo__cpp\n'}
+[0.112704] (base_interfaces_demo) StdoutLine: {'line': b'[ 12%] Built target base_interfaces_demo__rosidl_generator_c\n'}
+[0.157915] (base_interfaces_demo) StdoutLine: {'line': b'[ 25%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c\n'}
+[0.166589] (base_interfaces_demo) StdoutLine: {'line': b'[ 38%] Built target base_interfaces_demo__rosidl_typesupport_introspection_cpp\n'}
+[0.181578] (base_interfaces_demo) StdoutLine: {'line': b'[ 50%] Built target base_interfaces_demo__rosidl_typesupport_cpp\n'}
+[0.194260] (base_interfaces_demo) StdoutLine: {'line': b'[ 62%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_cpp\n'}
+[0.198764] (-) TimerEvent: {}
+[0.203076] (base_interfaces_demo) StdoutLine: {'line': b'[ 74%] Built target base_interfaces_demo__rosidl_typesupport_c\n'}
+[0.250567] (base_interfaces_demo) StdoutLine: {'line': b'[ 86%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c\n'}
+[0.286779] (base_interfaces_demo) StdoutLine: {'line': b'[ 86%] Built target base_interfaces_demo\n'}
+[0.298995] (-) TimerEvent: {}
+[0.317070] (base_interfaces_demo) StdoutLine: {'line': b'[ 86%] Built target base_interfaces_demo__py\n'}
+[0.373830] (base_interfaces_demo) StdoutLine: {'line': b'[ 98%] Built target base_interfaces_demo__python\n'}
+[0.399949] (-) TimerEvent: {}
+[0.419209] (base_interfaces_demo) StdoutLine: {'line': b'[ 99%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.428007] (base_interfaces_demo) StdoutLine: {'line': b'[ 99%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c__pyext\n'}
+[0.430181] (base_interfaces_demo) StdoutLine: {'line': b'[100%] Built target base_interfaces_demo__rosidl_typesupport_c__pyext\n'}
+[0.456697] (base_interfaces_demo) CommandEnded: {'returncode': 0}
+[0.500376] (-) TimerEvent: {}
+[0.600963] (-) TimerEvent: {}
+[0.701401] (-) TimerEvent: {}
+[0.801954] (-) TimerEvent: {}
+[0.902627] (-) TimerEvent: {}
+[1.002967] (-) TimerEvent: {}
+[1.103362] (-) TimerEvent: {}
+[1.203921] (-) TimerEvent: {}
+[1.306365] (-) TimerEvent: {}
+[1.407763] (-) TimerEvent: {}
+[1.508585] (-) TimerEvent: {}
+[1.609536] (-) TimerEvent: {}
+[1.709926] (-) TimerEvent: {}
+[1.762998] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'install'}
+[1.784000] (base_interfaces_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cjs/Health_Node/ros2_ws/build/base_interfaces_demo'], 'cwd': '/home/cjs/Health_Node/ros2_ws/build/base_interfaces_demo', 'env': OrderedDict([('LC_TIME', 'zh_CN.UTF-8'), ('USER', 'cjs'), ('SSH_AGENT_PID', '1542'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/164/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('HOME', '/home/cjs'), ('LESS', '-R'), ('OLDPWD', '/home/cjs/Health_Node/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ZSH', '/home/cjs/.oh-my-zsh'), ('ALL', 'en.US.UTF-8'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/164/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1446'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/164/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0fa02c7d661b6b7cbfd27f1066a0581b'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/cjs/Health_Node/ros2_ws/install'), ('LOGNAME', 'cjs'), ('JOURNAL_STREAM', '8:56620'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_SESSION_CLASS', 'user'), ('USER_ZDOTDIR', '/home/cjs'), ('TERM', 'xterm-256color'), ('USERNAME', 'cjs'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '9e60448dcc804a64942f76a12b382da6'), ('SESSION_MANAGER', 'local/cjs-virtual-machine:@/tmp/.ICE-unix/1577,unix/cjs-virtual-machine:/tmp/.ICE-unix/1577'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('TILIX_ID', '0475dc24-3fd7-4d53-9f63-2f607d7583a8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8011e79f48.sock'), ('AMENT_PREFIX_PATH', '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp:/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/cjs/Health_Node/ros2_ws/build/base_interfaces_demo'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0fa02c7d661b6b7cbfd27f1066a0581b'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ZDOTDIR', '/home/cjs'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp:/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/opt/ros/foxy')]), 'shell': False}
+[1.797202] (base_interfaces_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.797459] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/ament_index/resource_index/rosidl_interfaces/base_interfaces_demo\n'}
+[1.797534] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo\n'}
+[1.797748] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action\n'}
+[1.797855] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/nav.h\n'}
+[1.797922] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail\n'}
+[1.797983] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__type_support.h\n'}
+[1.798069] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__functions.h\n'}
+[1.798140] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__struct.h\n'}
+[1.798202] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__type_support.h\n'}
+[1.798263] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__struct.h\n'}
+[1.798336] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__functions.c\n'}
+[1.798396] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__functions.h\n'}
+[1.798460] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__type_support.h\n'}
+[1.798522] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__functions.h\n'}
+[1.798581] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__functions.c\n'}
+[1.799800] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__struct.h\n'}
+[1.800719] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__functions.c\n'}
+[1.801685] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/pallet.h\n'}
+[1.802323] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/reverse.h\n'}
+[1.802643] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv\n'}
+[1.804308] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/check_emergency.h\n'}
+[1.804762] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail\n'}
+[1.805867] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__type_support.h\n'}
+[1.806112] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__functions.h\n'}
+[1.806236] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__functions.h\n'}
+[1.806422] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__struct.h\n'}
+[1.806524] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__struct.h\n'}
+[1.806583] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__struct.h\n'}
+[1.806639] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__functions.h\n'}
+[1.806694] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__functions.c\n'}
+[1.806754] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__type_support.h\n'}
+[1.806909] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__functions.c\n'}
+[1.806971] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__type_support.h\n'}
+[1.807025] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__functions.c\n'}
+[1.807086] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/set_emergency.h\n'}
+[1.807151] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/hall.h\n'}
+[1.807687] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg\n'}
+[1.808241] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/bms_info.h\n'}
+[1.809351] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/pub_sub_info.h\n'}
+[1.809944] (-) TimerEvent: {}
+[1.810148] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/device_id.h\n'}
+[1.810289] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/ohom.h\n'}
+[1.810405] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/manual_seek_label.h\n'}
+[1.810465] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/motor_cmd.h\n'}
+[1.810521] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/device_info.h\n'}
+[1.810579] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/lift_control.h\n'}
+[1.810646] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.811011] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail\n'}
+[1.811679] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__functions.c\n'}
+[1.812441] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__functions.h\n'}
+[1.812586] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__functions.h\n'}
+[1.812778] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/core_info__functions.c\n'}
+[1.812899] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__type_support.h\n'}
+[1.812996] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__type_support.h\n'}
+[1.813801] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__type_support.h\n'}
+[1.814460] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__type_support.h\n'}
+[1.814580] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__functions.c\n'}
+[1.814670] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__struct.h\n'}
+[1.814727] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__functions.h\n'}
+[1.814782] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__struct.h\n'}
+[1.814845] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__struct.h\n'}
+[1.815202] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__type_support.h\n'}
+[1.815453] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__struct.h\n'}
+[1.816939] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__type_support.h\n'}
+[1.817030] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__struct.h\n'}
+[1.817094] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__functions.h\n'}
+[1.817156] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pub_sub_info__struct.h\n'}
+[1.817217] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__struct.h\n'}
+[1.817275] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__functions.c\n'}
+[1.817349] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__struct.h\n'}
+[1.817412] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__type_support.h\n'}
+[1.817472] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__functions.c\n'}
+[1.817532] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__functions.c\n'}
+[1.817594] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__struct.h\n'}
+[1.817651] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/core_info__struct.h\n'}
+[1.817714] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__functions.h\n'}
+[1.817782] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__struct.h\n'}
+[1.817842] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/core_info__type_support.h\n'}
+[1.817900] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_id__functions.c\n'}
+[1.817961] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__struct.h\n'}
+[1.818021] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pub_sub_info__type_support.h\n'}
+[1.818081] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__functions.c\n'}
+[1.818145] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__functions.h\n'}
+[1.818204] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__type_support.h\n'}
+[1.818263] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__functions.h\n'}
+[1.818337] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__functions.h\n'}
+[1.818398] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__struct.h\n'}
+[1.818565] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__functions.h\n'}
+[1.818629] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__functions.c\n'}
+[1.818692] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__functions.h\n'}
+[1.818751] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__functions.h\n'}
+[1.818811] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__functions.c\n'}
+[1.818870] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__functions.c\n'}
+[1.818931] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__type_support.h\n'}
+[1.818991] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__type_support.h\n'}
+[1.819051] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__functions.h\n'}
+[1.819110] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__functions.h\n'}
+[1.819171] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__functions.h\n'}
+[1.819236] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_id__functions.h\n'}
+[1.819316] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__functions.c\n'}
+[1.819377] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__functions.h\n'}
+[1.819853] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__type_support.h\n'}
+[1.821044] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__functions.c\n'}
+[1.825175] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__functions.h\n'}
+[1.825425] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__functions.h\n'}
+[1.825638] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__functions.c\n'}
+[1.825849] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__struct.h\n'}
+[1.826079] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__functions.c\n'}
+[1.826238] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__functions.h\n'}
+[1.826585] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__struct.h\n'}
+[1.826829] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__functions.c\n'}
+[1.827030] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_id__type_support.h\n'}
+[1.827190] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__struct.h\n'}
+[1.827358] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__type_support.h\n'}
+[1.833997] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__functions.c\n'}
+[1.834201] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/core_info__functions.h\n'}
+[1.834328] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__functions.h\n'}
+[1.834559] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__type_support.h\n'}
+[1.834669] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__type_support.h\n'}
+[1.834783] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__functions.h\n'}
+[1.834891] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__struct.h\n'}
+[1.835009] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__functions.h\n'}
+[1.835088] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__struct.h\n'}
+[1.835195] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__functions.c\n'}
+[1.835264] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pub_sub_info__functions.c\n'}
+[1.835744] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__functions.h\n'}
+[1.836012] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__functions.h\n'}
+[1.836101] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__type_support.h\n'}
+[1.836163] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__functions.c\n'}
+[1.836226] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_info__functions.c\n'}
+[1.836289] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__type_support.h\n'}
+[1.836464] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__type_support.h\n'}
+[1.836547] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__struct.h\n'}
+[1.836615] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__functions.c\n'}
+[1.836687] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__functions.c\n'}
+[1.836754] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__type_support.h\n'}
+[1.836832] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__struct.h\n'}
+[1.836889] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pub_sub_info__functions.h\n'}
+[1.836939] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__functions.c\n'}
+[1.837000] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_info__type_support.h\n'}
+[1.837059] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__struct.h\n'}
+[1.837115] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__type_support.h\n'}
+[1.837199] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__type_support.h\n'}
+[1.837283] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__type_support.h\n'}
+[1.837326] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__struct.h\n'}
+[1.837368] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_info__functions.h\n'}
+[1.837417] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__struct.h\n'}
+[1.837461] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__struct.h\n'}
+[1.837504] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__functions.c\n'}
+[1.837552] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__struct.h\n'}
+[1.837611] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__struct.h\n'}
+[1.837657] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__type_support.h\n'}
+[1.837709] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__functions.c\n'}
+[1.837751] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__functions.c\n'}
+[1.837791] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__functions.h\n'}
+[1.837836] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__functions.h\n'}
+[1.837890] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_info__struct.h\n'}
+[1.837931] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__struct.h\n'}
+[1.837972] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__functions.c\n'}
+[1.838013] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_id__struct.h\n'}
+[1.838072] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__type_support.h\n'}
+[1.838122] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__type_support.h\n'}
+[1.838184] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__type_support.h\n'}
+[1.838239] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__functions.c\n'}
+[1.838310] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/pallet_info.h\n'}
+[1.838365] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/motor_status.h\n'}
+[1.838420] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/location.h\n'}
+[1.838469] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/charger_info.h\n'}
+[1.838510] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/rcs_info.h\n'}
+[1.838553] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/core_info.h\n'}
+[1.838595] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/bt_status.h\n'}
+[1.838635] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/lift_info.h\n'}
+[1.838674] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/color_info.h\n'}
+[1.838716] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/movecontrol_info.h\n'}
+[1.838755] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/test.h\n'}
+[1.838794] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/obs_laser.h\n'}
+[1.838832] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/hall_info.h\n'}
+[1.838869] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/health_node.h\n'}
+[1.838914] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/car_status.h\n'}
+[1.838952] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/motion_control.h\n'}
+[1.838991] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/seek_cmd.h\n'}
+[1.839030] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/system_status.h\n'}
+[1.839070] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/manual.h\n'}
+[1.839108] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/seek_ret.h\n'}
+[1.839146] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/file_updata.h\n'}
+[1.839185] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.sh\n'}
+[1.839224] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.dsv\n'}
+[1.839269] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so\n'}
+[1.839310] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo\n'}
+[1.841505] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action\n'}
+[1.841557] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail\n'}
+[1.841607] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__rosidl_typesupport_fastrtps_c.h\n'}
+[1.841650] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__rosidl_typesupport_fastrtps_c.h\n'}
+[1.841690] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__rosidl_typesupport_fastrtps_c.h\n'}
+[1.841730] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv\n'}
+[1.841845] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail\n'}
+[1.841907] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__rosidl_typesupport_fastrtps_c.h\n'}
+[1.841949] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__rosidl_typesupport_fastrtps_c.h\n'}
+[1.841989] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__rosidl_typesupport_fastrtps_c.h\n'}
+[1.842030] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg\n'}
+[1.842071] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail\n'}
+[1.842112] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__rosidl_typesupport_fastrtps_c.h\n'}
+[1.842151] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__rosidl_typesupport_fastrtps_c.h\n'}
+[1.842189] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__rosidl_typesupport_fastrtps_c.h\n'}
+[1.842229] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__rosidl_typesupport_fastrtps_c.h\n'}
+[1.842268] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__rosidl_typesupport_fastrtps_c.h\n'}
+[1.842318] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__rosidl_typesupport_fastrtps_c.h\n'}
+[1.842372] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__rosidl_typesupport_fastrtps_c.h\n'}
+[1.842420] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__rosidl_typesupport_fastrtps_c.h\n'}
+[1.842468] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__rosidl_typesupport_fastrtps_c.h\n'}
+[1.842507] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__rosidl_typesupport_fastrtps_c.h\n'}
+[1.842547] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__rosidl_typesupport_fastrtps_c.h\n'}
+[1.842586] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_id__rosidl_typesupport_fastrtps_c.h\n'}
+[1.842625] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_info__rosidl_typesupport_fastrtps_c.h\n'}
+[1.842664] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/core_info__rosidl_typesupport_fastrtps_c.h\n'}
+[1.842703] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pub_sub_info__rosidl_typesupport_fastrtps_c.h\n'}
+[1.842742] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__rosidl_typesupport_fastrtps_c.h\n'}
+[1.842784] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__rosidl_typesupport_fastrtps_c.h\n'}
+[1.842822] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__rosidl_typesupport_fastrtps_c.h\n'}
+[1.842861] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__rosidl_typesupport_fastrtps_c.h\n'}
+[1.842900] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__rosidl_typesupport_fastrtps_c.h\n'}
+[1.842939] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[1.842978] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h\n'}
+[1.843017] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__rosidl_typesupport_fastrtps_c.h\n'}
+[1.843055] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__rosidl_typesupport_fastrtps_c.h\n'}
+[1.843095] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__rosidl_typesupport_fastrtps_c.h\n'}
+[1.843136] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__rosidl_typesupport_fastrtps_c.h\n'}
+[1.843176] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[1.843215] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__rosidl_typesupport_fastrtps_c.h\n'}
+[1.843253] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__rosidl_typesupport_fastrtps_c.h\n'}
+[1.843292] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.843452] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so\n'}
+[1.843564] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo\n'}
+[1.843637] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action\n'}
+[1.843703] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail\n'}
+[1.843779] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.843849] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/dds_fastrtps\n'}
+[1.843920] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.843984] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.844056] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv\n'}
+[1.844134] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail\n'}
+[1.844191] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.844243] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.844296] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/dds_fastrtps\n'}
+[1.844358] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.844430] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg\n'}
+[1.844479] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail\n'}
+[1.844521] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.844574] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.844616] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pub_sub_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.844658] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.844700] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.844742] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.844783] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_id__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.844824] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.844863] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.844903] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.844944] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.844985] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.845025] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.845076] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.845124] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.845181] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.845232] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.845276] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/dds_fastrtps\n'}
+[1.845328] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.845372] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.845416] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/core_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.845463] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.845504] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.845546] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.845587] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.845635] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.845677] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.845720] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.845762] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.845808] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.845850] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.845889] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.845930] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo\n'}
+[1.845981] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action\n'}
+[1.846042] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail\n'}
+[1.846101] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__rosidl_typesupport_introspection_c.h\n'}
+[1.846162] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__type_support.c\n'}
+[1.846238] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__rosidl_typesupport_introspection_c.h\n'}
+[1.846302] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__type_support.c\n'}
+[1.846363] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__rosidl_typesupport_introspection_c.h\n'}
+[1.846423] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__type_support.c\n'}
+[1.846485] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv\n'}
+[1.846571] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail\n'}
+[1.846649] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__rosidl_typesupport_introspection_c.h\n'}
+[1.846717] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__type_support.c\n'}
+[1.846784] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__rosidl_typesupport_introspection_c.h\n'}
+[1.846850] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__type_support.c\n'}
+[1.846919] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__type_support.c\n'}
+[1.846986] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__rosidl_typesupport_introspection_c.h\n'}
+[1.847056] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg\n'}
+[1.847120] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail\n'}
+[1.847185] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__type_support.c\n'}
+[1.847252] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__rosidl_typesupport_introspection_c.h\n'}
+[1.847623] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/core_info__rosidl_typesupport_introspection_c.h\n'}
+[1.847933] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__rosidl_typesupport_introspection_c.h\n'}
+[1.848006] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__type_support.c\n'}
+[1.848067] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__rosidl_typesupport_introspection_c.h\n'}
+[1.848141] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__type_support.c\n'}
+[1.848199] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__rosidl_typesupport_introspection_c.h\n'}
+[1.848298] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__rosidl_typesupport_introspection_c.h\n'}
+[1.848389] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__type_support.c\n'}
+[1.848454] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__rosidl_typesupport_introspection_c.h\n'}
+[1.848523] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__rosidl_typesupport_introspection_c.h\n'}
+[1.848589] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__type_support.c\n'}
+[1.848645] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__rosidl_typesupport_introspection_c.h\n'}
+[1.848703] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__type_support.c\n'}
+[1.848764] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__type_support.c\n'}
+[1.848823] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__type_support.c\n'}
+[1.848879] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__rosidl_typesupport_introspection_c.h\n'}
+[1.848936] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pub_sub_info__rosidl_typesupport_introspection_c.h\n'}
+[1.849012] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__type_support.c\n'}
+[1.849075] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__type_support.c\n'}
+[1.849138] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__type_support.c\n'}
+[1.849198] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__type_support.c\n'}
+[1.849277] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__rosidl_typesupport_introspection_c.h\n'}
+[1.849351] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__rosidl_typesupport_introspection_c.h\n'}
+[1.849431] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__type_support.c\n'}
+[1.849516] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__type_support.c\n'}
+[1.849602] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__rosidl_typesupport_introspection_c.h\n'}
+[1.849674] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__type_support.c\n'}
+[1.849738] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__rosidl_typesupport_introspection_c.h\n'}
+[1.849808] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__type_support.c\n'}
+[1.849893] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__rosidl_typesupport_introspection_c.h\n'}
+[1.849971] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__type_support.c\n'}
+[1.850036] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__type_support.c\n'}
+[1.850093] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_info__type_support.c\n'}
+[1.850152] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__rosidl_typesupport_introspection_c.h\n'}
+[1.850213] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__type_support.c\n'}
+[1.850350] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__rosidl_typesupport_introspection_c.h\n'}
+[1.850417] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__rosidl_typesupport_introspection_c.h\n'}
+[1.850474] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__type_support.c\n'}
+[1.850516] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_info__rosidl_typesupport_introspection_c.h\n'}
+[1.850555] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__rosidl_typesupport_introspection_c.h\n'}
+[1.850596] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pub_sub_info__type_support.c\n'}
+[1.850638] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__type_support.c\n'}
+[1.850685] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__type_support.c\n'}
+[1.850733] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__rosidl_typesupport_introspection_c.h\n'}
+[1.850778] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__rosidl_typesupport_introspection_c.h\n'}
+[1.850819] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/core_info__type_support.c\n'}
+[1.850859] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__rosidl_typesupport_introspection_c.h\n'}
+[1.850898] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_id__rosidl_typesupport_introspection_c.h\n'}
+[1.850965] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__type_support.c\n'}
+[1.851005] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__rosidl_typesupport_introspection_c.h\n'}
+[1.851048] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_id__type_support.c\n'}
+[1.851123] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__rosidl_typesupport_introspection_c.h\n'}
+[1.851207] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__type_support.c\n'}
+[1.851250] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__type_support.c\n'}
+[1.851428] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__rosidl_typesupport_introspection_c.h\n'}
+[1.851522] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__rosidl_typesupport_introspection_c.h\n'}
+[1.851584] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.851626] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so\n'}
+[1.851666] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so\n'}
+[1.851707] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo\n'}
+[1.851746] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action\n'}
+[1.851783] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail\n'}
+[1.851822] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__builder.hpp\n'}
+[1.851867] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__traits.hpp\n'}
+[1.851905] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__struct.hpp\n'}
+[1.851943] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__traits.hpp\n'}
+[1.851982] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__type_support.hpp\n'}
+[1.852020] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__struct.hpp\n'}
+[1.852059] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__type_support.hpp\n'}
+[1.852098] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__traits.hpp\n'}
+[1.852135] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__builder.hpp\n'}
+[1.852173] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__builder.hpp\n'}
+[1.852212] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__struct.hpp\n'}
+[1.852310] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__type_support.hpp\n'}
+[1.852380] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/reverse.hpp\n'}
+[1.852423] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/nav.hpp\n'}
+[1.852464] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/pallet.hpp\n'}
+[1.852504] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv\n'}
+[1.852543] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/set_emergency.hpp\n'}
+[1.852583] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail\n'}
+[1.852621] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__builder.hpp\n'}
+[1.852660] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__traits.hpp\n'}
+[1.852698] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__struct.hpp\n'}
+[1.852737] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__type_support.hpp\n'}
+[1.852779] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__builder.hpp\n'}
+[1.852817] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__type_support.hpp\n'}
+[1.852855] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__struct.hpp\n'}
+[1.852893] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__traits.hpp\n'}
+[1.852931] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__builder.hpp\n'}
+[1.852969] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__struct.hpp\n'}
+[1.853007] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__type_support.hpp\n'}
+[1.853044] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__traits.hpp\n'}
+[1.853082] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/check_emergency.hpp\n'}
+[1.853121] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/hall.hpp\n'}
+[1.853158] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg\n'}
+[1.853196] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/color_info.hpp\n'}
+[1.853234] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/car_status.hpp\n'}
+[1.853316] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/test.hpp\n'}
+[1.853360] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/ohom.hpp\n'}
+[1.853416] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/seek_ret.hpp\n'}
+[1.853483] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/device_id.hpp\n'}
+[1.853545] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/motor_cmd.hpp\n'}
+[1.853603] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/rcs_info.hpp\n'}
+[1.853673] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/pallet_info.hpp\n'}
+[1.853751] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail\n'}
+[1.853821] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__builder.hpp\n'}
+[1.853909] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__type_support.hpp\n'}
+[1.854025] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__struct.hpp\n'}
+[1.854147] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_id__type_support.hpp\n'}
+[1.854362] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__struct.hpp\n'}
+[1.854454] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__builder.hpp\n'}
+[1.854499] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__builder.hpp\n'}
+[1.854538] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__traits.hpp\n'}
+[1.854580] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__struct.hpp\n'}
+[1.854626] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/core_info__struct.hpp\n'}
+[1.854667] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/core_info__type_support.hpp\n'}
+[1.854711] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__traits.hpp\n'}
+[1.854754] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__type_support.hpp\n'}
+[1.854798] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_info__traits.hpp\n'}
+[1.854847] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__builder.hpp\n'}
+[1.854893] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pub_sub_info__type_support.hpp\n'}
+[1.854937] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__type_support.hpp\n'}
+[1.854986] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__struct.hpp\n'}
+[1.855030] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__builder.hpp\n'}
+[1.855078] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__traits.hpp\n'}
+[1.855125] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__builder.hpp\n'}
+[1.855222] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__traits.hpp\n'}
+[1.855433] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__traits.hpp\n'}
+[1.855485] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/core_info__traits.hpp\n'}
+[1.855533] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__builder.hpp\n'}
+[1.855586] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__builder.hpp\n'}
+[1.855649] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__type_support.hpp\n'}
+[1.855698] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__type_support.hpp\n'}
+[1.855753] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__builder.hpp\n'}
+[1.856070] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__struct.hpp\n'}
+[1.856154] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pub_sub_info__builder.hpp\n'}
+[1.856213] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__struct.hpp\n'}
+[1.856328] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__struct.hpp\n'}
+[1.856392] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__struct.hpp\n'}
+[1.856452] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__struct.hpp\n'}
+[1.856510] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__builder.hpp\n'}
+[1.856569] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__type_support.hpp\n'}
+[1.856626] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__type_support.hpp\n'}
+[1.856681] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__struct.hpp\n'}
+[1.856737] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__traits.hpp\n'}
+[1.856796] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__struct.hpp\n'}
+[1.856854] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__type_support.hpp\n'}
+[1.856920] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__traits.hpp\n'}
+[1.856974] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_id__struct.hpp\n'}
+[1.857033] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__builder.hpp\n'}
+[1.857090] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__traits.hpp\n'}
+[1.857147] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__type_support.hpp\n'}
+[1.857207] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__traits.hpp\n'}
+[1.857306] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__type_support.hpp\n'}
+[1.857375] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__traits.hpp\n'}
+[1.857442] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/core_info__builder.hpp\n'}
+[1.857501] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__type_support.hpp\n'}
+[1.857561] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_info__builder.hpp\n'}
+[1.857624] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__type_support.hpp\n'}
+[1.857682] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_info__struct.hpp\n'}
+[1.857742] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__type_support.hpp\n'}
+[1.857799] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__builder.hpp\n'}
+[1.857855] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__traits.hpp\n'}
+[1.857911] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__builder.hpp\n'}
+[1.857965] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__struct.hpp\n'}
+[1.858032] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__builder.hpp\n'}
+[1.858088] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__type_support.hpp\n'}
+[1.858151] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__traits.hpp\n'}
+[1.858209] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__traits.hpp\n'}
+[1.858331] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__builder.hpp\n'}
+[1.858405] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__type_support.hpp\n'}
+[1.858471] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__type_support.hpp\n'}
+[1.858552] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__builder.hpp\n'}
+[1.858632] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__traits.hpp\n'}
+[1.858700] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__traits.hpp\n'}
+[1.858760] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__traits.hpp\n'}
+[1.858819] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__struct.hpp\n'}
+[1.858879] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__builder.hpp\n'}
+[1.858939] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__type_support.hpp\n'}
+[1.858999] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__traits.hpp\n'}
+[1.859060] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pub_sub_info__traits.hpp\n'}
+[1.859118] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__builder.hpp\n'}
+[1.859181] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__struct.hpp\n'}
+[1.859243] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__traits.hpp\n'}
+[1.859348] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__type_support.hpp\n'}
+[1.859553] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__traits.hpp\n'}
+[1.859627] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__type_support.hpp\n'}
+[1.859684] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__builder.hpp\n'}
+[1.859748] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__traits.hpp\n'}
+[1.859808] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__type_support.hpp\n'}
+[1.859863] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pub_sub_info__struct.hpp\n'}
+[1.859916] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_id__builder.hpp\n'}
+[1.859970] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__builder.hpp\n'}
+[1.860022] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__builder.hpp\n'}
+[1.860089] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__struct.hpp\n'}
+[1.860149] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__traits.hpp\n'}
+[1.860206] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__traits.hpp\n'}
+[1.860320] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__struct.hpp\n'}
+[1.860394] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__type_support.hpp\n'}
+[1.860455] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_info__type_support.hpp\n'}
+[1.860514] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__struct.hpp\n'}
+[1.860575] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__type_support.hpp\n'}
+[1.860631] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__type_support.hpp\n'}
+[1.860704] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__struct.hpp\n'}
+[1.860766] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__struct.hpp\n'}
+[1.860833] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__builder.hpp\n'}
+[1.860894] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__traits.hpp\n'}
+[1.860951] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__builder.hpp\n'}
+[1.861020] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__builder.hpp\n'}
+[1.861097] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__traits.hpp\n'}
+[1.861159] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__struct.hpp\n'}
+[1.861240] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__struct.hpp\n'}
+[1.861338] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_id__traits.hpp\n'}
+[1.861406] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__type_support.hpp\n'}
+[1.861504] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__type_support.hpp\n'}
+[1.861584] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__struct.hpp\n'}
+[1.861657] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__builder.hpp\n'}
+[1.861727] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__traits.hpp\n'}
+[1.861786] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__struct.hpp\n'}
+[1.861840] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__struct.hpp\n'}
+[1.861897] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__struct.hpp\n'}
+[1.861951] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/pub_sub_info.hpp\n'}
+[1.862004] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/core_info.hpp\n'}
+[1.862057] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/manual_seek_label.hpp\n'}
+[1.862119] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/motion_control.hpp\n'}
+[1.862174] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/lift_control.hpp\n'}
+[1.862229] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/motor_status.hpp\n'}
+[1.862357] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/hall_info.hpp\n'}
+[1.862432] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/charger_info.hpp\n'}
+[1.862498] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/movecontrol_info.hpp\n'}
+[1.862561] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.862617] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/location.hpp\n'}
+[1.862673] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/file_updata.hpp\n'}
+[1.862729] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/seek_cmd.hpp\n'}
+[1.862786] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/health_node.hpp\n'}
+[1.862839] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/bt_status.hpp\n'}
+[1.862892] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/device_info.hpp\n'}
+[1.862948] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/obs_laser.hpp\n'}
+[1.863000] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/system_status.hpp\n'}
+[1.863056] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/bms_info.hpp\n'}
+[1.863110] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/manual.hpp\n'}
+[1.863166] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/lift_info.hpp\n'}
+[1.863220] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo\n'}
+[1.863320] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action\n'}
+[1.863523] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail\n'}
+[1.863619] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.863680] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__type_support.cpp\n'}
+[1.863735] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.863789] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__type_support.cpp\n'}
+[1.863845] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.863901] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__type_support.cpp\n'}
+[1.863961] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv\n'}
+[1.864019] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail\n'}
+[1.864072] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.864127] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__type_support.cpp\n'}
+[1.864200] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.864402] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__type_support.cpp\n'}
+[1.864483] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.864542] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__type_support.cpp\n'}
+[1.864600] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg\n'}
+[1.864659] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail\n'}
+[1.864718] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_info__type_support.cpp\n'}
+[1.864784] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.864841] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.864898] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.864959] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.865018] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.865082] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.865140] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__type_support.cpp\n'}
+[1.865197] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__type_support.cpp\n'}
+[1.865262] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__type_support.cpp\n'}
+[1.865347] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__type_support.cpp\n'}
+[1.865405] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pub_sub_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.865461] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__type_support.cpp\n'}
+[1.865514] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__type_support.cpp\n'}
+[1.865569] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_id__type_support.cpp\n'}
+[1.865623] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.865679] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.865736] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.865793] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__type_support.cpp\n'}
+[1.865847] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.865902] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.865964] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.866019] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__type_support.cpp\n'}
+[1.866071] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__type_support.cpp\n'}
+[1.866125] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__type_support.cpp\n'}
+[1.866185] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/core_info__type_support.cpp\n'}
+[1.866243] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.866391] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__type_support.cpp\n'}
+[1.866463] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/core_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.866523] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__type_support.cpp\n'}
+[1.866582] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.866640] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__type_support.cpp\n'}
+[1.866698] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.866759] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.866826] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.866887] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.866947] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__type_support.cpp\n'}
+[1.867008] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_id__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.867066] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__type_support.cpp\n'}
+[1.867124] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.867182] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.867240] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__type_support.cpp\n'}
+[1.867345] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__type_support.cpp\n'}
+[1.867544] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__type_support.cpp\n'}
+[1.867615] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__type_support.cpp\n'}
+[1.867670] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__type_support.cpp\n'}
+[1.867728] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pub_sub_info__type_support.cpp\n'}
+[1.867814] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.867892] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.867958] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.868018] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.868081] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__type_support.cpp\n'}
+[1.868144] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.868207] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/device_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.868309] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__type_support.cpp\n'}
+[1.868401] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__type_support.cpp\n'}
+[1.868466] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__type_support.cpp\n'}
+[1.868521] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__type_support.cpp\n'}
+[1.868579] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so\n'}
+[1.868637] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so\n'}
+[1.868705] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.sh\n'}
+[1.868770] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.dsv\n'}
+[1.868842] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/__init__.py\n'}
+[1.887185] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/action\n'}
+[1.887611] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/action/_reverse_s.c\n'}
+[1.888240] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/action/_nav_s.c\n'}
+[1.888350] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/action/_reverse.py\n'}
+[1.888477] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/action/_nav.py\n'}
+[1.888653] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/action/_pallet.py\n'}
+[1.888751] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/action/_pallet_s.c\n'}
+[1.888966] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/action/__init__.py\n'}
+[1.889146] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg\n'}
+[1.889359] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_hall_info_s.c\n'}
+[1.889565] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_health_node.py\n'}
+[1.889644] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_car_status_s.c\n'}
+[1.890143] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_core_info_s.c\n'}
+[1.890325] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_pub_sub_info.py\n'}
+[1.890491] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_health_node_s.c\n'}
+[1.890628] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_color_info.py\n'}
+[1.890735] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_device_id.py\n'}
+[1.891770] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_lift_info_s.c\n'}
+[1.891900] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_device_info.py\n'}
+[1.891967] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_motor_status.py\n'}
+[1.892033] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_pallet_info.py\n'}
+[1.892096] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_obs_laser.py\n'}
+[1.892158] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_device_id_s.c\n'}
+[1.892225] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_movecontrol_info.py\n'}
+[1.892316] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_seek_ret_s.c\n'}
+[1.892383] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_seek_cmd_s.c\n'}
+[1.892445] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_file_updata_s.c\n'}
+[1.892502] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_device_info_s.c\n'}
+[1.892559] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_manual_seek_label.py\n'}
+[1.892627] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_motor_cmd_s.c\n'}
+[1.892696] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_pub_sub_info_s.c\n'}
+[1.892776] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_ohom.py\n'}
+[1.892946] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_obs_laser_s.c\n'}
+[1.893076] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_charger_info_s.c\n'}
+[1.893185] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_seek_cmd.py\n'}
+[1.893306] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_system_status.py\n'}
+[1.893435] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_manual.py\n'}
+[1.893637] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_core_info.py\n'}
+[1.893703] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_movecontrol_info_s.c\n'}
+[1.893764] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_charger_info.py\n'}
+[1.893919] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_lift_control_s.c\n'}
+[1.893989] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_manual_s.c\n'}
+[1.894060] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_bt_status.py\n'}
+[1.894116] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_motion_control_s.c\n'}
+[1.894177] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_manual_seek_label_s.c\n'}
+[1.894233] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_hall_info.py\n'}
+[1.894290] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_location_s.c\n'}
+[1.894352] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_seek_ret.py\n'}
+[1.894410] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_ohom_s.c\n'}
+[1.894465] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_car_status.py\n'}
+[1.894519] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_lift_control.py\n'}
+[1.894587] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_bt_status_s.c\n'}
+[1.894656] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_motion_control.py\n'}
+[1.894797] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_test.py\n'}
+[1.895000] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_rcs_info_s.c\n'}
+[1.895073] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_system_status_s.c\n'}
+[1.895198] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_location.py\n'}
+[1.895326] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_motor_cmd.py\n'}
+[1.895424] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_color_info_s.c\n'}
+[1.895569] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_motor_status_s.c\n'}
+[1.895647] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_rcs_info.py\n'}
+[1.895829] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_file_updata.py\n'}
+[1.896048] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_lift_info.py\n'}
+[1.896155] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_bms_info_s.c\n'}
+[1.896200] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_pallet_info_s.c\n'}
+[1.896271] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/__init__.py\n'}
+[1.896337] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_bms_info.py\n'}
+[1.896400] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_test_s.c\n'}
+[1.896440] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/srv\n'}
+[1.896627] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/srv/_hall.py\n'}
+[1.896763] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/srv/_hall_s.c\n'}
+[1.896874] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/srv/_check_emergency.py\n'}
+[1.896991] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/srv/_set_emergency_s.c\n'}
+[1.897088] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/srv/_set_emergency.py\n'}
+[1.897214] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/srv/_check_emergency_s.c\n'}
+[1.897314] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/srv/__init__.py\n'}
+[1.897438] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.897544] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.897621] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.897764] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__python.so\n'}
+[1.897870] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/action/Nav.idl\n'}
+[1.897993] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/Ohom.idl\n'}
+[1.898123] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/HallInfo.idl\n'}
+[1.898227] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/Location.idl\n'}
+[1.898350] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/MotorCmd.idl\n'}
+[1.898458] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/MotorStatus.idl\n'}
+[1.898556] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/Manual.idl\n'}
+[1.898701] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/Test.idl\n'}
+[1.898922] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/srv/Hall.idl\n'}
+[1.899006] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/BmsInfo.idl\n'}
+[1.899074] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/ChargerInfo.idl\n'}
+[1.899233] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/ManualSeekLabel.idl\n'}
+[1.899396] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/SeekCmd.idl\n'}
+[1.899555] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/SeekRet.idl\n'}
+[1.899704] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/SystemStatus.idl\n'}
+[1.899934] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/action/Reverse.idl\n'}
+[1.900055] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/LiftInfo.idl\n'}
+[1.900175] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/ColorInfo.idl\n'}
+[1.900380] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/FileUpdata.idl\n'}
+[1.900515] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/ObsLaser.idl\n'}
+[1.900668] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/PalletInfo.idl\n'}
+[1.900742] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/MovecontrolInfo.idl\n'}
+[1.900945] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/MotionControl.idl\n'}
+[1.901063] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/RcsInfo.idl\n'}
+[1.901208] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/LiftControl.idl\n'}
+[1.901361] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/BtStatus.idl\n'}
+[1.901485] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/CarStatus.idl\n'}
+[1.901671] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/HealthNode.idl\n'}
+[1.901837] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/action/Pallet.idl\n'}
+[1.902003] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/srv/CheckEmergency.idl\n'}
+[1.902071] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/srv/SetEmergency.idl\n'}
+[1.902226] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/action/Nav.action\n'}
+[1.902374] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/Ohom.msg\n'}
+[1.902597] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/HallInfo.msg\n'}
+[1.902700] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/Location.msg\n'}
+[1.902926] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/MotorCmd.msg\n'}
+[1.903017] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/MotorStatus.msg\n'}
+[1.903432] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/Manual.msg\n'}
+[1.903514] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/Test.msg\n'}
+[1.903702] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/srv/Hall.srv\n'}
+[1.903796] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/srv/Hall_Request.msg\n'}
+[1.903999] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/srv/Hall_Response.msg\n'}
+[1.904069] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/BmsInfo.msg\n'}
+[1.904268] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/ChargerInfo.msg\n'}
+[1.904339] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/ManualSeekLabel.msg\n'}
+[1.904474] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/SeekCmd.msg\n'}
+[1.904619] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/SeekRet.msg\n'}
+[1.904813] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/SystemStatus.msg\n'}
+[1.904913] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/action/Reverse.action\n'}
+[1.905124] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/LiftInfo.msg\n'}
+[1.905229] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/ColorInfo.msg\n'}
+[1.905373] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/FileUpdata.msg\n'}
+[1.905758] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/ObsLaser.msg\n'}
+[1.905910] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/PalletInfo.msg\n'}
+[1.906061] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/MovecontrolInfo.msg\n'}
+[1.906169] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/MotionControl.msg\n'}
+[1.906330] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/RcsInfo.msg\n'}
+[1.906399] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/LiftControl.msg\n'}
+[1.906575] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/BtStatus.msg\n'}
+[1.906684] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/CarStatus.msg\n'}
+[1.906928] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/HealthNode.msg\n'}
+[1.907016] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/action/Pallet.action\n'}
+[1.907289] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/srv/CheckEmergency.srv\n'}
+[1.907401] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/srv/CheckEmergency_Request.msg\n'}
+[1.907468] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/srv/CheckEmergency_Response.msg\n'}
+[1.907552] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/srv/SetEmergency.srv\n'}
+[1.907618] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/srv/SetEmergency_Request.msg\n'}
+[1.907761] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/srv/SetEmergency_Response.msg\n'}
+[1.907831] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/ament_index/resource_index/package_run_dependencies/base_interfaces_demo\n'}
+[1.907893] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/ament_index/resource_index/parent_prefix_path/base_interfaces_demo\n'}
+[1.908053] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.sh\n'}
+[1.908124] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.dsv\n'}
+[1.908274] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.sh\n'}
+[1.908334] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.dsv\n'}
+[1.908393] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.bash\n'}
+[1.908526] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.sh\n'}
+[1.908642] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.zsh\n'}
+[1.908709] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.dsv\n'}
+[1.908767] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv\n'}
+[1.908825] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/ament_index/resource_index/packages/base_interfaces_demo\n'}
+[1.908973] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_generator_cExport.cmake\n'}
+[1.909092] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.909186] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.909244] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.909349] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport.cmake\n'}
+[1.909442] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.909498] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_generator_cppExport.cmake\n'}
+[1.909661] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.909821] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.910224] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport.cmake\n'}
+[1.910333] (-) TimerEvent: {}
+[1.910543] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.910631] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake-extras.cmake\n'}
+[1.910822] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.910915] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.911243] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.911341] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.911400] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.912355] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.912542] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig.cmake\n'}
+[1.912605] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig-version.cmake\n'}
+[1.912745] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/package.xml\n'}
+[1.930762] (base_interfaces_demo) CommandEnded: {'returncode': 0}
+[2.010829] (-) TimerEvent: {}
+[2.111852] (-) TimerEvent: {}
+[2.212829] (-) TimerEvent: {}
+[2.313299] (-) TimerEvent: {}
+[2.415004] (-) TimerEvent: {}
+[2.516210] (-) TimerEvent: {}
+[2.617020] (-) TimerEvent: {}
+[2.717872] (-) TimerEvent: {}
+[2.818906] (-) TimerEvent: {}
+[2.919659] (-) TimerEvent: {}
+[3.020958] (-) TimerEvent: {}
+[3.121470] (-) TimerEvent: {}
+[3.223044] (-) TimerEvent: {}
+[3.324695] (-) TimerEvent: {}
+[3.341425] (base_interfaces_demo) JobEnded: {'identifier': 'base_interfaces_demo', 'rc': 0}
+[3.342476] (pkg01_healthoper_cpp) JobStarted: {'identifier': 'pkg01_healthoper_cpp'}
+[3.367414] (pkg01_healthoper_cpp) JobProgress: {'identifier': 'pkg01_healthoper_cpp', 'progress': 'cmake'}
+[3.367582] (pkg01_healthoper_cpp) JobProgress: {'identifier': 'pkg01_healthoper_cpp', 'progress': 'build'}
+[3.367636] (pkg01_healthoper_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp', '--', '-j4', '-l4'], 'cwd': '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp', 'env': OrderedDict([('LC_TIME', 'zh_CN.UTF-8'), ('USER', 'cjs'), ('SSH_AGENT_PID', '1542'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/164/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('HOME', '/home/cjs'), ('LESS', '-R'), ('OLDPWD', '/home/cjs/Health_Node/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ZSH', '/home/cjs/.oh-my-zsh'), ('ALL', 'en.US.UTF-8'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/164/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1446'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/164/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0fa02c7d661b6b7cbfd27f1066a0581b'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/cjs/Health_Node/ros2_ws/install'), ('LOGNAME', 'cjs'), ('JOURNAL_STREAM', '8:56620'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_SESSION_CLASS', 'user'), ('USER_ZDOTDIR', '/home/cjs'), ('TERM', 'xterm-256color'), ('USERNAME', 'cjs'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '9e60448dcc804a64942f76a12b382da6'), ('SESSION_MANAGER', 'local/cjs-virtual-machine:@/tmp/.ICE-unix/1577,unix/cjs-virtual-machine:/tmp/.ICE-unix/1577'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('TILIX_ID', '0475dc24-3fd7-4d53-9f63-2f607d7583a8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8011e79f48.sock'), ('AMENT_PREFIX_PATH', '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp:/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0fa02c7d661b6b7cbfd27f1066a0581b'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ZDOTDIR', '/home/cjs'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp:/opt/ros/foxy')]), 'shell': False}
+[3.424977] (-) TimerEvent: {}
+[3.453784] (pkg01_healthoper_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target health_oper\x1b[0m\n'}
+[3.477880] (pkg01_healthoper_cpp) StdoutLine: {'line': b'[ 40%] Built target listener\n'}
+[3.505685] (pkg01_healthoper_cpp) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/health_oper.dir/src/health_oper.cpp.o\x1b[0m\n'}
+[3.525305] (-) TimerEvent: {}
+[3.625858] (-) TimerEvent: {}
+[3.726599] (-) TimerEvent: {}
+[3.827216] (-) TimerEvent: {}
+[3.927811] (-) TimerEvent: {}
+[4.028424] (-) TimerEvent: {}
+[4.129030] (-) TimerEvent: {}
+[4.229521] (-) TimerEvent: {}
+[4.330209] (-) TimerEvent: {}
+[4.430775] (-) TimerEvent: {}
+[4.531673] (-) TimerEvent: {}
+[4.632053] (-) TimerEvent: {}
+[4.732515] (-) TimerEvent: {}
+[4.833227] (-) TimerEvent: {}
+[4.933778] (-) TimerEvent: {}
+[5.034577] (-) TimerEvent: {}
+[5.136548] (-) TimerEvent: {}
+[5.237258] (-) TimerEvent: {}
+[5.338067] (-) TimerEvent: {}
+[5.438754] (-) TimerEvent: {}
+[5.539467] (-) TimerEvent: {}
+[5.640021] (-) TimerEvent: {}
+[5.740687] (-) TimerEvent: {}
+[5.841331] (-) TimerEvent: {}
+[5.941960] (-) TimerEvent: {}
+[6.042443] (-) TimerEvent: {}
+[6.143006] (-) TimerEvent: {}
+[6.243667] (-) TimerEvent: {}
+[6.344340] (-) TimerEvent: {}
+[6.444778] (-) TimerEvent: {}
+[6.545320] (-) TimerEvent: {}
+[6.646146] (-) TimerEvent: {}
+[6.747510] (-) TimerEvent: {}
+[6.848095] (-) TimerEvent: {}
+[6.948687] (-) TimerEvent: {}
+[7.049223] (-) TimerEvent: {}
+[7.149972] (-) TimerEvent: {}
+[7.250468] (-) TimerEvent: {}
+[7.350995] (-) TimerEvent: {}
+[7.451952] (-) TimerEvent: {}
+[7.552668] (-) TimerEvent: {}
+[7.653254] (-) TimerEvent: {}
+[7.753682] (-) TimerEvent: {}
+[7.854515] (-) TimerEvent: {}
+[7.955149] (-) TimerEvent: {}
+[8.055877] (-) TimerEvent: {}
+[8.156427] (-) TimerEvent: {}
+[8.257089] (-) TimerEvent: {}
+[8.357512] (-) TimerEvent: {}
+[8.458068] (-) TimerEvent: {}
+[8.559290] (-) TimerEvent: {}
+[8.659684] (-) TimerEvent: {}
+[8.760652] (-) TimerEvent: {}
+[8.861490] (-) TimerEvent: {}
+[8.962009] (-) TimerEvent: {}
+[9.062678] (-) TimerEvent: {}
+[9.163178] (-) TimerEvent: {}
+[9.264482] (-) TimerEvent: {}
+[9.365742] (-) TimerEvent: {}
+[9.466439] (-) TimerEvent: {}
+[9.567540] (-) TimerEvent: {}
+[9.668532] (-) TimerEvent: {}
+[9.769415] (-) TimerEvent: {}
+[9.869941] (-) TimerEvent: {}
+[9.970617] (-) TimerEvent: {}
+[10.071312] (-) TimerEvent: {}
+[10.171942] (-) TimerEvent: {}
+[10.272597] (-) TimerEvent: {}
+[10.373304] (-) TimerEvent: {}
+[10.473908] (-) TimerEvent: {}
+[10.574561] (-) TimerEvent: {}
+[10.674988] (-) TimerEvent: {}
+[10.775478] (-) TimerEvent: {}
+[10.876155] (-) TimerEvent: {}
+[10.976810] (-) TimerEvent: {}
+[11.077481] (-) TimerEvent: {}
+[11.177981] (-) TimerEvent: {}
+[11.278826] (-) TimerEvent: {}
+[11.379264] (-) TimerEvent: {}
+[11.479817] (-) TimerEvent: {}
+[11.580494] (-) TimerEvent: {}
+[11.681088] (-) TimerEvent: {}
+[11.781606] (-) TimerEvent: {}
+[11.882506] (-) TimerEvent: {}
+[11.983234] (-) TimerEvent: {}
+[12.083990] (-) TimerEvent: {}
+[12.184770] (-) TimerEvent: {}
+[12.285236] (-) TimerEvent: {}
+[12.385983] (-) TimerEvent: {}
+[12.487338] (-) TimerEvent: {}
+[12.588542] (-) TimerEvent: {}
+[12.689236] (-) TimerEvent: {}
+[12.789936] (-) TimerEvent: {}
+[12.890793] (-) TimerEvent: {}
+[12.991457] (-) TimerEvent: {}
+[13.092044] (-) TimerEvent: {}
+[13.192718] (-) TimerEvent: {}
+[13.293393] (-) TimerEvent: {}
+[13.394186] (-) TimerEvent: {}
+[13.494966] (-) TimerEvent: {}
+[13.595495] (-) TimerEvent: {}
+[13.696241] (-) TimerEvent: {}
+[13.797070] (-) TimerEvent: {}
+[13.897658] (-) TimerEvent: {}
+[13.998395] (-) TimerEvent: {}
+[14.099170] (-) TimerEvent: {}
+[14.199804] (-) TimerEvent: {}
+[14.300695] (-) TimerEvent: {}
+[14.401653] (-) TimerEvent: {}
+[14.503042] (-) TimerEvent: {}
+[14.603490] (-) TimerEvent: {}
+[14.704036] (-) TimerEvent: {}
+[14.805189] (-) TimerEvent: {}
+[14.905949] (-) TimerEvent: {}
+[15.006674] (-) TimerEvent: {}
+[15.107996] (-) TimerEvent: {}
+[15.208791] (-) TimerEvent: {}
+[15.309721] (-) TimerEvent: {}
+[15.410370] (-) TimerEvent: {}
+[15.510925] (-) TimerEvent: {}
+[15.611708] (-) TimerEvent: {}
+[15.712296] (-) TimerEvent: {}
+[15.813114] (-) TimerEvent: {}
+[15.913915] (-) TimerEvent: {}
+[16.014658] (-) TimerEvent: {}
+[16.115453] (-) TimerEvent: {}
+[16.216179] (-) TimerEvent: {}
+[16.317021] (-) TimerEvent: {}
+[16.417726] (-) TimerEvent: {}
+[16.518510] (-) TimerEvent: {}
+[16.619304] (-) TimerEvent: {}
+[16.720150] (-) TimerEvent: {}
+[16.821632] (-) TimerEvent: {}
+[16.922215] (-) TimerEvent: {}
+[17.023582] (-) TimerEvent: {}
+[17.124110] (-) TimerEvent: {}
+[17.224802] (-) TimerEvent: {}
+[17.325538] (-) TimerEvent: {}
+[17.426362] (-) TimerEvent: {}
+[17.527163] (-) TimerEvent: {}
+[17.627616] (-) TimerEvent: {}
+[17.728194] (-) TimerEvent: {}
+[17.829371] (-) TimerEvent: {}
+[17.930727] (-) TimerEvent: {}
+[18.031480] (-) TimerEvent: {}
+[18.132319] (-) TimerEvent: {}
+[18.233286] (-) TimerEvent: {}
+[18.333887] (-) TimerEvent: {}
+[18.434456] (-) TimerEvent: {}
+[18.535145] (-) TimerEvent: {}
+[18.635813] (-) TimerEvent: {}
+[18.736837] (-) TimerEvent: {}
+[18.837903] (-) TimerEvent: {}
+[18.939065] (-) TimerEvent: {}
+[19.039699] (-) TimerEvent: {}
+[19.140187] (-) TimerEvent: {}
+[19.203215] (pkg01_healthoper_cpp) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable health_oper\x1b[0m\n'}
+[19.240701] (-) TimerEvent: {}
+[19.341260] (-) TimerEvent: {}
+[19.442153] (-) TimerEvent: {}
+[19.542957] (-) TimerEvent: {}
+[19.643794] (-) TimerEvent: {}
+[19.744299] (-) TimerEvent: {}
+[19.844876] (-) TimerEvent: {}
+[19.945408] (-) TimerEvent: {}
+[20.046048] (-) TimerEvent: {}
+[20.146521] (-) TimerEvent: {}
+[20.247154] (-) TimerEvent: {}
+[20.299217] (pkg01_healthoper_cpp) StdoutLine: {'line': b'[100%] Built target health_oper\n'}
+[20.314917] (pkg01_healthoper_cpp) CommandEnded: {'returncode': 0}
+[20.347455] (-) TimerEvent: {}
+[20.371262] (pkg01_healthoper_cpp) JobProgress: {'identifier': 'pkg01_healthoper_cpp', 'progress': 'install'}
+[20.374856] (pkg01_healthoper_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp'], 'cwd': '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp', 'env': OrderedDict([('LC_TIME', 'zh_CN.UTF-8'), ('USER', 'cjs'), ('SSH_AGENT_PID', '1542'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/164/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('HOME', '/home/cjs'), ('LESS', '-R'), ('OLDPWD', '/home/cjs/Health_Node/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ZSH', '/home/cjs/.oh-my-zsh'), ('ALL', 'en.US.UTF-8'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/164/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1446'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/164/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0fa02c7d661b6b7cbfd27f1066a0581b'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/cjs/Health_Node/ros2_ws/install'), ('LOGNAME', 'cjs'), ('JOURNAL_STREAM', '8:56620'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_SESSION_CLASS', 'user'), ('USER_ZDOTDIR', '/home/cjs'), ('TERM', 'xterm-256color'), ('USERNAME', 'cjs'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '9e60448dcc804a64942f76a12b382da6'), ('SESSION_MANAGER', 'local/cjs-virtual-machine:@/tmp/.ICE-unix/1577,unix/cjs-virtual-machine:/tmp/.ICE-unix/1577'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('TILIX_ID', '0475dc24-3fd7-4d53-9f63-2f607d7583a8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8011e79f48.sock'), ('AMENT_PREFIX_PATH', '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp:/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0fa02c7d661b6b7cbfd27f1066a0581b'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ZDOTDIR', '/home/cjs'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp:/opt/ros/foxy')]), 'shell': False}
+[20.392488] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.392827] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/lib/pkg01_healthoper_cpp/health_oper\n'}
+[20.404560] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/lib/pkg01_healthoper_cpp/health_oper" to ""\n'}
+[20.405022] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/lib/pkg01_healthoper_cpp/listener\n'}
+[20.405495] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/ament_index/resource_index/package_run_dependencies/pkg01_healthoper_cpp\n'}
+[20.405638] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/ament_index/resource_index/parent_prefix_path/pkg01_healthoper_cpp\n'}
+[20.405765] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/environment/ament_prefix_path.sh\n'}
+[20.405887] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/environment/ament_prefix_path.dsv\n'}
+[20.406051] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/environment/path.sh\n'}
+[20.406260] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/environment/path.dsv\n'}
+[20.406501] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/local_setup.bash\n'}
+[20.406618] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/local_setup.sh\n'}
+[20.406661] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/local_setup.zsh\n'}
+[20.406701] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/local_setup.dsv\n'}
+[20.406739] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/package.dsv\n'}
+[20.406798] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/ament_index/resource_index/packages/pkg01_healthoper_cpp\n'}
+[20.406840] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/cmake/pkg01_healthoper_cppConfig.cmake\n'}
+[20.406950] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/cmake/pkg01_healthoper_cppConfig-version.cmake\n'}
+[20.406992] (pkg01_healthoper_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/package.xml\n'}
+[20.409930] (pkg01_healthoper_cpp) CommandEnded: {'returncode': 0}
+[20.448047] (-) TimerEvent: {}
+[20.480490] (pkg01_healthoper_cpp) JobEnded: {'identifier': 'pkg01_healthoper_cpp', 'rc': 0}
+[20.481841] (-) EventReactorShutdown: {}

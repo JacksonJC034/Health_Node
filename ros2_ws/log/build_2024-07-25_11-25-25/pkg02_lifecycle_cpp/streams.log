@@ -1,0 +1,2 @@
+[0.077s] Invoking command in '/home/cjs/Health_Node/ros2_ws/build/pkg02_lifecycle_cpp': CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/home/cjs/Health_Node/ros2_ws/install/pkg02_lifecycle_cpp:/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp:/opt/ros/foxy /usr/bin/cmake --build /home/cjs/Health_Node/ros2_ws/build/pkg02_lifecycle_cpp -- -j4 -l4
+[0.449s] [100%] Built target lifecycle_node

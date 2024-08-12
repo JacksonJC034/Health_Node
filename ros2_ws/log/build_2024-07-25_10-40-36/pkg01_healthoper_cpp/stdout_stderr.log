@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target health_oper[0m
+[ 40%] Built target listener
+[ 60%] [32mBuilding CXX object CMakeFiles/health_oper.dir/src/health_oper.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable health_oper[0m
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `HealthOperator::HealthOperator()':
+health_oper.cpp:(.text._ZN14HealthOperatorC2Ev[_ZN14HealthOperatorC5Ev]+0x4ac): undefined reference to `ament_index_cpp::get_package_share_directory(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/health_oper.dir/build.make:162: health_oper] Error 1
+make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/health_oper.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

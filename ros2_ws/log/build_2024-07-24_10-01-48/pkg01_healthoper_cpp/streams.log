@@ -1,0 +1,81 @@
+[0.021s] Invoking command in '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp': AMENT_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/opt/ros/foxy LD_LIBRARY_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp -DCMAKE_INSTALL_PREFIX=/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp
+[0.081s] -- The C compiler identification is GNU 9.4.0
+[0.138s] -- The CXX compiler identification is GNU 9.4.0
+[0.141s] -- Check for working C compiler: /usr/bin/cc
+[0.218s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.219s] -- Detecting C compiler ABI info
+[0.301s] -- Detecting C compiler ABI info - done
+[0.316s] -- Detecting C compile features
+[0.316s] -- Detecting C compile features - done
+[0.318s] -- Check for working CXX compiler: /usr/bin/c++
+[0.409s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.411s] -- Detecting CXX compiler ABI info
+[0.522s] -- Detecting CXX compiler ABI info - done
+[0.532s] -- Detecting CXX compile features
+[0.534s] -- Detecting CXX compile features - done
+[0.535s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.569s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.570s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.730s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.765s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.770s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.864s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.887s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.952s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.993s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.994s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.997s] -- Looking for pthread.h
+[1.080s] -- Looking for pthread.h - found
+[1.080s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.164s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.164s] -- Looking for pthread_create in pthreads
+[1.234s] -- Looking for pthread_create in pthreads - not found
+[1.234s] -- Looking for pthread_create in pthread
+[1.310s] -- Looking for pthread_create in pthread - found
+[1.311s] -- Found Threads: TRUE  
+[1.425s] -- Found base_interfaces_demo: 0.0.0 (/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[1.509s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.575s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.576s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.576s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/include>
+[1.576s] -- Configured cppcheck exclude dirs and/or files: 
+[1.577s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.577s] -- Configured cpplint exclude dirs and/or files: 
+[1.578s] -- Added test 'lint_cmake' to check CMake code style
+[1.579s] -- Added test 'uncrustify' to check C / C++ code style
+[1.579s] -- Configured uncrustify additional arguments: 
+[1.579s] -- Added test 'xmllint' to check XML markup files
+[1.582s] -- Configuring done
+[1.597s] -- Generating done
+[1.600s] -- Build files have been written to: /home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp
+[1.609s] Invoked command in '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp' returned '0': AMENT_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/opt/ros/foxy LD_LIBRARY_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp -DCMAKE_INSTALL_PREFIX=/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp
+[1.612s] Invoking command in '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp': AMENT_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/opt/ros/foxy LD_LIBRARY_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp -- -j4 -l4
+[1.690s] [35m[1mScanning dependencies of target listener[0m
+[1.706s] [35m[1mScanning dependencies of target health_oper[0m
+[1.754s] [ 20%] [32m[1mLinking CXX executable listener[0m
+[1.765s] [ 40%] [32m[1mLinking CXX executable health_oper[0m
+[2.106s] [ 60%] Built target listener
+[2.667s] [100%] Built target health_oper
+[2.681s] Invoked command in '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp' returned '0': AMENT_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/opt/ros/foxy LD_LIBRARY_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp -- -j4 -l4
+[2.739s] Invoking command in '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp': AMENT_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/opt/ros/foxy LD_LIBRARY_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp
+[2.748s] -- Install configuration: ""
+[2.754s] -- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/lib/pkg01_healthoper_cpp/health_oper
+[2.763s] -- Set runtime path of "/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/lib/pkg01_healthoper_cpp/health_oper" to ""
+[2.765s] -- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/lib/pkg01_healthoper_cpp/listener
+[2.767s] -- Set runtime path of "/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/lib/pkg01_healthoper_cpp/listener" to ""
+[2.768s] -- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/ament_index/resource_index/package_run_dependencies/pkg01_healthoper_cpp
+[2.768s] -- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/ament_index/resource_index/parent_prefix_path/pkg01_healthoper_cpp
+[2.769s] -- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/environment/ament_prefix_path.sh
+[2.769s] -- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/environment/ament_prefix_path.dsv
+[2.769s] -- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/environment/path.sh
+[2.770s] -- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/environment/path.dsv
+[2.770s] -- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/local_setup.bash
+[2.770s] -- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/local_setup.sh
+[2.770s] -- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/local_setup.zsh
+[2.770s] -- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/local_setup.dsv
+[2.770s] -- Installing: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/package.dsv
+[2.770s] -- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/ament_index/resource_index/packages/pkg01_healthoper_cpp
+[2.770s] -- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/cmake/pkg01_healthoper_cppConfig.cmake
+[2.770s] -- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/cmake/pkg01_healthoper_cppConfig-version.cmake
+[2.770s] -- Up-to-date: /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/package.xml
+[2.776s] Invoked command in '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp' returned '0': AMENT_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/opt/ros/foxy LD_LIBRARY_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp

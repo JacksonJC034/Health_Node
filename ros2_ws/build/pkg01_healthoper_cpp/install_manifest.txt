@@ -1,5 +1,6 @@
 /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/lib/pkg01_healthoper_cpp/health_oper
 /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/lib/pkg01_healthoper_cpp/listener
+/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/config/mapping.yaml
 /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/ament_index/resource_index/package_run_dependencies/pkg01_healthoper_cpp
 /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/ament_index/resource_index/parent_prefix_path/pkg01_healthoper_cpp
 /home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/environment/ament_prefix_path.sh

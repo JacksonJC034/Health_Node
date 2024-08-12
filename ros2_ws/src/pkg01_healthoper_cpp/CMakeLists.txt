@@ -18,33 +18,51 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(pkg00_base_interfaces REQUIRED)
+find_package(base_interfaces_demo REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(yaml_cpp_vendor REQUIRED)
+find_package(ament_index_cpp REQUIRED)
 
-add_executable(health_oper src/health_oper.cpp)
+add_executable(health_oper
+  src/health_oper.cpp
+  src/core_info.cpp
+)
+
 target_include_directories(health_oper PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
+
 ament_target_dependencies(
   health_oper
-  "rclcpp"
-  "pkg00_base_interfaces"
-  "std_msgs"
+  rclcpp
+  base_interfaces_demo
+  std_msgs
+  yaml_cpp_vendor
+  ament_index_cpp
 )
 
+# target_link_libraries(health_oper yaml-cpp)
+
 add_executable(listener src/listener.cpp)
-target_include_directories(health_oper PUBLIC
+target_include_directories(listener PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
+
 ament_target_dependencies(
   listener
-  "rclcpp"
-  "pkg00_base_interfaces"
-  "std_msgs"
+  rclcpp
+  base_interfaces_demo
+  std_msgs
 )
+
+target_link_libraries(listener yaml-cpp)
 
 install(TARGETS health_oper listener
   DESTINATION lib/${PROJECT_NAME})
+
+install(DIRECTORY config
+  DESTINATION share/${PROJECT_NAME}
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

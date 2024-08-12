@@ -1,0 +1,77 @@
+[ 40%] Built target listener
+[ 60%] [32m[1mLinking CXX executable health_oper[0m
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::Exception::Exception(YAML::Mark const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+health_oper.cpp:(.text._ZN4YAML9ExceptionC2ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML9ExceptionC5ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x61): undefined reference to `vtable for YAML::Exception'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::RepresentationException::RepresentationException(YAML::Mark const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+health_oper.cpp:(.text._ZN4YAML23RepresentationExceptionC2ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML23RepresentationExceptionC5ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x32): undefined reference to `vtable for YAML::RepresentationException'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::InvalidNode::InvalidNode()':
+health_oper.cpp:(.text._ZN4YAML11InvalidNodeC2Ev[_ZN4YAML11InvalidNodeC5Ev]+0x89): undefined reference to `vtable for YAML::InvalidNode'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::BadConversion::BadConversion(YAML::Mark const&)':
+health_oper.cpp:(.text._ZN4YAML13BadConversionC2ERKNS_4MarkE[_ZN4YAML13BadConversionC5ERKNS_4MarkE]+0x79): undefined reference to `vtable for YAML::BadConversion'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::BadSubscript::BadSubscript()':
+health_oper.cpp:(.text._ZN4YAML12BadSubscriptC2Ev[_ZN4YAML12BadSubscriptC5Ev]+0x89): undefined reference to `vtable for YAML::BadSubscript'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::detail::memory_holder::create_node()':
+health_oper.cpp:(.text._ZN4YAML6detail13memory_holder11create_nodeEv[_ZN4YAML6detail13memory_holder11create_nodeEv]+0x20): undefined reference to `YAML::detail::memory::create_node()'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::detail::node_ref::mark_defined()':
+health_oper.cpp:(.text._ZN4YAML6detail8node_ref12mark_definedEv[_ZN4YAML6detail8node_ref12mark_definedEv]+0x20): undefined reference to `YAML::detail::node_data::mark_defined()'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::detail::node_ref::set_null()':
+health_oper.cpp:(.text._ZN4YAML6detail8node_ref8set_nullEv[_ZN4YAML6detail8node_ref8set_nullEv]+0x20): undefined reference to `YAML::detail::node_data::set_null()'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::detail::node_ref::begin()':
+health_oper.cpp:(.text._ZN4YAML6detail8node_ref5beginEv[_ZN4YAML6detail8node_ref5beginEv]+0x3d): undefined reference to `YAML::detail::node_data::begin()'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::detail::node_ref::end()':
+health_oper.cpp:(.text._ZN4YAML6detail8node_ref3endEv[_ZN4YAML6detail8node_ref3endEv]+0x3d): undefined reference to `YAML::detail::node_data::end()'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::Node::EnsureNodeExists() const':
+health_oper.cpp:(.text._ZNK4YAML4Node16EnsureNodeExistsEv[_ZNK4YAML4Node16EnsureNodeExistsEv]+0x39): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: health_oper.cpp:(.text._ZNK4YAML4Node16EnsureNodeExistsEv[_ZNK4YAML4Node16EnsureNodeExistsEv]+0x43): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::Node::Mark() const':
+health_oper.cpp:(.text._ZNK4YAML4Node4MarkEv[_ZNK4YAML4Node4MarkEv]+0x39): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: health_oper.cpp:(.text._ZNK4YAML4Node4MarkEv[_ZNK4YAML4Node4MarkEv]+0x43): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::Node::Type() const':
+health_oper.cpp:(.text._ZNK4YAML4Node4TypeEv[_ZNK4YAML4Node4TypeEv]+0x39): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: health_oper.cpp:(.text._ZNK4YAML4Node4TypeEv[_ZNK4YAML4Node4TypeEv]+0x43): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::Node::Scalar[abi:cxx11]() const':
+health_oper.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x39): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: health_oper.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x43): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: health_oper.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x71): undefined reference to `YAML::detail::node_data::empty_scalar[abi:cxx11]'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `HealthOperator::load_error_map(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+health_oper.cpp:(.text._ZN14HealthOperator14load_error_mapERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN14HealthOperator14load_error_mapERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x42): undefined reference to `YAML::LoadFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > YAML::Node::as<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >() const':
+health_oper.cpp:(.text._ZNK4YAML4Node2asINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEET_v[_ZNK4YAML4Node2asINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEET_v]+0x4c): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: health_oper.cpp:(.text._ZNK4YAML4Node2asINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEET_v[_ZNK4YAML4Node2asINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEET_v]+0x56): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `int YAML::Node::as<int>() const':
+health_oper.cpp:(.text._ZNK4YAML4Node2asIiEET_v[_ZNK4YAML4Node2asIiEET_v]+0x48): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: health_oper.cpp:(.text._ZNK4YAML4Node2asIiEET_v[_ZNK4YAML4Node2asIiEET_v]+0x52): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::Node const YAML::Node::operator[]<char [5]>(char const (&) [5]) const':
+health_oper.cpp:(.text._ZNK4YAML4NodeixIA5_cEEKS0_RKT_[_ZNK4YAML4NodeixIA5_cEEKS0_RKT_]+0x50): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: health_oper.cpp:(.text._ZNK4YAML4NodeixIA5_cEEKS0_RKT_[_ZNK4YAML4NodeixIA5_cEEKS0_RKT_]+0x5a): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `unsigned long YAML::Node::as<unsigned long>() const':
+health_oper.cpp:(.text._ZNK4YAML4Node2asImEET_v[_ZNK4YAML4Node2asImEET_v]+0x48): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: health_oper.cpp:(.text._ZNK4YAML4Node2asImEET_v[_ZNK4YAML4Node2asImEET_v]+0x52): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::Node const YAML::Node::operator[]<char [6]>(char const (&) [6]) const':
+health_oper.cpp:(.text._ZNK4YAML4NodeixIA6_cEEKS0_RKT_[_ZNK4YAML4NodeixIA6_cEEKS0_RKT_]+0x50): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: health_oper.cpp:(.text._ZNK4YAML4NodeixIA6_cEEKS0_RKT_[_ZNK4YAML4NodeixIA6_cEEKS0_RKT_]+0x5a): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `unsigned char YAML::Node::as<unsigned char>() const':
+health_oper.cpp:(.text._ZNK4YAML4Node2asIhEET_v[_ZNK4YAML4Node2asIhEET_v]+0x48): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: health_oper.cpp:(.text._ZNK4YAML4Node2asIhEET_v[_ZNK4YAML4Node2asIhEET_v]+0x52): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::Node const YAML::Node::operator[]<char [12]>(char const (&) [12]) const':
+health_oper.cpp:(.text._ZNK4YAML4NodeixIA12_cEEKS0_RKT_[_ZNK4YAML4NodeixIA12_cEEKS0_RKT_]+0x50): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: health_oper.cpp:(.text._ZNK4YAML4NodeixIA12_cEEKS0_RKT_[_ZNK4YAML4NodeixIA12_cEEKS0_RKT_]+0x5a): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::TypedBadConversion<int>::~TypedBadConversion()':
+health_oper.cpp:(.text._ZN4YAML18TypedBadConversionIiED2Ev[_ZN4YAML18TypedBadConversionIiED5Ev]+0x26): undefined reference to `YAML::BadConversion::~BadConversion()'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::TypedBadConversion<unsigned long>::~TypedBadConversion()':
+health_oper.cpp:(.text._ZN4YAML18TypedBadConversionImED2Ev[_ZN4YAML18TypedBadConversionImED5Ev]+0x26): undefined reference to `YAML::BadConversion::~BadConversion()'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::TypedBadConversion<unsigned char>::~TypedBadConversion()':
+health_oper.cpp:(.text._ZN4YAML18TypedBadConversionIhED2Ev[_ZN4YAML18TypedBadConversionIhED5Ev]+0x26): undefined reference to `YAML::BadConversion::~BadConversion()'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::detail::node* YAML::detail::node_data::get<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::shared_ptr<YAML::detail::memory_holder>) const':
+health_oper.cpp:(.text._ZNK4YAML6detail9node_data3getINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xe3): undefined reference to `YAML::BadSubscript::~BadSubscript()'
+/usr/bin/ld: health_oper.cpp:(.text._ZNK4YAML6detail9node_data3getINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xed): undefined reference to `typeinfo for YAML::BadSubscript'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::TypedBadConversion<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~TypedBadConversion()':
+health_oper.cpp:(.text._ZN4YAML18TypedBadConversionINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED2Ev[_ZN4YAML18TypedBadConversionINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED5Ev]+0x26): undefined reference to `YAML::BadConversion::~BadConversion()'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o:(.data.rel.ro._ZTIN4YAML18TypedBadConversionIhEE[_ZTIN4YAML18TypedBadConversionIhEE]+0x10): undefined reference to `typeinfo for YAML::BadConversion'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o:(.data.rel.ro._ZTIN4YAML18TypedBadConversionImEE[_ZTIN4YAML18TypedBadConversionImEE]+0x10): undefined reference to `typeinfo for YAML::BadConversion'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o:(.data.rel.ro._ZTIN4YAML18TypedBadConversionIiEE[_ZTIN4YAML18TypedBadConversionIiEE]+0x10): undefined reference to `typeinfo for YAML::BadConversion'
+/usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o:(.data.rel.ro._ZTIN4YAML18TypedBadConversionINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE[_ZTIN4YAML18TypedBadConversionINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE]+0x10): undefined reference to `typeinfo for YAML::BadConversion'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/health_oper.dir/build.make:161: health_oper] Error 1
+make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/health_oper.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

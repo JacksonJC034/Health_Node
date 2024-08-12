@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target health_oper[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/health_oper.dir/src/core_info.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/health_oper.dir/src/health_oper.cpp.o[0m

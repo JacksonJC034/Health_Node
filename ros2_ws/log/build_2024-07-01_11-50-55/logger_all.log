@@ -1,0 +1,221 @@
+[0.273s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.274s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f5a79789250>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f5a79789250>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f5a796ea4f0>)
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.445s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/cjs/Health_Node/ros2_ws'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ignore'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ignore_ament_install'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['colcon_pkg']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'colcon_pkg'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['colcon_meta']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'colcon_meta'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['ros']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ros'
+[0.470s] DEBUG:colcon.colcon_core.package_identification:Package 'src/base_interfaces_demo' with type 'ros.ament_cmake' and name 'base_interfaces_demo'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_healthoper_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_healthoper_cpp) by extension 'ignore'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_healthoper_cpp) by extension 'ignore_ament_install'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_healthoper_cpp) by extensions ['colcon_pkg']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_healthoper_cpp) by extension 'colcon_pkg'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_healthoper_cpp) by extensions ['colcon_meta']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_healthoper_cpp) by extension 'colcon_meta'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_healthoper_cpp) by extensions ['ros']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg01_healthoper_cpp) by extension 'ros'
+[0.471s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg01_healthoper_cpp' with type 'ros.ament_cmake' and name 'pkg01_healthoper_cpp'
+[0.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.505s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/cjs/Health_Node/ros2_ws/install
+[0.508s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_args' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_target' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.644s] DEBUG:colcon.colcon_core.verb:Building package 'base_interfaces_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cjs/Health_Node/ros2_ws/build/base_interfaces_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo', 'merge_install': False, 'path': '/home/cjs/Health_Node/ros2_ws/src/base_interfaces_demo', 'symlink_install': False, 'test_result_base': None}
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'pkg01_healthoper_cpp' build argument 'cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'pkg01_healthoper_cpp' build argument 'cmake_target' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'pkg01_healthoper_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'pkg01_healthoper_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'pkg01_healthoper_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'pkg01_healthoper_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'pkg01_healthoper_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'pkg01_healthoper_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'pkg01_healthoper_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.644s] DEBUG:colcon.colcon_core.verb:Building package 'pkg01_healthoper_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp', 'merge_install': False, 'path': '/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.644s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.645s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.646s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cjs/Health_Node/ros2_ws/src/base_interfaces_demo' with build type 'ament_cmake'
+[0.646s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cjs/Health_Node/ros2_ws/src/base_interfaces_demo'
+[0.652s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.652s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.652s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cjs/Health_Node/ros2_ws/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/cjs/Health_Node/ros2_ws/build/base_interfaces_demo -- -j4 -l4
+[1.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cjs/Health_Node/ros2_ws/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/cjs/Health_Node/ros2_ws/build/base_interfaces_demo -- -j4 -l4
+[2.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cjs/Health_Node/ros2_ws/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/cjs/Health_Node/ros2_ws/build/base_interfaces_demo
+[2.306s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_interfaces_demo)
+[2.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cjs/Health_Node/ros2_ws/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/cjs/Health_Node/ros2_ws/build/base_interfaces_demo
+[2.325s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo' for CMake module files
+[2.326s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo' for CMake config files
+[2.327s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'cmake_prefix_path')
+[2.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.ps1'
+[2.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.dsv'
+[2.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.sh'
+[2.330s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib'
+[2.330s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'ld_library_path_lib')
+[2.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.ps1'
+[2.331s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.dsv'
+[2.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.sh'
+[2.332s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/bin'
+[2.333s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/pkgconfig/base_interfaces_demo.pc'
+[2.333s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages'
+[2.333s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'pythonpath')
+[2.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/pythonpath.ps1'
+[2.334s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/pythonpath.dsv'
+[2.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/pythonpath.sh'
+[2.335s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/bin'
+[2.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/package.ps1'
+[2.337s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv'
+[2.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/package.sh'
+[2.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/package.bash'
+[2.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/package.zsh'
+[2.341s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/colcon-core/packages/base_interfaces_demo)
+[3.206s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_interfaces_demo)
+[3.208s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo' for CMake module files
+[3.209s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo' for CMake config files
+[3.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'cmake_prefix_path')
+[3.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.ps1'
+[3.211s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.dsv'
+[3.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.sh'
+[3.212s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib'
+[3.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'ld_library_path_lib')
+[3.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.ps1'
+[3.213s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.dsv'
+[3.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.sh'
+[3.214s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/bin'
+[3.214s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/pkgconfig/base_interfaces_demo.pc'
+[3.214s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages'
+[3.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'pythonpath')
+[3.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/pythonpath.ps1'
+[3.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/pythonpath.dsv'
+[3.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/pythonpath.sh'
+[3.221s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/bin'
+[3.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/package.ps1'
+[3.222s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv'
+[3.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/package.sh'
+[3.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/package.bash'
+[3.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/package.zsh'
+[3.224s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/colcon-core/packages/base_interfaces_demo)
+[3.225s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp' with build type 'ament_cmake'
+[3.225s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp'
+[3.226s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.226s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp': CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp:/opt/ros/foxy /usr/bin/cmake --build /home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp -- -j4 -l4
+[20.037s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp' returned '0': CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp:/opt/ros/foxy /usr/bin/cmake --build /home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp -- -j4 -l4
+[20.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp': CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp:/opt/ros/foxy /usr/bin/cmake --install /home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp
+[20.119s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg01_healthoper_cpp)
+[20.120s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp' for CMake module files
+[20.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp' returned '0': CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp:/opt/ros/foxy /usr/bin/cmake --install /home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp
+[20.122s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp' for CMake config files
+[20.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg01_healthoper_cpp', 'cmake_prefix_path')
+[20.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/hook/cmake_prefix_path.ps1'
+[20.123s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/hook/cmake_prefix_path.dsv'
+[20.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/hook/cmake_prefix_path.sh'
+[20.125s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/lib'
+[20.125s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/bin'
+[20.125s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/lib/pkgconfig/pkg01_healthoper_cpp.pc'
+[20.125s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/lib/python3.8/site-packages'
+[20.126s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/bin'
+[20.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/package.ps1'
+[20.127s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/package.dsv'
+[20.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/package.sh'
+[20.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/package.bash'
+[20.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/package.zsh'
+[20.130s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/colcon-core/packages/pkg01_healthoper_cpp)
+[20.189s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg01_healthoper_cpp)
+[20.189s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp' for CMake module files
+[20.190s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp' for CMake config files
+[20.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg01_healthoper_cpp', 'cmake_prefix_path')
+[20.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/hook/cmake_prefix_path.ps1'
+[20.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/hook/cmake_prefix_path.dsv'
+[20.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/hook/cmake_prefix_path.sh'
+[20.192s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/lib'
+[20.192s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/bin'
+[20.192s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/lib/pkgconfig/pkg01_healthoper_cpp.pc'
+[20.193s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/lib/python3.8/site-packages'
+[20.193s] Level 1:colcon.colcon_core.environment:checking '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/bin'
+[20.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/package.ps1'
+[20.194s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/package.dsv'
+[20.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/package.sh'
+[20.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/package.bash'
+[20.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/pkg01_healthoper_cpp/package.zsh'
+[20.197s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp/share/colcon-core/packages/pkg01_healthoper_cpp)
+[20.198s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[20.198s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[20.199s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[20.199s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[20.219s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[20.219s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[20.219s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[20.287s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[20.288s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cjs/Health_Node/ros2_ws/install/local_setup.ps1'
+[20.289s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cjs/Health_Node/ros2_ws/install/_local_setup_util_ps1.py'
+[20.292s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cjs/Health_Node/ros2_ws/install/setup.ps1'
+[20.294s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cjs/Health_Node/ros2_ws/install/local_setup.sh'
+[20.295s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cjs/Health_Node/ros2_ws/install/_local_setup_util_sh.py'
+[20.295s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cjs/Health_Node/ros2_ws/install/setup.sh'
+[20.298s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cjs/Health_Node/ros2_ws/install/local_setup.bash'
+[20.299s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cjs/Health_Node/ros2_ws/install/setup.bash'
+[20.303s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cjs/Health_Node/ros2_ws/install/local_setup.zsh'
+[20.304s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cjs/Health_Node/ros2_ws/install/setup.zsh'

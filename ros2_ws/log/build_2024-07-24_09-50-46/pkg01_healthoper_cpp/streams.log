@@ -1,0 +1,102 @@
+[0.022s] Invoking command in '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp': AMENT_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/opt/ros/foxy LD_LIBRARY_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp -- -j4 -l4
+[0.054s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.075s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.230s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.256s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.259s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.360s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.400s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.401s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.509s] -- Found base_interfaces_demo: 0.0.0 (/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[0.584s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.641s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.642s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.642s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/include>
+[0.642s] -- Configured cppcheck exclude dirs and/or files: 
+[0.643s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.643s] -- Configured cpplint exclude dirs and/or files: 
+[0.643s] -- Added test 'lint_cmake' to check CMake code style
+[0.644s] -- Added test 'uncrustify' to check C / C++ code style
+[0.644s] -- Configured uncrustify additional arguments: 
+[0.645s] -- Added test 'xmllint' to check XML markup files
+[0.647s] -- Configuring done
+[0.661s] -- Generating done
+[0.663s] -- Build files have been written to: /home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp
+[0.719s] [ 40%] Built target listener
+[0.721s] [ 60%] [32m[1mLinking CXX executable health_oper[0m
+[1.666s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::Exception::Exception(YAML::Mark const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+[1.666s] health_oper.cpp:(.text._ZN4YAML9ExceptionC2ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML9ExceptionC5ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x61): undefined reference to `vtable for YAML::Exception'
+[1.666s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::RepresentationException::RepresentationException(YAML::Mark const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+[1.666s] health_oper.cpp:(.text._ZN4YAML23RepresentationExceptionC2ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML23RepresentationExceptionC5ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x32): undefined reference to `vtable for YAML::RepresentationException'
+[1.666s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::InvalidNode::InvalidNode()':
+[1.667s] health_oper.cpp:(.text._ZN4YAML11InvalidNodeC2Ev[_ZN4YAML11InvalidNodeC5Ev]+0x89): undefined reference to `vtable for YAML::InvalidNode'
+[1.667s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::BadConversion::BadConversion(YAML::Mark const&)':
+[1.667s] health_oper.cpp:(.text._ZN4YAML13BadConversionC2ERKNS_4MarkE[_ZN4YAML13BadConversionC5ERKNS_4MarkE]+0x79): undefined reference to `vtable for YAML::BadConversion'
+[1.668s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::BadSubscript::BadSubscript()':
+[1.668s] health_oper.cpp:(.text._ZN4YAML12BadSubscriptC2Ev[_ZN4YAML12BadSubscriptC5Ev]+0x89): undefined reference to `vtable for YAML::BadSubscript'
+[1.668s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::detail::memory_holder::create_node()':
+[1.668s] health_oper.cpp:(.text._ZN4YAML6detail13memory_holder11create_nodeEv[_ZN4YAML6detail13memory_holder11create_nodeEv]+0x20): undefined reference to `YAML::detail::memory::create_node()'
+[1.668s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::detail::node_ref::mark_defined()':
+[1.668s] health_oper.cpp:(.text._ZN4YAML6detail8node_ref12mark_definedEv[_ZN4YAML6detail8node_ref12mark_definedEv]+0x20): undefined reference to `YAML::detail::node_data::mark_defined()'
+[1.669s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::detail::node_ref::set_null()':
+[1.669s] health_oper.cpp:(.text._ZN4YAML6detail8node_ref8set_nullEv[_ZN4YAML6detail8node_ref8set_nullEv]+0x20): undefined reference to `YAML::detail::node_data::set_null()'
+[1.669s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::detail::node_ref::begin()':
+[1.669s] health_oper.cpp:(.text._ZN4YAML6detail8node_ref5beginEv[_ZN4YAML6detail8node_ref5beginEv]+0x3d): undefined reference to `YAML::detail::node_data::begin()'
+[1.669s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::detail::node_ref::end()':
+[1.669s] health_oper.cpp:(.text._ZN4YAML6detail8node_ref3endEv[_ZN4YAML6detail8node_ref3endEv]+0x3d): undefined reference to `YAML::detail::node_data::end()'
+[1.669s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::Node::EnsureNodeExists() const':
+[1.669s] health_oper.cpp:(.text._ZNK4YAML4Node16EnsureNodeExistsEv[_ZNK4YAML4Node16EnsureNodeExistsEv]+0x39): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+[1.669s] /usr/bin/ld: health_oper.cpp:(.text._ZNK4YAML4Node16EnsureNodeExistsEv[_ZNK4YAML4Node16EnsureNodeExistsEv]+0x43): undefined reference to `typeinfo for YAML::InvalidNode'
+[1.669s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::Node::Mark() const':
+[1.669s] health_oper.cpp:(.text._ZNK4YAML4Node4MarkEv[_ZNK4YAML4Node4MarkEv]+0x39): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+[1.669s] /usr/bin/ld: health_oper.cpp:(.text._ZNK4YAML4Node4MarkEv[_ZNK4YAML4Node4MarkEv]+0x43): undefined reference to `typeinfo for YAML::InvalidNode'
+[1.669s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::Node::Type() const':
+[1.669s] health_oper.cpp:(.text._ZNK4YAML4Node4TypeEv[_ZNK4YAML4Node4TypeEv]+0x39): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+[1.669s] /usr/bin/ld: health_oper.cpp:(.text._ZNK4YAML4Node4TypeEv[_ZNK4YAML4Node4TypeEv]+0x43): undefined reference to `typeinfo for YAML::InvalidNode'
+[1.669s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::Node::Scalar[abi:cxx11]() const':
+[1.669s] health_oper.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x39): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+[1.669s] /usr/bin/ld: health_oper.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x43): undefined reference to `typeinfo for YAML::InvalidNode'
+[1.669s] /usr/bin/ld: health_oper.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x71): undefined reference to `YAML::detail::node_data::empty_scalar[abi:cxx11]'
+[1.669s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `HealthOperator::load_error_map(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+[1.670s] health_oper.cpp:(.text._ZN14HealthOperator14load_error_mapERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN14HealthOperator14load_error_mapERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x42): undefined reference to `YAML::LoadFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[1.670s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > YAML::Node::as<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >() const':
+[1.670s] health_oper.cpp:(.text._ZNK4YAML4Node2asINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEET_v[_ZNK4YAML4Node2asINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEET_v]+0x4c): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+[1.670s] /usr/bin/ld: health_oper.cpp:(.text._ZNK4YAML4Node2asINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEET_v[_ZNK4YAML4Node2asINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEET_v]+0x56): undefined reference to `typeinfo for YAML::InvalidNode'
+[1.670s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `int YAML::Node::as<int>() const':
+[1.670s] health_oper.cpp:(.text._ZNK4YAML4Node2asIiEET_v[_ZNK4YAML4Node2asIiEET_v]+0x48): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+[1.670s] /usr/bin/ld: health_oper.cpp:(.text._ZNK4YAML4Node2asIiEET_v[_ZNK4YAML4Node2asIiEET_v]+0x52): undefined reference to `typeinfo for YAML::InvalidNode'
+[1.670s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::Node const YAML::Node::operator[]<char [5]>(char const (&) [5]) const':
+[1.670s] health_oper.cpp:(.text._ZNK4YAML4NodeixIA5_cEEKS0_RKT_[_ZNK4YAML4NodeixIA5_cEEKS0_RKT_]+0x50): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+[1.670s] /usr/bin/ld: health_oper.cpp:(.text._ZNK4YAML4NodeixIA5_cEEKS0_RKT_[_ZNK4YAML4NodeixIA5_cEEKS0_RKT_]+0x5a): undefined reference to `typeinfo for YAML::InvalidNode'
+[1.670s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `unsigned long YAML::Node::as<unsigned long>() const':
+[1.670s] health_oper.cpp:(.text._ZNK4YAML4Node2asImEET_v[_ZNK4YAML4Node2asImEET_v]+0x48): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+[1.670s] /usr/bin/ld: health_oper.cpp:(.text._ZNK4YAML4Node2asImEET_v[_ZNK4YAML4Node2asImEET_v]+0x52): undefined reference to `typeinfo for YAML::InvalidNode'
+[1.670s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::Node const YAML::Node::operator[]<char [6]>(char const (&) [6]) const':
+[1.670s] health_oper.cpp:(.text._ZNK4YAML4NodeixIA6_cEEKS0_RKT_[_ZNK4YAML4NodeixIA6_cEEKS0_RKT_]+0x50): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+[1.670s] /usr/bin/ld: health_oper.cpp:(.text._ZNK4YAML4NodeixIA6_cEEKS0_RKT_[_ZNK4YAML4NodeixIA6_cEEKS0_RKT_]+0x5a): undefined reference to `typeinfo for YAML::InvalidNode'
+[1.670s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `unsigned char YAML::Node::as<unsigned char>() const':
+[1.670s] health_oper.cpp:(.text._ZNK4YAML4Node2asIhEET_v[_ZNK4YAML4Node2asIhEET_v]+0x48): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+[1.670s] /usr/bin/ld: health_oper.cpp:(.text._ZNK4YAML4Node2asIhEET_v[_ZNK4YAML4Node2asIhEET_v]+0x52): undefined reference to `typeinfo for YAML::InvalidNode'
+[1.670s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::Node const YAML::Node::operator[]<char [12]>(char const (&) [12]) const':
+[1.670s] health_oper.cpp:(.text._ZNK4YAML4NodeixIA12_cEEKS0_RKT_[_ZNK4YAML4NodeixIA12_cEEKS0_RKT_]+0x50): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+[1.670s] /usr/bin/ld: health_oper.cpp:(.text._ZNK4YAML4NodeixIA12_cEEKS0_RKT_[_ZNK4YAML4NodeixIA12_cEEKS0_RKT_]+0x5a): undefined reference to `typeinfo for YAML::InvalidNode'
+[1.671s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::TypedBadConversion<int>::~TypedBadConversion()':
+[1.671s] health_oper.cpp:(.text._ZN4YAML18TypedBadConversionIiED2Ev[_ZN4YAML18TypedBadConversionIiED5Ev]+0x26): undefined reference to `YAML::BadConversion::~BadConversion()'
+[1.671s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::TypedBadConversion<unsigned long>::~TypedBadConversion()':
+[1.671s] health_oper.cpp:(.text._ZN4YAML18TypedBadConversionImED2Ev[_ZN4YAML18TypedBadConversionImED5Ev]+0x26): undefined reference to `YAML::BadConversion::~BadConversion()'
+[1.671s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::TypedBadConversion<unsigned char>::~TypedBadConversion()':
+[1.671s] health_oper.cpp:(.text._ZN4YAML18TypedBadConversionIhED2Ev[_ZN4YAML18TypedBadConversionIhED5Ev]+0x26): undefined reference to `YAML::BadConversion::~BadConversion()'
+[1.671s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::detail::node* YAML::detail::node_data::get<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::shared_ptr<YAML::detail::memory_holder>) const':
+[1.671s] health_oper.cpp:(.text._ZNK4YAML6detail9node_data3getINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xe3): undefined reference to `YAML::BadSubscript::~BadSubscript()'
+[1.671s] /usr/bin/ld: health_oper.cpp:(.text._ZNK4YAML6detail9node_data3getINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xed): undefined reference to `typeinfo for YAML::BadSubscript'
+[1.671s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `YAML::TypedBadConversion<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~TypedBadConversion()':
+[1.671s] health_oper.cpp:(.text._ZN4YAML18TypedBadConversionINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED2Ev[_ZN4YAML18TypedBadConversionINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED5Ev]+0x26): undefined reference to `YAML::BadConversion::~BadConversion()'
+[1.671s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o:(.data.rel.ro._ZTIN4YAML18TypedBadConversionIhEE[_ZTIN4YAML18TypedBadConversionIhEE]+0x10): undefined reference to `typeinfo for YAML::BadConversion'
+[1.671s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o:(.data.rel.ro._ZTIN4YAML18TypedBadConversionImEE[_ZTIN4YAML18TypedBadConversionImEE]+0x10): undefined reference to `typeinfo for YAML::BadConversion'
+[1.671s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o:(.data.rel.ro._ZTIN4YAML18TypedBadConversionIiEE[_ZTIN4YAML18TypedBadConversionIiEE]+0x10): undefined reference to `typeinfo for YAML::BadConversion'
+[1.671s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o:(.data.rel.ro._ZTIN4YAML18TypedBadConversionINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE[_ZTIN4YAML18TypedBadConversionINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE]+0x10): undefined reference to `typeinfo for YAML::BadConversion'
+[1.671s] collect2: error: ld returned 1 exit status
+[1.672s] make[2]: *** [CMakeFiles/health_oper.dir/build.make:161: health_oper] Error 1
+[1.672s] make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/health_oper.dir/all] Error 2
+[1.673s] make: *** [Makefile:141: all] Error 2
+[1.675s] Invoked command in '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp' returned '2': AMENT_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/opt/ros/foxy LD_LIBRARY_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp -- -j4 -l4

@@ -219,6 +219,33 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
+src/core_info.o: src/core_info.cpp.o
+
+.PHONY : src/core_info.o
+
+# target to build an object file
+src/core_info.cpp.o:
+	$(MAKE) -f CMakeFiles/health_oper.dir/build.make CMakeFiles/health_oper.dir/src/core_info.cpp.o
+.PHONY : src/core_info.cpp.o
+
+src/core_info.i: src/core_info.cpp.i
+
+.PHONY : src/core_info.i
+
+# target to preprocess a source file
+src/core_info.cpp.i:
+	$(MAKE) -f CMakeFiles/health_oper.dir/build.make CMakeFiles/health_oper.dir/src/core_info.cpp.i
+.PHONY : src/core_info.cpp.i
+
+src/core_info.s: src/core_info.cpp.s
+
+.PHONY : src/core_info.s
+
+# target to generate assembly for a file
+src/core_info.cpp.s:
+	$(MAKE) -f CMakeFiles/health_oper.dir/build.make CMakeFiles/health_oper.dir/src/core_info.cpp.s
+.PHONY : src/core_info.cpp.s
+
 src/health_oper.o: src/health_oper.cpp.o
 
 .PHONY : src/health_oper.o
@@ -290,6 +317,9 @@ help:
 	@echo "... pkg01_healthoper_cpp_uninstall"
 	@echo "... health_oper"
 	@echo "... uninstall"
+	@echo "... src/core_info.o"
+	@echo "... src/core_info.i"
+	@echo "... src/core_info.s"
 	@echo "... src/health_oper.o"
 	@echo "... src/health_oper.i"
 	@echo "... src/health_oper.s"

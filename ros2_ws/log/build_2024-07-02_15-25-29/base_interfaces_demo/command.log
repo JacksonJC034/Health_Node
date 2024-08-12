@@ -1,0 +1,2 @@
+Invoking command in '/home/cjs/Health_Node/ros2_ws/build/base_interfaces_demo': /usr/bin/cmake --build /home/cjs/Health_Node/ros2_ws/build/base_interfaces_demo -- -j4 -l4
+Invoked command in '/home/cjs/Health_Node/ros2_ws/build/base_interfaces_demo' returned '2': /usr/bin/cmake --build /home/cjs/Health_Node/ros2_ws/build/base_interfaces_demo -- -j4 -l4

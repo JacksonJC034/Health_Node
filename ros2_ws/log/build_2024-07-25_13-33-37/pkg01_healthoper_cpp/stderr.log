@@ -1,0 +1,56 @@
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:[m[K In member function ‘[01m[Kvoid HealthOperator::load_error_map(const string&)[m[K’:
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:103:13:[m[K [01;31m[Kerror: [m[K‘[01m[KYAML[m[K’ has not been declared
+  103 |             [01;31m[KYAML[m[K::Node config = YAML::LoadFile(file_path);
+      |             [01;31m[K^~~~[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:104:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kconfig[m[K’ was not declared in this scope
+  104 |             for (const auto& category : [01;31m[Kconfig[m[K) {
+      |                                         [01;31m[K^~~~~~[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:105:81:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  105 |                 const std::string& category_name = category.first.as<std::string[01;31m[K>[m[K();
+      |                                                                                 [01;31m[K^[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:105:83:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+  105 |                 const std::string& category_name = category.first.as<std::string>([01;31m[K)[m[K;
+      |                                                                                   [01;31m[K^[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:107:51:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+  107 |                     int error_id = error.first.as<[01;31m[Kint[m[K>();
+      |                                                   [01;31m[K^~~[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:109:57:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  109 |                         error.second["code"].as<uint64_t[01;31m[K>[m[K(),
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:109:59:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+  109 |                         error.second["code"].as<uint64_t>([01;31m[K)[m[K,
+      |                                                           [01;31m[K^[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:110:57:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  110 |                         error.second["level"].as<uint8_t[01;31m[K>[m[K(),
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:110:59:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+  110 |                         error.second["level"].as<uint8_t>([01;31m[K)[m[K,
+      |                                                           [01;31m[K^[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:111:67:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  111 |                         error.second["description"].as<std::string[01;31m[K>[m[K()
+      |                                                                   [01;31m[K^[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:111:69:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+  111 |                         error.second["description"].as<std::string>([01;31m[K)[m[K
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:116:24:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KYAML[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+  116 |         } catch (const [01;31m[KYAML[m[K::BadFile& e) {
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:116:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+  116 |         } catch [34m[K([m[Kconst YAML[01;31m[K:[m[K[32m[K:[m[KBadFile& e) {
+      |                 [34m[K~[m[K          [01;31m[K^[m[K[32m[K~[m[K
+      |                            [32m[K)[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:116:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K::[m[K’ token
+  116 |         } catch (const YAML[01;31m[K::[m[KBadFile& e) {
+      |                            [01;31m[K^~[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:116:30:[m[K [01;31m[Kerror: [m[K‘[01m[K::BadFile[m[K’ has not been declared
+  116 |         } catch (const YAML::[01;31m[KBadFile[m[K& e) {
+      |                              [01;31m[K^~~~~~~[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:116:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ke[m[K’ was not declared in this scope
+  116 |         } catch (const YAML::BadFile& [01;31m[Ke[m[K) {
+      |                                       [01;31m[K^[m[K
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:101:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfile_path[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  101 |     void load_error_map([01;35m[Kconst std::string& file_path[m[K) {
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/health_oper.dir/build.make:63: CMakeFiles/health_oper.dir/src/health_oper.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/health_oper.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

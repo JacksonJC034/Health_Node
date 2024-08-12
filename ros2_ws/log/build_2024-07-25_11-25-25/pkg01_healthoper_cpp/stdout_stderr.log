@@ -1,0 +1,9 @@
+CMake Error at CMakeLists.txt:62:
+  Parse error.  Expected a command name, got unquoted argument with text
+  "``install".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp/CMakeFiles/CMakeOutput.log".
+See also "/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp/CMakeFiles/CMakeError.log".
+make: *** [Makefile:340: cmake_check_build_system] Error 1

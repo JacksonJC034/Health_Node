@@ -1,0 +1,2 @@
+[0.059s] Invoking command in '/home/cjs/Health_Node/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/cjs/Health_Node/build/base_interfaces_demo -- -j4 -l4
+[0.178s] Invoked command in '/home/cjs/Health_Node/build/base_interfaces_demo' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/cjs/Health_Node/build/base_interfaces_demo -- -j4 -l4

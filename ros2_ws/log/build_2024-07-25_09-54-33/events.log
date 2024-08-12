@@ -1,0 +1,138 @@
+[0.000000] (-) TimerEvent: {}
+[0.000412] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000531] (-) JobUnselected: {'identifier': 'pkg01_healthoper_cpp'}
+[0.000656] (pkg02_lifecycle_cpp) JobQueued: {'identifier': 'pkg02_lifecycle_cpp', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo')])}
+[0.000767] (pkg02_lifecycle_cpp) JobStarted: {'identifier': 'pkg02_lifecycle_cpp'}
+[0.040280] (pkg02_lifecycle_cpp) JobProgress: {'identifier': 'pkg02_lifecycle_cpp', 'progress': 'cmake'}
+[0.043319] (pkg02_lifecycle_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/cjs/Health_Node/ros2_ws/src/pkg02_lifecycle_cpp', '-DCMAKE_INSTALL_PREFIX=/home/cjs/Health_Node/ros2_ws/install/pkg02_lifecycle_cpp'], 'cwd': '/home/cjs/Health_Node/ros2_ws/build/pkg02_lifecycle_cpp', 'env': OrderedDict([('LC_TIME', 'zh_CN.UTF-8'), ('USER', 'cjs'), ('SSH_AGENT_PID', '1542'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/164/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('HOME', '/home/cjs'), ('LESS', '-R'), ('OLDPWD', '/home/cjs/Health_Node/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ZSH', '/home/cjs/.oh-my-zsh'), ('ALL', 'en.US.UTF-8'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/164/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1446'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/164/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0fa02c7d661b6b7cbfd27f1066a0581b'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'cjs'), ('JOURNAL_STREAM', '8:56620'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_SESSION_CLASS', 'user'), ('USER_ZDOTDIR', '/home/cjs'), ('TERM', 'xterm-256color'), ('USERNAME', 'cjs'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '9e60448dcc804a64942f76a12b382da6'), ('SESSION_MANAGER', 'local/cjs-virtual-machine:@/tmp/.ICE-unix/1577,unix/cjs-virtual-machine:/tmp/.ICE-unix/1577'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('TILIX_ID', 'aa2b7333-90b5-4e62-8b6d-36f0a2a23156'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8011e79f48.sock'), ('AMENT_PREFIX_PATH', '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/cjs/Health_Node/ros2_ws/build/pkg02_lifecycle_cpp'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0fa02c7d661b6b7cbfd27f1066a0581b'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ZDOTDIR', '/home/cjs'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/opt/ros/foxy')]), 'shell': False}
+[0.093321] (pkg02_lifecycle_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.098148] (-) TimerEvent: {}
+[0.141701] (pkg02_lifecycle_cpp) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.199280] (-) TimerEvent: {}
+[0.300649] (-) TimerEvent: {}
+[0.401295] (-) TimerEvent: {}
+[0.501873] (-) TimerEvent: {}
+[0.521408] (pkg02_lifecycle_cpp) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.589186] (pkg02_lifecycle_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.597275] (pkg02_lifecycle_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.602596] (-) TimerEvent: {}
+[0.703290] (-) TimerEvent: {}
+[0.803977] (-) TimerEvent: {}
+[0.821563] (pkg02_lifecycle_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.905083] (-) TimerEvent: {}
+[0.914478] (pkg02_lifecycle_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.917270] (pkg02_lifecycle_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.005730] (-) TimerEvent: {}
+[1.107421] (-) TimerEvent: {}
+[1.159914] (pkg02_lifecycle_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.207754] (-) TimerEvent: {}
+[1.309396] (-) TimerEvent: {}
+[1.337886] (pkg02_lifecycle_cpp) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.343854] (pkg02_lifecycle_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.344476] (pkg02_lifecycle_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/cjs/Health_Node/ros2_ws/src/pkg02_lifecycle_cpp/include>\n'}
+[1.344666] (pkg02_lifecycle_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.348687] (pkg02_lifecycle_cpp) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.349250] (pkg02_lifecycle_cpp) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.353670] (pkg02_lifecycle_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.362268] (pkg02_lifecycle_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.362600] (pkg02_lifecycle_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.364307] (pkg02_lifecycle_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.379529] (pkg02_lifecycle_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.396853] (pkg02_lifecycle_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[1.399265] (pkg02_lifecycle_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/cjs/Health_Node/ros2_ws/build/pkg02_lifecycle_cpp\n'}
+[1.409858] (-) TimerEvent: {}
+[1.420549] (pkg02_lifecycle_cpp) CommandEnded: {'returncode': 0}
+[1.428487] (pkg02_lifecycle_cpp) JobProgress: {'identifier': 'pkg02_lifecycle_cpp', 'progress': 'build'}
+[1.428663] (pkg02_lifecycle_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cjs/Health_Node/ros2_ws/build/pkg02_lifecycle_cpp', '--', '-j4', '-l4'], 'cwd': '/home/cjs/Health_Node/ros2_ws/build/pkg02_lifecycle_cpp', 'env': OrderedDict([('LC_TIME', 'zh_CN.UTF-8'), ('USER', 'cjs'), ('SSH_AGENT_PID', '1542'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/164/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('HOME', '/home/cjs'), ('LESS', '-R'), ('OLDPWD', '/home/cjs/Health_Node/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ZSH', '/home/cjs/.oh-my-zsh'), ('ALL', 'en.US.UTF-8'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/164/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1446'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/164/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0fa02c7d661b6b7cbfd27f1066a0581b'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'cjs'), ('JOURNAL_STREAM', '8:56620'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_SESSION_CLASS', 'user'), ('USER_ZDOTDIR', '/home/cjs'), ('TERM', 'xterm-256color'), ('USERNAME', 'cjs'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '9e60448dcc804a64942f76a12b382da6'), ('SESSION_MANAGER', 'local/cjs-virtual-machine:@/tmp/.ICE-unix/1577,unix/cjs-virtual-machine:/tmp/.ICE-unix/1577'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('TILIX_ID', 'aa2b7333-90b5-4e62-8b6d-36f0a2a23156'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8011e79f48.sock'), ('AMENT_PREFIX_PATH', '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/cjs/Health_Node/ros2_ws/build/pkg02_lifecycle_cpp'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0fa02c7d661b6b7cbfd27f1066a0581b'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ZDOTDIR', '/home/cjs'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/opt/ros/foxy')]), 'shell': False}
+[1.510598] (-) TimerEvent: {}
+[1.577015] (pkg02_lifecycle_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lifecycle\x1b[0m\n'}
+[1.611308] (-) TimerEvent: {}
+[1.711997] (-) TimerEvent: {}
+[1.797361] (pkg02_lifecycle_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lifecycle.dir/src/lifecycle.cpp.o\x1b[0m\n'}
+[1.812821] (-) TimerEvent: {}
+[1.913714] (-) TimerEvent: {}
+[2.015119] (-) TimerEvent: {}
+[2.116553] (-) TimerEvent: {}
+[2.217304] (-) TimerEvent: {}
+[2.318082] (-) TimerEvent: {}
+[2.419548] (-) TimerEvent: {}
+[2.520763] (-) TimerEvent: {}
+[2.621902] (-) TimerEvent: {}
+[2.722603] (-) TimerEvent: {}
+[2.823357] (-) TimerEvent: {}
+[2.923944] (-) TimerEvent: {}
+[3.025284] (-) TimerEvent: {}
+[3.126025] (-) TimerEvent: {}
+[3.227063] (-) TimerEvent: {}
+[3.328125] (-) TimerEvent: {}
+[3.428903] (-) TimerEvent: {}
+[3.530584] (-) TimerEvent: {}
+[3.631157] (-) TimerEvent: {}
+[3.732677] (-) TimerEvent: {}
+[3.833372] (-) TimerEvent: {}
+[3.934978] (-) TimerEvent: {}
+[4.035663] (-) TimerEvent: {}
+[4.136413] (-) TimerEvent: {}
+[4.237184] (-) TimerEvent: {}
+[4.338014] (-) TimerEvent: {}
+[4.438668] (-) TimerEvent: {}
+[4.539311] (-) TimerEvent: {}
+[4.640197] (-) TimerEvent: {}
+[4.741870] (-) TimerEvent: {}
+[4.842625] (-) TimerEvent: {}
+[4.943578] (-) TimerEvent: {}
+[5.044539] (-) TimerEvent: {}
+[5.146148] (-) TimerEvent: {}
+[5.246788] (-) TimerEvent: {}
+[5.348101] (-) TimerEvent: {}
+[5.448912] (-) TimerEvent: {}
+[5.550371] (-) TimerEvent: {}
+[5.651021] (-) TimerEvent: {}
+[5.751769] (-) TimerEvent: {}
+[5.853251] (-) TimerEvent: {}
+[5.954670] (-) TimerEvent: {}
+[6.055361] (-) TimerEvent: {}
+[6.156720] (-) TimerEvent: {}
+[6.257451] (-) TimerEvent: {}
+[6.349540] (pkg02_lifecycle_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lifecycle\x1b[0m\n'}
+[6.358016] (-) TimerEvent: {}
+[6.458698] (-) TimerEvent: {}
+[6.559571] (-) TimerEvent: {}
+[6.660540] (-) TimerEvent: {}
+[6.762159] (-) TimerEvent: {}
+[6.862739] (-) TimerEvent: {}
+[6.963395] (-) TimerEvent: {}
+[6.977478] (pkg02_lifecycle_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lifecycle.dir/src/lifecycle.cpp.o: in function `main':\n"}
+[6.981091] (pkg02_lifecycle_cpp) StderrLine: {'line': b"lifecycle.cpp:(.text+0x1dc): undefined reference to `rclcpp_lifecycle::LifecycleNode::get_node_base_interface()'\n"}
+[6.984972] (pkg02_lifecycle_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lifecycle.dir/src/lifecycle.cpp.o: in function `LifecycleNode::LifecycleNode()':\n"}
+[6.988641] (pkg02_lifecycle_cpp) StderrLine: {'line': b"lifecycle.cpp:(.text._ZN13LifecycleNodeC2Ev[_ZN13LifecycleNodeC5Ev]+0xb4): undefined reference to `rclcpp_lifecycle::LifecycleNode::LifecycleNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::NodeOptions const&)'\n"}
+[6.988847] (pkg02_lifecycle_cpp) StderrLine: {'line': b"/usr/bin/ld: lifecycle.cpp:(.text._ZN13LifecycleNodeC2Ev[_ZN13LifecycleNodeC5Ev]+0x1f9): undefined reference to `rclcpp_lifecycle::LifecycleNode::get_logger() const'\n"}
+[6.988986] (pkg02_lifecycle_cpp) StderrLine: {'line': b"/usr/bin/ld: lifecycle.cpp:(.text._ZN13LifecycleNodeC2Ev[_ZN13LifecycleNodeC5Ev]+0x256): undefined reference to `rclcpp_lifecycle::LifecycleNode::get_logger() const'\n"}
+[6.989342] (pkg02_lifecycle_cpp) StderrLine: {'line': b"/usr/bin/ld: lifecycle.cpp:(.text._ZN13LifecycleNodeC2Ev[_ZN13LifecycleNodeC5Ev]+0x354): undefined reference to `rclcpp_lifecycle::LifecycleNode::~LifecycleNode()'\n"}
+[6.993227] (pkg02_lifecycle_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lifecycle.dir/src/lifecycle.cpp.o: in function `LifecycleNode::on_configure(rclcpp_lifecycle::State const&)::{lambda()#1}::operator()() const':\n"}
+[6.993534] (pkg02_lifecycle_cpp) StderrLine: {'line': b"lifecycle.cpp:(.text._ZZN13LifecycleNode12on_configureERKN16rclcpp_lifecycle5StateEENKUlvE_clEv[_ZZN13LifecycleNode12on_configureERKN16rclcpp_lifecycle5StateEENKUlvE_clEv]+0x2b): undefined reference to `rclcpp_lifecycle::LifecycleNode::get_current_state()'\n"}
+[6.995524] (pkg02_lifecycle_cpp) StderrLine: {'line': b"/usr/bin/ld: lifecycle.cpp:(.text._ZZN13LifecycleNode12on_configureERKN16rclcpp_lifecycle5StateEENKUlvE_clEv[_ZZN13LifecycleNode12on_configureERKN16rclcpp_lifecycle5StateEENKUlvE_clEv]+0x33): undefined reference to `rclcpp_lifecycle::State::id() const'\n"}
+[6.995753] (pkg02_lifecycle_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lifecycle.dir/src/lifecycle.cpp.o: in function `LifecycleNode::on_configure(rclcpp_lifecycle::State const&)':\n"}
+[6.997538] (pkg02_lifecycle_cpp) StderrLine: {'line': b"lifecycle.cpp:(.text._ZN13LifecycleNode12on_configureERKN16rclcpp_lifecycle5StateE[_ZN13LifecycleNode12on_configureERKN16rclcpp_lifecycle5StateE]+0x108): undefined reference to `rclcpp_lifecycle::LifecycleNode::get_logger() const'\n"}
+[6.997756] (pkg02_lifecycle_cpp) StderrLine: {'line': b"/usr/bin/ld: lifecycle.cpp:(.text._ZN13LifecycleNode12on_configureERKN16rclcpp_lifecycle5StateE[_ZN13LifecycleNode12on_configureERKN16rclcpp_lifecycle5StateE]+0x161): undefined reference to `rclcpp_lifecycle::LifecycleNode::get_logger() const'\n"}
+[6.997896] (pkg02_lifecycle_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lifecycle.dir/src/lifecycle.cpp.o: in function `LifecycleNode::on_activate(rclcpp_lifecycle::State const&)':\n"}
+[6.999875] (pkg02_lifecycle_cpp) StderrLine: {'line': b"lifecycle.cpp:(.text._ZN13LifecycleNode11on_activateERKN16rclcpp_lifecycle5StateE[_ZN13LifecycleNode11on_activateERKN16rclcpp_lifecycle5StateE]+0x108): undefined reference to `rclcpp_lifecycle::LifecycleNode::get_logger() const'\n"}
+[7.000058] (pkg02_lifecycle_cpp) StderrLine: {'line': b"/usr/bin/ld: lifecycle.cpp:(.text._ZN13LifecycleNode11on_activateERKN16rclcpp_lifecycle5StateE[_ZN13LifecycleNode11on_activateERKN16rclcpp_lifecycle5StateE]+0x161): undefined reference to `rclcpp_lifecycle::LifecycleNode::get_logger() const'\n"}
+[7.000179] (pkg02_lifecycle_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lifecycle.dir/src/lifecycle.cpp.o: in function `LifecycleNode::on_deactivate(rclcpp_lifecycle::State const&)':\n"}
+[7.000316] (pkg02_lifecycle_cpp) StderrLine: {'line': b"lifecycle.cpp:(.text._ZN13LifecycleNode13on_deactivateERKN16rclcpp_lifecycle5StateE[_ZN13LifecycleNode13on_deactivateERKN16rclcpp_lifecycle5StateE]+0x108): undefined reference to `rclcpp_lifecycle::LifecycleNode::get_logger() const'\n"}
+[7.001181] (pkg02_lifecycle_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lifecycle.dir/src/lifecycle.cpp.o:lifecycle.cpp:(.text._ZN13LifecycleNode13on_deactivateERKN16rclcpp_lifecycle5StateE[_ZN13LifecycleNode13on_deactivateERKN16rclcpp_lifecycle5StateE]+0x161): more undefined references to `rclcpp_lifecycle::LifecycleNode::get_logger() const' follow\n"}
+[7.001391] (pkg02_lifecycle_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lifecycle.dir/src/lifecycle.cpp.o: in function `std::shared_ptr<rclcpp::node_interfaces::NodeTopicsInterface> rclcpp::node_interfaces::detail::get_node_topics_interface_from_pointer<rclcpp_lifecycle::LifecycleNode*, 0>(rclcpp_lifecycle::LifecycleNode*)':\n"}
+[7.002616] (pkg02_lifecycle_cpp) StderrLine: {'line': b"lifecycle.cpp:(.text._ZN6rclcpp15node_interfaces6detail38get_node_topics_interface_from_pointerIPN16rclcpp_lifecycle13LifecycleNodeELi0EEESt10shared_ptrINS0_19NodeTopicsInterfaceEET_[_ZN6rclcpp15node_interfaces6detail38get_node_topics_interface_from_pointerIPN16rclcpp_lifecycle13LifecycleNodeELi0EEESt10shared_ptrINS0_19NodeTopicsInterfaceEET_]+0x71): undefined reference to `rclcpp_lifecycle::LifecycleNode::get_node_topics_interface()'\n"}
+[7.002784] (pkg02_lifecycle_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lifecycle.dir/src/lifecycle.cpp.o:(.data.rel.ro._ZTV13LifecycleNode[_ZTV13LifecycleNode]+0x38): undefined reference to `rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::on_error(rclcpp_lifecycle::State const&)'\n"}
+[7.004280] (pkg02_lifecycle_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lifecycle.dir/src/lifecycle.cpp.o: in function `LifecycleNode::~LifecycleNode()':\n"}
+[7.004610] (pkg02_lifecycle_cpp) StderrLine: {'line': b"lifecycle.cpp:(.text._ZN13LifecycleNodeD2Ev[_ZN13LifecycleNodeD5Ev]+0x4a): undefined reference to `rclcpp_lifecycle::LifecycleNode::~LifecycleNode()'\n"}
+[7.005193] (pkg02_lifecycle_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lifecycle.dir/src/lifecycle.cpp.o:(.data.rel.ro._ZTI13LifecycleNode[_ZTI13LifecycleNode]+0x10): undefined reference to `typeinfo for rclcpp_lifecycle::LifecycleNode'\n"}
+[7.005472] (pkg02_lifecycle_cpp) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[7.010852] (pkg02_lifecycle_cpp) StderrLine: {'line': b'make[2]: *** [CMakeFiles/lifecycle.dir/build.make:131: lifecycle] Error 1\n'}
+[7.011413] (pkg02_lifecycle_cpp) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lifecycle.dir/all] Error 2\n'}
+[7.011712] (pkg02_lifecycle_cpp) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[7.018225] (pkg02_lifecycle_cpp) CommandEnded: {'returncode': 2}
+[7.067216] (-) TimerEvent: {}
+[7.168797] (-) TimerEvent: {}
+[7.177873] (pkg02_lifecycle_cpp) JobEnded: {'identifier': 'pkg02_lifecycle_cpp', 'rc': 2}
+[7.180938] (-) EventReactorShutdown: {}

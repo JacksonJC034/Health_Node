@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Wextra -Wpedantic -std=gnu++14
 
 CXX_DEFINES = -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB
 
-CXX_INCLUDES = -isystem /home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/include -isystem /opt/ros/foxy/include 
+CXX_INCLUDES = -I/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/include -isystem /home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/include -isystem /opt/ros/foxy/include -isystem /opt/ros/foxy/opt/yaml_cpp_vendor/include 
 

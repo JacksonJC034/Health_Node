@@ -1,0 +1,58 @@
+[0.045s] Invoking command in '/home/cjs/Health_Node/ros2_ws/build/pkg02_lifecycle_cpp': AMENT_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/opt/ros/foxy LD_LIBRARY_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cjs/Health_Node/ros2_ws/src/pkg02_lifecycle_cpp -DCMAKE_INSTALL_PREFIX=/home/cjs/Health_Node/ros2_ws/install/pkg02_lifecycle_cpp
+[0.094s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.141s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.521s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.589s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.597s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.821s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.914s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.917s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.159s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.337s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.343s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.344s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/cjs/Health_Node/ros2_ws/src/pkg02_lifecycle_cpp/include>
+[1.344s] -- Configured cppcheck exclude dirs and/or files: 
+[1.348s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.349s] -- Configured cpplint exclude dirs and/or files: 
+[1.353s] -- Added test 'lint_cmake' to check CMake code style
+[1.362s] -- Added test 'uncrustify' to check C / C++ code style
+[1.362s] -- Configured uncrustify additional arguments: 
+[1.364s] -- Added test 'xmllint' to check XML markup files
+[1.379s] -- Configuring done
+[1.396s] -- Generating done
+[1.399s] -- Build files have been written to: /home/cjs/Health_Node/ros2_ws/build/pkg02_lifecycle_cpp
+[1.426s] Invoked command in '/home/cjs/Health_Node/ros2_ws/build/pkg02_lifecycle_cpp' returned '0': AMENT_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/opt/ros/foxy LD_LIBRARY_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cjs/Health_Node/ros2_ws/src/pkg02_lifecycle_cpp -DCMAKE_INSTALL_PREFIX=/home/cjs/Health_Node/ros2_ws/install/pkg02_lifecycle_cpp
+[1.428s] Invoking command in '/home/cjs/Health_Node/ros2_ws/build/pkg02_lifecycle_cpp': AMENT_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/opt/ros/foxy LD_LIBRARY_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cjs/Health_Node/ros2_ws/build/pkg02_lifecycle_cpp -- -j4 -l4
+[1.576s] [35m[1mScanning dependencies of target lifecycle[0m
+[1.797s] [ 50%] [32mBuilding CXX object CMakeFiles/lifecycle.dir/src/lifecycle.cpp.o[0m
+[6.349s] [100%] [32m[1mLinking CXX executable lifecycle[0m
+[6.977s] /usr/bin/ld: CMakeFiles/lifecycle.dir/src/lifecycle.cpp.o: in function `main':
+[6.981s] lifecycle.cpp:(.text+0x1dc): undefined reference to `rclcpp_lifecycle::LifecycleNode::get_node_base_interface()'
+[6.988s] /usr/bin/ld: CMakeFiles/lifecycle.dir/src/lifecycle.cpp.o: in function `LifecycleNode::LifecycleNode()':
+[6.988s] lifecycle.cpp:(.text._ZN13LifecycleNodeC2Ev[_ZN13LifecycleNodeC5Ev]+0xb4): undefined reference to `rclcpp_lifecycle::LifecycleNode::LifecycleNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::NodeOptions const&)'
+[6.988s] /usr/bin/ld: lifecycle.cpp:(.text._ZN13LifecycleNodeC2Ev[_ZN13LifecycleNodeC5Ev]+0x1f9): undefined reference to `rclcpp_lifecycle::LifecycleNode::get_logger() const'
+[6.988s] /usr/bin/ld: lifecycle.cpp:(.text._ZN13LifecycleNodeC2Ev[_ZN13LifecycleNodeC5Ev]+0x256): undefined reference to `rclcpp_lifecycle::LifecycleNode::get_logger() const'
+[6.989s] /usr/bin/ld: lifecycle.cpp:(.text._ZN13LifecycleNodeC2Ev[_ZN13LifecycleNodeC5Ev]+0x354): undefined reference to `rclcpp_lifecycle::LifecycleNode::~LifecycleNode()'
+[6.993s] /usr/bin/ld: CMakeFiles/lifecycle.dir/src/lifecycle.cpp.o: in function `LifecycleNode::on_configure(rclcpp_lifecycle::State const&)::{lambda()#1}::operator()() const':
+[6.993s] lifecycle.cpp:(.text._ZZN13LifecycleNode12on_configureERKN16rclcpp_lifecycle5StateEENKUlvE_clEv[_ZZN13LifecycleNode12on_configureERKN16rclcpp_lifecycle5StateEENKUlvE_clEv]+0x2b): undefined reference to `rclcpp_lifecycle::LifecycleNode::get_current_state()'
+[6.995s] /usr/bin/ld: lifecycle.cpp:(.text._ZZN13LifecycleNode12on_configureERKN16rclcpp_lifecycle5StateEENKUlvE_clEv[_ZZN13LifecycleNode12on_configureERKN16rclcpp_lifecycle5StateEENKUlvE_clEv]+0x33): undefined reference to `rclcpp_lifecycle::State::id() const'
+[6.995s] /usr/bin/ld: CMakeFiles/lifecycle.dir/src/lifecycle.cpp.o: in function `LifecycleNode::on_configure(rclcpp_lifecycle::State const&)':
+[6.997s] lifecycle.cpp:(.text._ZN13LifecycleNode12on_configureERKN16rclcpp_lifecycle5StateE[_ZN13LifecycleNode12on_configureERKN16rclcpp_lifecycle5StateE]+0x108): undefined reference to `rclcpp_lifecycle::LifecycleNode::get_logger() const'
+[6.997s] /usr/bin/ld: lifecycle.cpp:(.text._ZN13LifecycleNode12on_configureERKN16rclcpp_lifecycle5StateE[_ZN13LifecycleNode12on_configureERKN16rclcpp_lifecycle5StateE]+0x161): undefined reference to `rclcpp_lifecycle::LifecycleNode::get_logger() const'
+[6.997s] /usr/bin/ld: CMakeFiles/lifecycle.dir/src/lifecycle.cpp.o: in function `LifecycleNode::on_activate(rclcpp_lifecycle::State const&)':
+[6.999s] lifecycle.cpp:(.text._ZN13LifecycleNode11on_activateERKN16rclcpp_lifecycle5StateE[_ZN13LifecycleNode11on_activateERKN16rclcpp_lifecycle5StateE]+0x108): undefined reference to `rclcpp_lifecycle::LifecycleNode::get_logger() const'
+[6.999s] /usr/bin/ld: lifecycle.cpp:(.text._ZN13LifecycleNode11on_activateERKN16rclcpp_lifecycle5StateE[_ZN13LifecycleNode11on_activateERKN16rclcpp_lifecycle5StateE]+0x161): undefined reference to `rclcpp_lifecycle::LifecycleNode::get_logger() const'
+[6.999s] /usr/bin/ld: CMakeFiles/lifecycle.dir/src/lifecycle.cpp.o: in function `LifecycleNode::on_deactivate(rclcpp_lifecycle::State const&)':
+[7.000s] lifecycle.cpp:(.text._ZN13LifecycleNode13on_deactivateERKN16rclcpp_lifecycle5StateE[_ZN13LifecycleNode13on_deactivateERKN16rclcpp_lifecycle5StateE]+0x108): undefined reference to `rclcpp_lifecycle::LifecycleNode::get_logger() const'
+[7.000s] /usr/bin/ld: CMakeFiles/lifecycle.dir/src/lifecycle.cpp.o:lifecycle.cpp:(.text._ZN13LifecycleNode13on_deactivateERKN16rclcpp_lifecycle5StateE[_ZN13LifecycleNode13on_deactivateERKN16rclcpp_lifecycle5StateE]+0x161): more undefined references to `rclcpp_lifecycle::LifecycleNode::get_logger() const' follow
+[7.001s] /usr/bin/ld: CMakeFiles/lifecycle.dir/src/lifecycle.cpp.o: in function `std::shared_ptr<rclcpp::node_interfaces::NodeTopicsInterface> rclcpp::node_interfaces::detail::get_node_topics_interface_from_pointer<rclcpp_lifecycle::LifecycleNode*, 0>(rclcpp_lifecycle::LifecycleNode*)':
+[7.002s] lifecycle.cpp:(.text._ZN6rclcpp15node_interfaces6detail38get_node_topics_interface_from_pointerIPN16rclcpp_lifecycle13LifecycleNodeELi0EEESt10shared_ptrINS0_19NodeTopicsInterfaceEET_[_ZN6rclcpp15node_interfaces6detail38get_node_topics_interface_from_pointerIPN16rclcpp_lifecycle13LifecycleNodeELi0EEESt10shared_ptrINS0_19NodeTopicsInterfaceEET_]+0x71): undefined reference to `rclcpp_lifecycle::LifecycleNode::get_node_topics_interface()'
+[7.002s] /usr/bin/ld: CMakeFiles/lifecycle.dir/src/lifecycle.cpp.o:(.data.rel.ro._ZTV13LifecycleNode[_ZTV13LifecycleNode]+0x38): undefined reference to `rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::on_error(rclcpp_lifecycle::State const&)'
+[7.004s] /usr/bin/ld: CMakeFiles/lifecycle.dir/src/lifecycle.cpp.o: in function `LifecycleNode::~LifecycleNode()':
+[7.004s] lifecycle.cpp:(.text._ZN13LifecycleNodeD2Ev[_ZN13LifecycleNodeD5Ev]+0x4a): undefined reference to `rclcpp_lifecycle::LifecycleNode::~LifecycleNode()'
+[7.005s] /usr/bin/ld: CMakeFiles/lifecycle.dir/src/lifecycle.cpp.o:(.data.rel.ro._ZTI13LifecycleNode[_ZTI13LifecycleNode]+0x10): undefined reference to `typeinfo for rclcpp_lifecycle::LifecycleNode'
+[7.005s] collect2: error: ld returned 1 exit status
+[7.010s] make[2]: *** [CMakeFiles/lifecycle.dir/build.make:131: lifecycle] Error 1
+[7.011s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lifecycle.dir/all] Error 2
+[7.011s] make: *** [Makefile:141: all] Error 2
+[7.019s] Invoked command in '/home/cjs/Health_Node/ros2_ws/build/pkg02_lifecycle_cpp' returned '2': AMENT_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/opt/ros/foxy LD_LIBRARY_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cjs/Health_Node/ros2_ws/build/pkg02_lifecycle_cpp -- -j4 -l4

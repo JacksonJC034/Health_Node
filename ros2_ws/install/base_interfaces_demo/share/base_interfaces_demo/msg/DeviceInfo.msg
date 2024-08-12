@@ -1,0 +1,9 @@
+float64 cpu_used
+float64 cpu0_used
+float64 cpu1_used
+float64 cpu2_used
+float64 cpu3_used
+string disk_used
+float64 mem_used
+float64 ghz
+int32 network_status

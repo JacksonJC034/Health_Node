@@ -1,298 +1,449 @@
 #include "rclcpp/rclcpp.hpp"
-#include "pkg00_base_interfaces/msg/bms_info.hpp"
-#include "pkg00_base_interfaces/msg/charger_info.hpp"
-#include "pkg00_base_interfaces/msg/color_info.hpp"
-#include "pkg00_base_interfaces/msg/core_info.hpp"
-#include "pkg00_base_interfaces/msg/hall_info.hpp"
-#include "pkg00_base_interfaces/msg/location.hpp"
-#include "pkg00_base_interfaces/msg/motor_cmd.hpp"
-#include "pkg00_base_interfaces/msg/motor_status.hpp"
-#include "pkg00_base_interfaces/msg/obs_laser.hpp"
-#include <sys/statvfs.h>
-#include <fstream>
-#include <sstream>
-#include <string>
-#include <iostream>
+#include "yaml-cpp/yaml.h"
+#include "base_interfaces_demo/msg/bms_info.hpp"
+#include "base_interfaces_demo/msg/charger_info.hpp"
+#include "base_interfaces_demo/msg/color_info.hpp"
+#include "base_interfaces_demo/msg/hall_info.hpp"
+#include "base_interfaces_demo/msg/lift_control.hpp"
+#include "base_interfaces_demo/msg/location.hpp"
+#include "base_interfaces_demo/msg/motor_status.hpp"
+#include "base_interfaces_demo/msg/motion_control.hpp"
+#include "base_interfaces_demo/msg/obs_laser.hpp"
+#include "base_interfaces_demo/msg/pallet_info.hpp"
+#include "base_interfaces_demo/msg/health_node.hpp"
+#include "core_info.hpp"
+#include <ament_index_cpp/get_package_share_directory.hpp>
+#include <map>
+
+struct ErrorInfo {
+    uint64_t code;
+    uint8_t level;
+    std::string description;
+};
 
 class HealthOperator : public rclcpp::Node {
 public:
-  HealthOperator() : Node("health_operator") {
-    publisher_ = this->create_publisher<pkg00_base_interfaces::msg::CoreInfo>("core_info_topic", 10);
+    HealthOperator() : Node("health_operator"), core_info_monitor_() {
+        publisher_health_node_ = this->create_publisher<base_interfaces_demo::msg::HealthNode>("/rbot/health_node_topic", 10);
 
-    subscriber_bms_ = this->create_subscription<pkg00_base_interfaces::msg::BmsInfo>(
-      "bms_info_topic", 10, std::bind(&HealthOperator::bms_info_callback, this, std::placeholders::_1));
+        // Use ament_index_cpp to get the package share directory and construct the file path
+        // std::string package_share_directory = ament_index_cpp::get_package_share_directory("pkg01_healthoper_cpp");
+        // std::string file_path = package_share_directory + "/config/mapping.yaml";
+        
+        // std::cout << "Constructed YAML file path: " << file_path << std::endl;
+        std::string file_path = "mapping.yaml";
 
-    subscriber_charger_ = this->create_subscription<pkg00_base_interfaces::msg::ChargerInfo>(
-      "charger_info_topic", 10, std::bind(&HealthOperator::charger_info_callback, this, std::placeholders::_1));
-    
-    subscriber_color_ = this->create_subscription<pkg00_base_interfaces::msg::ColorInfo>(
-      "color_info_topic", 10, std::bind(&HealthOperator::color_info_callback, this, std::placeholders::_1));
-    
-    subscriber_hall_ = this->create_subscription<pkg00_base_interfaces::msg::HallInfo>(
-      "hall_info_topic", 10, std::bind(&HealthOperator::hall_info_callback, this, std::placeholders::_1));
-  
-    subscriber_location_ = this->create_subscription<pkg00_base_interfaces::msg::Location>(
-      "location_topic", 10, std::bind(&HealthOperator::location_callback, this, std::placeholders::_1));
-    
-    subscriber_motor_cmd_ = this->create_subscription<pkg00_base_interfaces::msg::MotorCmd>(
-      "motor_cmd_topic", 10, std::bind(&HealthOperator::motor_cmd_callback, this, std::placeholders::_1));
-    
-    subscriber_motor_status_ = this->create_subscription<pkg00_base_interfaces::msg::MotorStatus>(
-      "motor_status_topic", 10, std::bind(&HealthOperator::motor_status_callback, this, std::placeholders::_1));
-    
-    subscriber_obs_laser_ = this->create_subscription<pkg00_base_interfaces::msg::ObsLaser>(
-      "obs_laser_topic", 10, std::bind(&HealthOperator::obs_laser_callback, this, std::placeholders::_1));
+        load_error_map(file_path);
 
-    timer_ = this->create_wall_timer(
-      std::chrono::seconds(1),
-      std::bind(&HealthOperator::publish_core_info, this));
-  }
+        subscriber_bms_info_ = this->create_subscription<base_interfaces_demo::msg::BmsInfo>(
+            "/rbot/pub_bms_info_topic", 10, std::bind(&HealthOperator::bms_info_callback, this, std::placeholders::_1));
+
+        subscriber_charger_info_ = this->create_subscription<base_interfaces_demo::msg::ChargerInfo>(
+            "/rbot/pub_charger_state_topic", 10, std::bind(&HealthOperator::charger_info_callback, this, std::placeholders::_1));
+        
+        subscriber_location_ = this->create_subscription<base_interfaces_demo::msg::Location>(
+            "/rbot/location_topic", 10, std::bind(&HealthOperator::location_callback, this, std::placeholders::_1));
+        
+        subscriber_hall_info_ = this->create_subscription<base_interfaces_demo::msg::HallInfo>(
+            "/rbot/pub_hall_info_topic", 10, std::bind(&HealthOperator::hall_info_callback, this, std::placeholders::_1));
+
+        subscriber_color_info_ = this->create_subscription<base_interfaces_demo::msg::ColorInfo>(
+            "/rbot/pub_color_oper_topic", 10, std::bind(&HealthOperator::color_info_callback, this, std::placeholders::_1));
+        
+        subscriber_pallet_info_ = this->create_subscription<base_interfaces_demo::msg::PalletInfo>(
+            "/rbot/pallet_detect_topic", 10, std::bind(&HealthOperator::pallet_info_callback, this, std::placeholders::_1));
+        
+        subscriber_obs_laser_ = this->create_subscription<base_interfaces_demo::msg::ObsLaser>(
+            "/rbot/pub_obslaser_info_topic", 10, std::bind(&HealthOperator::obs_laser_callback, this, std::placeholders::_1));
+        
+        subscriber_motor_son_ = this->create_subscription<base_interfaces_demo::msg::MotorStatus>(
+            "/rbot/motorstatus_topic", 10, std::bind(&HealthOperator::motor_son_callback, this, std::placeholders::_1));
+
+        subscriber_motor_mother_ = this->create_subscription<base_interfaces_demo::msg::MotorStatus>(
+            "/rbot/motorstatus_mother_topic", 10, std::bind(&HealthOperator::motor_mother_callback, this, std::placeholders::_1));
+
+        subscriber_motor_lift_ = this->create_subscription<base_interfaces_demo::msg::MotorStatus>(
+            "/rbot/motorstatus_lift_topic", 10, std::bind(&HealthOperator::motor_lift_callback, this, std::placeholders::_1));
+
+        subscriber_lift_control_ = this->create_subscription<base_interfaces_demo::msg::LiftControl>(
+            "/rbot/lift_control_topic", 10, std::bind(&HealthOperator::lift_control_callback, this, std::placeholders::_1));
+
+        timer_ = this->create_wall_timer(
+            std::chrono::milliseconds(500),
+            std::bind(&HealthOperator::publish_health_node, this));
+    }
 
 private:
-  void bms_info_callback(const pkg00_base_interfaces::msg::BmsInfo::SharedPtr msg) {
-    latest_bms_info_ = *msg; // Store the latest BmsInfo message
-  }
+    const uint8_t CPU_USAGE_THRESHOLD = 99; // 99%
+    const uint8_t DISK_USAGE_THRESHOLD = 98; // 98%
+    const uint8_t MEMORY_USAGE_THRESHOLD = 99; // 99%
+    const uint8_t NIC_STATUS_THRESHOLD = 5; // package loss rate 5%
+    const uint8_t TEMPERATURE_THRESHOLD = 85; // 85 degrees Celsius
+    const uint16_t CPU_FREQUENCY_THRESHOLD = 250; // 250 MHz (70% of the operation frequency)
+    const double VMAX_THRESHOLD = 3.65; // 3.65 V
+    const double VMIN_THRESHOLD = 2.4; // 3.1 V
+    const uint8_t CUR_CADC_THRESHOLD = 50; // 50 A
+    const uint8_t RSOC_THRESHOLD = 30; // 30%
 
-  void charger_info_callback(const pkg00_base_interfaces::msg::ChargerInfo::SharedPtr msg) {
-    latest_charger_info_ = *msg; // Store the latest ChargerInfo message
-  }
+    std::map<std::string, std::map<int, ErrorInfo>> error_map;
+    base_interfaces_demo::msg::BmsInfo bms_info_;
+    base_interfaces_demo::msg::ChargerInfo charger_info_;
+    base_interfaces_demo::msg::Location location_;
+    base_interfaces_demo::msg::HallInfo hall_info_;
+    base_interfaces_demo::msg::ColorInfo color_info_;
+    base_interfaces_demo::msg::PalletInfo pallet_info_;
+    base_interfaces_demo::msg::ObsLaser obs_laser_;
+    base_interfaces_demo::msg::MotorStatus motor_son_;
+    base_interfaces_demo::msg::MotorStatus motor_mother_;
+    base_interfaces_demo::msg::MotorStatus motor_lift_;
+    base_interfaces_demo::msg::LiftControl lift_control_;
+    CoreInfoMonitor core_info_monitor_;
 
-  void color_info_callback(const pkg00_base_interfaces::msg::ColorInfo::SharedPtr msg) {
-    latest_color_info_ = *msg; // Store the latest ColorInfo message
-  }
-
-  void hall_info_callback(const pkg00_base_interfaces::msg::HallInfo::SharedPtr msg) {
-    latest_hall_info_ = *msg; // Store the latest HallInfo message
-  }
-
-  void location_callback(const pkg00_base_interfaces::msg::Location::SharedPtr msg) {
-    latest_location_ = *msg; // Store the latest Location message
-  }
-
-  void motor_cmd_callback(const pkg00_base_interfaces::msg::MotorCmd::SharedPtr msg) {
-    latest_motor_cmd_ = *msg; // Store the latest MotorCmd message
-  }
-
-  void motor_status_callback(const pkg00_base_interfaces::msg::MotorStatus::SharedPtr msg) {
-    latest_motor_status_ = *msg; // Store the latest MotorStatus message
-  }
-
-  void obs_laser_callback(const pkg00_base_interfaces::msg::ObsLaser::SharedPtr msg) {
-    latest_obs_laser_ = *msg; // Store the latest ObsLaser message
-  }
-
-  void publish_core_info() {
-    auto message = pkg00_base_interfaces::msg::CoreInfo();
-
-    // Fill in the message fields with real data
-    message.cpu_usage = get_cpu_usage();
-    message.memory_usage = get_memory_usage();
-    message.disk_usage = get_disk_usage();
-    message.cpu_frequency = get_cpu_frequency();
-    message.nic_status = get_ping_time();
-    message.temperature = get_temperature();
-
-    publisher_->publish(message);
-  }
-
-  double get_cpu_usage() {
-    std::ifstream file("/proc/stat");
-    std::string line;
-    if (std::getline(file, line)) {
-      std::istringstream iss(line);
-      std::string cpu;
-      long user, nice, system, idle, iowait, irq, softirq, steal;
-      iss >> cpu >> user >> nice >> system >> idle >> iowait >> irq >> softirq >> steal;
-      static long prev_user = 0, prev_nice = 0, prev_system = 0, prev_idle = 0;
-      static long prev_iowait = 0, prev_irq = 0, prev_softirq = 0, prev_steal = 0;
-      long delta_user = user - prev_user;
-      long delta_nice = nice - prev_nice;
-      long delta_system = system - prev_system;
-      long delta_idle = idle - prev_idle;
-      long delta_iowait = iowait - prev_iowait;
-      long delta_irq = irq - prev_irq;
-      long delta_softirq = softirq - prev_softirq;
-      long delta_steal = steal - prev_steal;
-      prev_user = user;
-      prev_nice = nice;
-      prev_system = system;
-      prev_idle = idle;
-      prev_iowait = iowait;
-      prev_irq = irq;
-      prev_softirq = softirq;
-      prev_steal = steal;
-      long delta_total = delta_user + delta_nice + delta_system + delta_idle + delta_iowait + delta_irq + delta_softirq + delta_steal;
-      return (delta_total - delta_idle) / (double)delta_total * 100.0;
-    }
-    return 0.0;
-  }
-
-  double get_memory_usage() {
-    std::ifstream file("/proc/meminfo");
-    if (!file.is_open()) {
-        std::cerr << "Unable to open /proc/meminfo" << std::endl;
-        return -1.0;
-    }
-
-    std::string line;
-    long long total_memory = 0;
-    long long available_memory = 0;
-
-    while (std::getline(file, line)) {
-        std::istringstream iss(line);
-        std::string key;
-        long long value;
-        std::string unit;
-
-        iss >> key >> value >> unit;
-
-        if (key == "MemTotal:") {
-            total_memory = value;
-        } else if (key == "MemAvailable:") {
-            available_memory = value;
-        }
-
-        if (total_memory && available_memory) {
-            break;
-        }
-      }
-
-    file.close();
-
-    double memory_usage = (total_memory - available_memory) / (double)total_memory * 100.0;
-    return memory_usage;
-  }
-
-  double get_disk_usage() {
-    struct statvfs disk_info;
-    if (statvfs("/", &disk_info) == 0) {
-      double total_blocks = disk_info.f_blocks;
-      double free_blocks = disk_info.f_bfree;
-      return (total_blocks - free_blocks) / total_blocks * 100.0;
-    }
-    return 0.0;
-  }
-
-  double get_cpu_frequency() {
-    std::ifstream file("/proc/cpuinfo");
-    if (!file.is_open()) {
-        std::cerr << "Unable to open /proc/cpuinfo" << std::endl;
-        return -1.0;
-    }
-
-    std::string line;
-    double cpu_frequency = 0.0;
-
-    while (std::getline(file, line)) {
-        if (line.find("cpu MHz") != std::string::npos) {
-            std::string key, value;
-            std::istringstream iss(line);
-            if (std::getline(iss, key, ':') && std::getline(iss, value)) {
-                value = trim(value); // Trim any whitespace around the value
-                try {
-                    cpu_frequency = std::stod(value); // Convert the string to a double
-                } catch (const std::invalid_argument& e) {
-                    std::cerr << "Invalid argument: " << e.what() << std::endl;
-                } catch (const std::out_of_range& e) {
-                    std::cerr << "Out of range: " << e.what() << std::endl;
+    void load_error_map(const std::string& file_path) {
+        try {
+            YAML::Node config = YAML::LoadFile(file_path);
+            for (const auto& category : config) {
+                const std::string& category_name = category.first.as<std::string>();
+                for (const auto& error : category.second) {
+                    int error_id = error.first.as<int>();
+                    ErrorInfo info = {
+                        error.second["code"].as<uint64_t>(),
+                        error.second["level"].as<uint8_t>(),
+                        error.second["description"].as<std::string>()
+                    };
+                    error_map[category_name][error_id] = info;
                 }
-                break;
             }
+        } catch (const YAML::BadFile& e) {
+            std::cerr << "Failed to load YAML file: " << file_path << std::endl;
+            std::cerr << "Exception: " << e.what() << std::endl;
+            // Handle the error, e.g., by setting default values or re-throwing the exception
         }
     }
 
-    file.close();
-
-    if (cpu_frequency == 0.0) {
-        std::cerr << "CPU frequency not found in /proc/cpuinfo" << std::endl;
-        return -1.0;
+    void bms_info_callback(const base_interfaces_demo::msg::BmsInfo::SharedPtr msg) {
+        bms_info_ = *msg;
     }
 
-    return cpu_frequency;
-  }
-
-  std::string trim(const std::string& str) {
-    size_t first = str.find_first_not_of(' ');
-    if (first == std::string::npos)
-        return "";
-    size_t last = str.find_last_not_of(' ');
-    return str.substr(first, last - first + 1);
-  }
-
-  std::string get_ping_time() {
-    std::string ip_address = "220.181.38.148";
-    std::array<char, 128> buffer;
-    std::string result;
-    std::string command = "ping -c 1 " + ip_address + " 2>&1"; // Redirect stderr to stdout
-    
-    // Open pipe to file
-    std::shared_ptr<FILE> pipe(popen(command.c_str(), "r"), pclose);
-    if (!pipe) {
-        throw std::runtime_error("popen() failed!");
+    void charger_info_callback(const base_interfaces_demo::msg::ChargerInfo::SharedPtr msg) {
+        charger_info_ = *msg;
     }
-    
-    // Read till end of process:
-    while (!feof(pipe.get())) {
-        if (fgets(buffer.data(), 128, pipe.get()) != nullptr) {
-            result += buffer.data();
+
+    void location_callback(const base_interfaces_demo::msg::Location::SharedPtr msg) {
+        location_ = *msg;
+    }
+
+    void hall_info_callback(const base_interfaces_demo::msg::HallInfo::SharedPtr msg) {
+        hall_info_ = *msg;
+    }
+
+    void color_info_callback(const base_interfaces_demo::msg::ColorInfo::SharedPtr msg) {
+        color_info_ = *msg;
+    }
+
+    void pallet_info_callback(const base_interfaces_demo::msg::PalletInfo::SharedPtr msg) {
+        pallet_info_ = *msg;
+    }
+
+    void obs_laser_callback(const base_interfaces_demo::msg::ObsLaser::SharedPtr msg) {
+        obs_laser_ = *msg;
+    }
+
+    void motor_son_callback(const base_interfaces_demo::msg::MotorStatus::SharedPtr msg) {
+        motor_son_ = *msg;
+    }
+
+    void motor_mother_callback(const base_interfaces_demo::msg::MotorStatus::SharedPtr msg) {
+        motor_mother_ = *msg;
+    }
+
+    void motor_lift_callback(const base_interfaces_demo::msg::MotorStatus::SharedPtr msg) {
+        motor_lift_ = *msg;
+    }
+
+    void lift_control_callback(const base_interfaces_demo::msg::LiftControl::SharedPtr msg) {
+        lift_control_ = *msg;
+    }
+
+    void check_errors(base_interfaces_demo::msg::HealthNode& msg) {
+        // Main errors
+        if (msg.cpu_usage > CPU_USAGE_THRESHOLD) {
+            msg.error_array[0] |= (1 << 0);
+            msg.error_level = std::max(msg.error_level, error_map["main_errors"][0].level);
         }
-    }
-    
-    // Check for error messages in the result
-    if (result.find("Network is unreachable") != std::string::npos) {
-        return "Network is unreachable";
-    }
-    if (result.find("ping: unknown host") != std::string::npos) {
-        return "Unknown host";
+        if (msg.disk_usage > DISK_USAGE_THRESHOLD) {
+            msg.error_array[0] |= (1 << 1);
+            msg.error_level = std::max(msg.error_level, error_map["main_errors"][1].level);
+        }
+        if (msg.memory_usage > MEMORY_USAGE_THRESHOLD) {
+            msg.error_array[0] |= (1 << 2);
+            msg.error_level = std::max(msg.error_level, error_map["main_errors"][2].level);
+        }
+        if (msg.nic_status > NIC_STATUS_THRESHOLD) {
+            msg.error_array[0] |= (1 << 3);
+            msg.error_level = std::max(msg.error_level, error_map["main_errors"][3].level);
+        }
+        if (msg.temperature > TEMPERATURE_THRESHOLD) {
+            msg.error_array[0] |= (1 << 4);
+            msg.error_level = std::max(msg.error_level, error_map["main_errors"][4].level);
+        }
+        // if (msg.cpu_frequency < CPU_FREQUENCY_THRESHOLD) {
+        //     msg.error_array[0] |= (1 << 5);
+        //     msg.error_level = std::max(msg.error_level, error_map["main_errors"][5].level);
+        // }
+
+        // Battery errors
+        if (bms_info_.vmax > VMAX_THRESHOLD) {
+            msg.error_array[1] |= (1 << 0);
+            msg.error_level = std::max(msg.error_level, error_map["bms_errors"][0].level);
+        }
+        if (bms_info_.vmin < VMIN_THRESHOLD) {
+            msg.error_array[1] |= (1 << 1);
+            msg.error_level = std::max(msg.error_level, error_map["bms_errors"][1].level);
+        }
+        if (bms_info_.cur_cadc > CUR_CADC_THRESHOLD) {
+            msg.error_array[1] |= (1 << 2);
+            msg.error_level = std::max(msg.error_level, error_map["bms_errors"][2].level);
+        }
+        if (bms_info_.error_code & (1 << 5)) {
+            msg.error_array[1] |= (1 << 3);
+            msg.error_level = std::max(msg.error_level, error_map["bms_errors"][3].level);
+        }
+        if (bms_info_.error_code & (1 << 6)) {
+            msg.error_array[1] |= (1 << 4);
+            msg.error_level = std::max(msg.error_level, error_map["bms_errors"][4].level);
+        }
+        if (bms_info_.rsoc < RSOC_THRESHOLD) {
+            msg.error_array[1] |= (1 << 5);
+            msg.error_level = std::max(msg.error_level, error_map["bms_errors"][5].level);
+        }
+        if (bms_info_.error_code & (1 << 4)) {
+            msg.error_array[1] |= (1 << 6);
+            msg.error_level = std::max(msg.error_level, error_map["bms_errors"][6].level);
+        }
+
+        // Charger errors
+        if (charger_info_.error_code & (1 << 7)) {
+            msg.error_array[2] |= (1 << 0);
+            msg.error_level = std::max(msg.error_level, error_map["charger_errors"][0].level);
+        }
+        if (charger_info_.error_code & (1 << 8)) {
+            msg.error_array[2] |= (1 << 1);
+            msg.error_level = std::max(msg.error_level, error_map["charger_errors"][1].level);
+        }
+        if (charger_info_.error_code & (1 << 9)) {
+            msg.error_array[2] |= (1 << 2);
+            msg.error_level = std::max(msg.error_level, error_map["charger_errors"][2].level);
+        }
+        if (charger_info_.error_code & (1 << 0)) {
+            msg.error_array[2] |= (1 << 3);
+            msg.error_level = std::max(msg.error_level, error_map["charger_errors"][3].level);
+        }
+
+        // Comminucation errors
+        
+        // More errors
+
+
+        if (location_.error_code & (1 << 9)) {
+            msg.error_array[3] |= (1 << 2);
+            msg.error_level = std::max(msg.error_level, error_map["comm_errors"][2].level);
+        }
+        // if (hall_info_.error_code & (1 << 0)) {
+        //     msg.error_array[3] |= (1 << 3);
+        //     msg.error_level = std::max(msg.error_level, error_map["comm_errors"][3].level);
+        // }
+        // if (hall_info_.error_code & (1 << 1)) {
+        //     msg.error_array[3] |= (1 << 4);
+        //     msg.error_level = std::max(msg.error_level, error_map["comm_errors"][4].level);
+        // }
+
+        // More errors
+
+
+        // if (color_info_.error_code & (1 << 0)) {
+        //     msg.error_array[3] |= (1 << 8);
+        //     msg.error_level = std::max(msg.error_level, error_map["comm_errors"][8].level);
+        // }
+        if (pallet_info_.error_code & (1 << 0)) {
+            msg.error_array[3] |= (1 << 9);
+            msg.error_level = std::max(msg.error_level, error_map["comm_errors"][9].level);
+        }
+        if (pallet_info_.error_code & (1 << 1)) {
+            msg.error_array[3] |= (1 << 10);
+            msg.error_level = std::max(msg.error_level, error_map["comm_errors"][10].level);
+        }
+        if (obs_laser_.error_code & (1 << 1)) {
+            msg.error_array[3] |= (1 << 11);
+            msg.error_level = std::max(msg.error_level, error_map["comm_errors"][11].level);
+        }
+        if (obs_laser_.error_code & (1 << 0)) {
+            msg.error_array[3] |= (1 << 12);
+            msg.error_level = std::max(msg.error_level, error_map["comm_errors"][12].level);
+        }
+        if (bms_info_.error_code & (1 << 0)) {
+            msg.error_array[3] |= (1 << 13);
+            msg.error_level = std::max(msg.error_level, error_map["comm_errors"][12].level);
+        }
+
+        // Servo errors
+        // motor_son errors
+        if (motor_son_.error == 0x2212) {
+            msg.error_array[4] |= (1 << 0);
+            msg.error_level = std::max(msg.error_level, error_map["servo_errors"][0].level);
+        }
+        if (motor_son_.error == 0x8611) {
+            msg.error_array[4] |= (1 << 1);
+            msg.error_level = std::max(msg.error_level, error_map["servo_errors"][1].level);
+        }
+        if (motor_son_.error == 0x8130) {
+            msg.error_array[4] |= (1 << 2);
+            msg.error_level = std::max(msg.error_level, error_map["servo_errors"][2].level);
+        }
+        if (motor_son_.error == 0x8402) {
+            msg.error_array[4] |= (1 << 3);
+            msg.error_level = std::max(msg.error_level, error_map["servo_errors"][3].level);
+        }
+        if (motor_son_.error == 0x8310 || motor_son_.error == 0x8311) {
+            msg.error_array[4] |= (1 << 4);
+            msg.error_level = std::max(msg.error_level, error_map["servo_errors"][4].level);
+        }
+        if (motor_son_.error == 0x4210) {
+            msg.error_array[4] |= (1 << 5);
+            msg.error_level = std::max(msg.error_level, error_map["servo_errors"][5].level);
+        }
+        if (motor_son_.error == 0x5201) {
+            msg.error_array[4] |= (1 << 6);
+            msg.error_level = std::max(msg.error_level, error_map["servo_errors"][6].level);
+        }
+
+        //motor_mother errors
+        if (motor_mother_.error == 0x2212) {
+            msg.error_array[4] |= (1 << 7);
+            msg.error_level = std::max(msg.error_level, error_map["servo_errors"][7].level);
+        }
+        if (motor_mother_.error == 0x8611) {
+            msg.error_array[4] |= (1 << 8);
+            msg.error_level = std::max(msg.error_level, error_map["servo_errors"][8].level);
+        }
+        if (motor_mother_.error == 0x8130) {
+            msg.error_array[4] |= (1 << 9);
+            msg.error_level = std::max(msg.error_level, error_map["servo_errors"][9].level);
+        }
+        if (motor_mother_.error == 0x8402) {
+            msg.error_array[4] |= (1 << 10);
+            msg.error_level = std::max(msg.error_level, error_map["servo_errors"][10].level);
+        }
+        if (motor_mother_.error == 0x8310 || motor_son_.error == 0x8311) {
+            msg.error_array[4] |= (1 << 11);
+            msg.error_level = std::max(msg.error_level, error_map["servo_errors"][11].level);
+        }
+        if (motor_mother_.error == 0x4210) {
+            msg.error_array[4] |= (1 << 12);
+            msg.error_level = std::max(msg.error_level, error_map["servo_errors"][12].level);
+        }
+        if (motor_mother_.error == 0x5201) {
+            msg.error_array[4] |= (1 << 13);
+            msg.error_level = std::max(msg.error_level, error_map["servo_errors"][13].level);
+        }
+
+        // motor_lift errors
+        if (motor_lift_.error == 0x2212) {
+            msg.error_array[4] |= (1 << 14);
+            msg.error_level = std::max(msg.error_level, error_map["servo_errors"][14].level);
+        }
+        if (motor_lift_.error == 0x8611) {
+            msg.error_array[4] |= (1 << 15);
+            msg.error_level = std::max(msg.error_level, error_map["servo_errors"][15].level);
+        }
+        if (motor_lift_.error == 0x8130) {
+            msg.error_array[4] |= (1 << 16);
+            msg.error_level = std::max(msg.error_level, error_map["servo_errors"][16].level);
+        }
+        if (motor_lift_.error == 0x8402) {
+            msg.error_array[4] |= (1 << 17);
+            msg.error_level = std::max(msg.error_level, error_map["servo_errors"][17].level);
+        }
+        if (motor_lift_.error == 0x8310 || motor_son_.error == 0x8311) {
+            msg.error_array[4] |= (1 << 18);
+            msg.error_level = std::max(msg.error_level, error_map["servo_errors"][18].level);
+        }
+        if (motor_lift_.error == 0x4210) {
+            msg.error_array[4] |= (1 << 19);
+            msg.error_level = std::max(msg.error_level, error_map["servo_errors"][19].level);
+        }
+        if (lift_control_.error_code & (1 << 0)) {
+            msg.error_array[4] |= (1 << 20);
+            msg.error_level = std::max(msg.error_level, error_map["servo_errors"][20].level);
+        }
+        if (motor_lift_.error == 0x5201) {
+            msg.error_array[4] |= (1 << 21);
+            msg.error_level = std::max(msg.error_level, error_map["servo_errors"][21].level);
+        }
+
+        // Lift errors
+        if (location_.error_code & (1 << 14)) {
+            msg.error_array[5] |= (1 << 1);
+            msg.error_level = std::max(msg.error_level, error_map["lift_errors"][0].level);
+        }
+        if (location_.error_code & (1 << 10)) {
+            msg.error_array[5] |= (1 << 2);
+            msg.error_level = std::max(msg.error_level, error_map["lift_errors"][1].level);
+        }
+
+        // Pallet errors
+
+        // Obs errors
+
+        // Location errors
+        if (location_.error_code & (1 << 4)) {
+            msg.error_array[8] |= (1 << 2);
+            msg.error_level = std::max(msg.error_level, error_map["location_errors"][0].level);
+        }
+
+        // Order errors
+
+        // Motion errors
+
+        // Stop errors
+        
     }
 
-    // Find the ping time in the result
-    std::string::size_type pos = result.find("time=");
-    if (pos == std::string::npos) {
-        return "Ping time not found in ping output.";
+    void publish_health_node() {
+        auto health_node_msg = base_interfaces_demo::msg::HealthNode();
+
+        // Initialize error array and error level
+        std::fill(std::begin(health_node_msg.error_array), std::end(health_node_msg.error_array), 0);
+        health_node_msg.error_level = 0;
+
+        // Update core info and check for errors
+        core_info_monitor_.update_metrics(health_node_msg);
+
+        // Check and update errors
+        check_errors(health_node_msg);
+
+        // Publish the message
+        publisher_health_node_->publish(health_node_msg);
     }
-    
-    std::istringstream iss(result.substr(pos + 5));
-    double ping_time;
-    iss >> ping_time;
-    char ping_time_o[10];
-    sprintf(ping_time_o, "%.2f", ping_time);
-    
-    return std::string(ping_time_o) + " ms";
-  }
 
-  double get_temperature() {
-    std::ifstream file("/sys/class/thermal/thermal_zone0/temp");
-    double temp;
-    file >> temp;
-    return temp / 1000.0; // Convert to degrees Celsius
-  }
-
-  rclcpp::Publisher<pkg00_base_interfaces::msg::CoreInfo>::SharedPtr publisher_;
-  rclcpp::Subscription<pkg00_base_interfaces::msg::BmsInfo>::SharedPtr subscriber_bms_;
-  rclcpp::Subscription<pkg00_base_interfaces::msg::ChargerInfo>::SharedPtr subscriber_charger_;
-  rclcpp::Subscription<pkg00_base_interfaces::msg::ColorInfo>::SharedPtr subscriber_color_;
-  rclcpp::Subscription<pkg00_base_interfaces::msg::HallInfo>::SharedPtr subscriber_hall_;
-  rclcpp::Subscription<pkg00_base_interfaces::msg::Location>::SharedPtr subscriber_location_;
-  rclcpp::Subscription<pkg00_base_interfaces::msg::MotorCmd>::SharedPtr subscriber_motor_cmd_;
-  rclcpp::Subscription<pkg00_base_interfaces::msg::MotorStatus>::SharedPtr subscriber_motor_status_;
-  rclcpp::Subscription<pkg00_base_interfaces::msg::ObsLaser>::SharedPtr subscriber_obs_laser_;
-  rclcpp::TimerBase::SharedPtr timer_;
-
-  // Store the latest messages for each type
-  pkg00_base_interfaces::msg::BmsInfo latest_bms_info_;
-  pkg00_base_interfaces::msg::ChargerInfo latest_charger_info_;
-  pkg00_base_interfaces::msg::ColorInfo latest_color_info_;
-  pkg00_base_interfaces::msg::HallInfo latest_hall_info_;
-  pkg00_base_interfaces::msg::Location latest_location_;
-  pkg00_base_interfaces::msg::MotorCmd latest_motor_cmd_;
-  pkg00_base_interfaces::msg::MotorStatus latest_motor_status_;
-  pkg00_base_interfaces::msg::ObsLaser latest_obs_laser_;
+    rclcpp::Publisher<base_interfaces_demo::msg::HealthNode>::SharedPtr publisher_health_node_;
+    rclcpp::Subscription<base_interfaces_demo::msg::BmsInfo>::SharedPtr subscriber_bms_info_;
+    rclcpp::Subscription<base_interfaces_demo::msg::ChargerInfo>::SharedPtr subscriber_charger_info_;
+    rclcpp::Subscription<base_interfaces_demo::msg::Location>::SharedPtr subscriber_location_;
+    rclcpp::Subscription<base_interfaces_demo::msg::HallInfo>::SharedPtr subscriber_hall_info_;
+    rclcpp::Subscription<base_interfaces_demo::msg::ColorInfo>::SharedPtr subscriber_color_info_;
+    rclcpp::Subscription<base_interfaces_demo::msg::PalletInfo>::SharedPtr subscriber_pallet_info_;
+    rclcpp::Subscription<base_interfaces_demo::msg::ObsLaser>::SharedPtr subscriber_obs_laser_;
+    rclcpp::Subscription<base_interfaces_demo::msg::MotorStatus>::SharedPtr subscriber_motor_son_;
+    rclcpp::Subscription<base_interfaces_demo::msg::MotorStatus>::SharedPtr subscriber_motor_mother_;
+    rclcpp::Subscription<base_interfaces_demo::msg::MotorStatus>::SharedPtr subscriber_motor_lift_;
+    rclcpp::Subscription<base_interfaces_demo::msg::LiftControl>::SharedPtr subscriber_lift_control_;
+    rclcpp::TimerBase::SharedPtr timer_;
 };
 
 int main(int argc, char *argv[]) {
-  rclcpp::init(argc, argv);
-  rclcpp::spin(std::make_shared<HealthOperator>());
-  rclcpp::shutdown();
-  return 0;
+    rclcpp::init(argc, argv);
+    rclcpp::spin(std::make_shared<HealthOperator>());
+    rclcpp::shutdown();
+    return 0;
 }

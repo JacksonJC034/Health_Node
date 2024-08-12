@@ -1,2 +1,0 @@
-int32 system_mode
-int32 work_status

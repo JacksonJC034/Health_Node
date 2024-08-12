@@ -1,0 +1,12 @@
+[0.046s] Invoking command in '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp': CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/home/cjs/Health_Node/ros2_ws/install/pkg02_lifecycle_cpp:/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp:/opt/ros/foxy /usr/bin/cmake --build /home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp -- -j4 -l4
+[0.265s] [35m[1mScanning dependencies of target health_oper[0m
+[0.293s] [ 40%] Built target listener
+[0.444s] [ 60%] [32mBuilding CXX object CMakeFiles/health_oper.dir/src/health_oper.cpp.o[0m
+[22.158s] [ 80%] [32m[1mLinking CXX executable health_oper[0m
+[24.641s] /usr/bin/ld: CMakeFiles/health_oper.dir/src/health_oper.cpp.o: in function `HealthOperator::HealthOperator()':
+[24.641s] health_oper.cpp:(.text._ZN14HealthOperatorC2Ev[_ZN14HealthOperatorC5Ev]+0x4ac): undefined reference to `ament_index_cpp::get_package_share_directory(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[24.641s] collect2: error: ld returned 1 exit status
+[24.650s] make[2]: *** [CMakeFiles/health_oper.dir/build.make:162: health_oper] Error 1
+[24.651s] make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/health_oper.dir/all] Error 2
+[24.661s] make: *** [Makefile:141: all] Error 2
+[24.662s] Invoked command in '/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp' returned '2': CMAKE_PREFIX_PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo:/home/cjs/Health_Node/ros2_ws/install/pkg02_lifecycle_cpp:/home/cjs/Health_Node/ros2_ws/install/pkg01_healthoper_cpp:/opt/ros/foxy /usr/bin/cmake --build /home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp -- -j4 -l4

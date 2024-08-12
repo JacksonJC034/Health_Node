@@ -1,0 +1,3 @@
+int32 selfcheck_status
+int32 init_status
+int64 error_code

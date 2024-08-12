@@ -272,7 +272,10 @@ SITE:STRING=cjs-virtual-machine
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/lib/libpkg00_base_interfaces__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/opt/ros/foxy/lib/libament_index_cpp.so
+
+//The directory containing a CMake configuration file for action_msgs.
+action_msgs_DIR:PATH=/opt/ros/foxy/share/action_msgs/cmake
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/foxy/share/ament_cmake/cmake
@@ -352,6 +355,9 @@ ament_cppcheck_BIN:FILEPATH=/opt/ros/foxy/bin/ament_cppcheck
 //Path to a program.
 ament_cpplint_BIN:FILEPATH=/opt/ros/foxy/bin/ament_cpplint
 
+//The directory containing a CMake configuration file for ament_index_cpp.
+ament_index_cpp_DIR:PATH=/opt/ros/foxy/share/ament_index_cpp/cmake
+
 //The directory containing a CMake configuration file for ament_lint_auto.
 ament_lint_auto_DIR:PATH=/opt/ros/foxy/share/ament_lint_auto/cmake
 
@@ -366,6 +372,9 @@ ament_uncrustify_BIN:FILEPATH=/opt/ros/foxy/bin/ament_uncrustify
 
 //Path to a program.
 ament_xmllint_BIN:FILEPATH=/opt/ros/foxy/bin/ament_xmllint
+
+//The directory containing a CMake configuration file for base_interfaces_demo.
+base_interfaces_demo_DIR:PATH=/home/cjs/Health_Node/ros2_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake
 
 //The directory containing a CMake configuration file for builtin_interfaces.
 builtin_interfaces_DIR:PATH=/opt/ros/foxy/share/builtin_interfaces/cmake
@@ -387,9 +396,6 @@ libstatistics_collector_DIR:PATH=/opt/ros/foxy/share/libstatistics_collector/cma
 
 //The directory containing a CMake configuration file for libyaml_vendor.
 libyaml_vendor_DIR:PATH=/opt/ros/foxy/share/libyaml_vendor/cmake
-
-//The directory containing a CMake configuration file for pkg00_base_interfaces.
-pkg00_base_interfaces_DIR:PATH=/home/cjs/Health_Node/ros2_ws/install/pkg00_base_interfaces/share/pkg00_base_interfaces/cmake
 
 //Value Computed by CMake
 pkg01_healthoper_cpp_BINARY_DIR:STATIC=/home/cjs/Health_Node/ros2_ws/build/pkg01_healthoper_cpp
@@ -493,11 +499,20 @@ std_msgs_DIR:PATH=/opt/ros/foxy/share/std_msgs/cmake
 //The directory containing a CMake configuration file for tracetools.
 tracetools_DIR:PATH=/opt/ros/foxy/share/tracetools/cmake
 
+//The directory containing a CMake configuration file for unique_identifier_msgs.
+unique_identifier_msgs_DIR:PATH=/opt/ros/foxy/share/unique_identifier_msgs/cmake
+
 //Path to a program.
 xmllint_BIN:FILEPATH=/usr/bin/xmllint
 
+//The directory containing a CMake configuration file for yaml-cpp.
+yaml-cpp_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/yaml-cpp
+
 //The directory containing a CMake configuration file for yaml.
 yaml_DIR:PATH=/opt/ros/foxy/cmake
+
+//The directory containing a CMake configuration file for yaml_cpp_vendor.
+yaml_cpp_vendor_DIR:PATH=/opt/ros/foxy/share/yaml_cpp_vendor/cmake
 
 
 ########################

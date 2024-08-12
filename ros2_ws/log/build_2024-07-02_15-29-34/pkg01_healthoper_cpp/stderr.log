@@ -1,0 +1,4 @@
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:[m[K In member function ‘[01m[Kdouble HealthOperator::get_temperature()[m[K’:
+[01m[K/home/cjs/Health_Node/ros2_ws/src/pkg01_healthoper_cpp/src/health_oper.cpp:276:3:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  276 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K

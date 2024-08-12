@@ -1,0 +1,1067 @@
+[0.059s] Invoking command in '/home/cjs/Health_Node/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/cjs/Health_Node/build/base_interfaces_demo -- -j4 -l4
+[0.385s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.455s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.455s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.870s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.880s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.896s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.371s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.569s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.337s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.752s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.873s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.939s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.944s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[3.009s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.010s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.010s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[3.078s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.146s] -- Configuring done
+[3.689s] -- Generating done
+[3.700s] -- Build files have been written to: /home/cjs/Health_Node/build/base_interfaces_demo
+[3.798s] [35m[1mScanning dependencies of target base_interfaces_demo__cpp[0m
+[3.846s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.857s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[10.909s] [  0%] Built target base_interfaces_demo__cpp
+[10.980s] [  1%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.981s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[11.023s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[11.046s] [35m[1mScanning dependencies of target base_interfaces_demo__rosidl_generator_c[0m
+[11.305s] [  4%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/action/detail/nav__functions.c.o[0m
+[12.058s] [  4%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/ohom__functions.c.o[0m
+[12.215s] [  5%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/hall_info__functions.c.o[0m
+[12.413s] [  5%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/location__functions.c.o[0m
+[12.733s] [  5%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/motor_cmd__functions.c.o[0m
+[12.918s] [  6%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/motor_status__functions.c.o[0m
+[13.143s] [  6%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/manual__functions.c.o[0m
+[13.530s] [  6%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/test__functions.c.o[0m
+[13.871s] [  7%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/hall__functions.c.o[0m
+[14.344s] [  7%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/bms_info__functions.c.o[0m
+[14.644s] [  7%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/charger_info__functions.c.o[0m
+[14.819s] [  8%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/manual_seek_label__functions.c.o[0m
+[14.983s] [  8%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/seek_cmd__functions.c.o[0m
+[15.203s] [  9%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/seek_ret__functions.c.o[0m
+[15.380s] [  9%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/system_status__functions.c.o[0m
+[15.559s] [  9%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/action/detail/reverse__functions.c.o[0m
+[15.872s] [35m[1mScanning dependencies of target base_interfaces_demo__rosidl_typesupport_cpp[0m
+[15.911s] [ 10%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/lift_info__functions.c.o[0m
+[16.083s] [ 10%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/action/nav__type_support.cpp.o[0m
+[16.103s] [ 10%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/color_info__functions.c.o[0m
+[16.334s] [ 10%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/file_updata__functions.c.o[0m
+[16.536s] [ 11%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/obs_laser__functions.c.o[0m
+[16.822s] [ 11%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/pallet_info__functions.c.o[0m
+[17.057s] [ 12%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/movecontrol_info__functions.c.o[0m
+[17.299s] [ 12%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/motion_control__functions.c.o[0m
+[17.380s] [35m[1mScanning dependencies of target base_interfaces_demo__rosidl_typesupport_introspection_cpp[0m
+[17.516s] [ 12%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/ohom__type_support.cpp.o[0m
+[17.530s] [ 12%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/action/detail/nav__type_support.cpp.o[0m
+[17.649s] [ 12%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/rcs_info__functions.c.o[0m
+[17.903s] [35m[1mScanning dependencies of target base_interfaces_demo__rosidl_typesupport_fastrtps_cpp[0m
+[18.006s] [ 13%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/lift_control__functions.c.o[0m
+[18.258s] [ 13%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/action/detail/dds_fastrtps/nav__type_support.cpp.o[0m
+[18.359s] [ 13%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/bt_status__functions.c.o[0m
+[18.395s] [ 14%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/hall_info__type_support.cpp.o[0m
+[18.723s] [ 14%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/car_status__functions.c.o[0m
+[18.997s] [ 14%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/ohom__type_support.cpp.o[0m
+[19.001s] [ 15%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/health_node__functions.c.o[0m
+[19.244s] [ 15%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/location__type_support.cpp.o[0m
+[19.288s] [ 15%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/action/detail/pallet__functions.c.o[0m
+[19.733s] [ 15%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/check_emergency__functions.c.o[0m
+[20.076s] [ 15%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/ohom__type_support.cpp.o[0m
+[20.081s] [ 16%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/set_emergency__functions.c.o[0m
+[20.206s] [ 17%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/hall_info__type_support.cpp.o[0m
+[20.275s] [ 17%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/motor_cmd__type_support.cpp.o[0m
+[20.432s] [ 17%] [32m[1mLinking C shared library libbase_interfaces_demo__rosidl_generator_c.so[0m
+[21.055s] [ 17%] Built target base_interfaces_demo__rosidl_generator_c
+[21.164s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[21.366s] [ 19%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/motor_status__type_support.cpp.o[0m
+[21.657s] [ 19%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/location__type_support.cpp.o[0m
+[21.946s] [ 20%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/hall_info__type_support.cpp.o[0m
+[22.176s] [ 20%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/manual__type_support.cpp.o[0m
+[22.638s] [ 21%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/motor_cmd__type_support.cpp.o[0m
+[23.160s] [ 21%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/test__type_support.cpp.o[0m
+[23.405s] [ 21%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/motor_status__type_support.cpp.o[0m
+[23.817s] [ 21%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/location__type_support.cpp.o[0m
+[24.288s] [ 22%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/srv/hall__type_support.cpp.o[0m
+[24.480s] [ 22%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/manual__type_support.cpp.o[0m
+[25.492s] [ 22%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/motor_cmd__type_support.cpp.o[0m
+[25.604s] [ 22%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/bms_info__type_support.cpp.o[0m
+[25.609s] [ 23%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/test__type_support.cpp.o[0m
+[26.687s] [ 24%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/charger_info__type_support.cpp.o[0m
+[26.703s] [ 24%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/srv/detail/hall__type_support.cpp.o[0m
+[27.027s] [ 25%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/motor_status__type_support.cpp.o[0m
+[27.725s] [ 25%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/manual_seek_label__type_support.cpp.o[0m
+[28.027s] [ 25%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/bms_info__type_support.cpp.o[0m
+[28.478s] [ 25%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/manual__type_support.cpp.o[0m
+[28.629s] [ 25%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/seek_cmd__type_support.cpp.o[0m
+[29.059s] [35m[1mScanning dependencies of target base_interfaces_demo__rosidl_typesupport_introspection_c[0m
+[29.158s] [ 26%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/charger_info__type_support.cpp.o[0m
+[29.380s] [ 26%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/action/detail/nav__type_support.c.o[0m
+[29.752s] [ 27%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/ohom__type_support.c.o[0m
+[29.892s] [ 29%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/test__type_support.cpp.o[0m
+[29.892s] [ 29%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/seek_ret__type_support.cpp.o[0m
+[29.997s] [ 29%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/hall_info__type_support.c.o[0m
+[30.176s] [ 29%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/location__type_support.c.o[0m
+[30.292s] [ 29%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/manual_seek_label__type_support.cpp.o[0m
+[30.351s] [ 30%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/motor_cmd__type_support.c.o[0m
+[30.588s] [ 30%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/motor_status__type_support.c.o[0m
+[30.865s] [ 30%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/manual__type_support.c.o[0m
+[31.010s] [ 31%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/test__type_support.c.o[0m
+[31.136s] [ 31%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/system_status__type_support.cpp.o[0m
+[31.178s] [ 31%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/srv/detail/dds_fastrtps/hall__type_support.cpp.o[0m
+[31.194s] [ 31%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/hall__type_support.c.o[0m
+[31.411s] [ 31%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/bms_info__type_support.c.o[0m
+[31.441s] [ 31%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/seek_cmd__type_support.cpp.o[0m
+[31.644s] [ 32%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/charger_info__type_support.c.o[0m
+[31.869s] [ 32%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/action/reverse__type_support.cpp.o[0m
+[31.880s] [ 32%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/manual_seek_label__type_support.c.o[0m
+[32.066s] [ 33%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/seek_cmd__type_support.c.o[0m
+[32.240s] [ 33%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/seek_ret__type_support.c.o[0m
+[32.397s] [ 33%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/system_status__type_support.c.o[0m
+[32.535s] [ 34%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/seek_ret__type_support.cpp.o[0m
+[32.551s] [ 34%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/bms_info__type_support.cpp.o[0m
+[32.646s] [ 35%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/action/detail/reverse__type_support.c.o[0m
+[32.990s] [ 35%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/lift_info__type_support.c.o[0m
+[33.084s] [ 36%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/lift_info__type_support.cpp.o[0m
+[33.257s] [ 36%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/color_info__type_support.c.o[0m
+[33.560s] [ 37%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/file_updata__type_support.c.o[0m
+[33.617s] [ 37%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/system_status__type_support.cpp.o[0m
+[33.764s] [ 38%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/charger_info__type_support.cpp.o[0m
+[33.830s] [ 38%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/obs_laser__type_support.c.o[0m
+[34.005s] [ 38%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/color_info__type_support.cpp.o[0m
+[34.120s] [ 39%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/pallet_info__type_support.c.o[0m
+[34.420s] [ 39%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/movecontrol_info__type_support.c.o[0m
+[34.428s] [ 40%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/action/detail/reverse__type_support.cpp.o[0m
+[34.739s] [ 40%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/motion_control__type_support.c.o[0m
+[34.991s] [ 40%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/manual_seek_label__type_support.cpp.o[0m
+[35.029s] [ 41%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/file_updata__type_support.cpp.o[0m
+[35.072s] [ 42%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/rcs_info__type_support.c.o[0m
+[35.333s] [ 42%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/lift_control__type_support.c.o[0m
+[35.394s] [ 42%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/lift_info__type_support.cpp.o[0m
+[35.576s] [ 42%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/bt_status__type_support.c.o[0m
+[35.863s] [ 43%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/car_status__type_support.c.o[0m
+[35.989s] [ 43%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/obs_laser__type_support.cpp.o[0m
+[36.053s] [ 43%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/health_node__type_support.c.o[0m
+[36.171s] [ 43%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/action/detail/pallet__type_support.c.o[0m
+[36.344s] [ 43%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/seek_cmd__type_support.cpp.o[0m
+[36.541s] [ 44%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/check_emergency__type_support.c.o[0m
+[36.591s] [ 44%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/color_info__type_support.cpp.o[0m
+[36.870s] [ 44%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/set_emergency__type_support.c.o[0m
+[37.176s] [ 45%] [32m[1mLinking C shared library libbase_interfaces_demo__rosidl_typesupport_introspection_c.so[0m
+[37.188s] [ 45%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/pallet_info__type_support.cpp.o[0m
+[37.448s] [ 46%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/seek_ret__type_support.cpp.o[0m
+[37.513s] [ 47%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/file_updata__type_support.cpp.o[0m
+[37.578s] [ 47%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c
+[37.677s] [ 48%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[38.404s] [ 49%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/movecontrol_info__type_support.cpp.o[0m
+[38.556s] [ 49%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/obs_laser__type_support.cpp.o[0m
+[38.930s] [ 49%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/system_status__type_support.cpp.o[0m
+[39.427s] [ 49%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/motion_control__type_support.cpp.o[0m
+[39.763s] [ 49%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/pallet_info__type_support.cpp.o[0m
+[40.365s] [ 50%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/action/detail/dds_fastrtps/reverse__type_support.cpp.o[0m
+[40.451s] [ 50%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/rcs_info__type_support.cpp.o[0m
+[40.854s] [ 51%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/movecontrol_info__type_support.cpp.o[0m
+[41.470s] [ 52%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/lift_control__type_support.cpp.o[0m
+[41.891s] [ 52%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/motion_control__type_support.cpp.o[0m
+[42.025s] [ 52%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/lift_info__type_support.cpp.o[0m
+[42.360s] [ 52%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/bt_status__type_support.cpp.o[0m
+[42.726s] [35m[1mScanning dependencies of target base_interfaces_demo__rosidl_typesupport_c[0m
+[42.913s] [ 52%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/action/nav__type_support.cpp.o[0m
+[42.978s] [ 53%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/rcs_info__type_support.cpp.o[0m
+[43.178s] [ 53%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/ohom__type_support.cpp.o[0m
+[43.299s] [ 53%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/car_status__type_support.cpp.o[0m
+[43.353s] [ 54%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/hall_info__type_support.cpp.o[0m
+[43.643s] [ 54%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/location__type_support.cpp.o[0m
+[43.721s] [ 54%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/color_info__type_support.cpp.o[0m
+[43.875s] [ 54%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/motor_cmd__type_support.cpp.o[0m
+[43.980s] [ 54%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/lift_control__type_support.cpp.o[0m
+[44.016s] [ 55%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/motor_status__type_support.cpp.o[0m
+[44.147s] [ 55%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/manual__type_support.cpp.o[0m
+[44.340s] [ 56%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/health_node__type_support.cpp.o[0m
+[44.344s] [ 57%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/test__type_support.cpp.o[0m
+[44.492s] [ 57%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/srv/hall__type_support.cpp.o[0m
+[44.753s] [ 57%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/bms_info__type_support.cpp.o[0m
+[44.913s] [ 57%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/bt_status__type_support.cpp.o[0m
+[45.063s] [ 58%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/charger_info__type_support.cpp.o[0m
+[45.266s] [ 59%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/file_updata__type_support.cpp.o[0m
+[45.295s] [ 59%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/manual_seek_label__type_support.cpp.o[0m
+[45.380s] [ 59%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/action/pallet__type_support.cpp.o[0m
+[45.533s] [ 59%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/seek_cmd__type_support.cpp.o[0m
+[45.755s] [ 60%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/seek_ret__type_support.cpp.o[0m
+[45.786s] [ 61%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/car_status__type_support.cpp.o[0m
+[46.025s] [ 61%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/system_status__type_support.cpp.o[0m
+[46.354s] [ 61%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/action/reverse__type_support.cpp.o[0m
+[46.403s] [ 62%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/srv/check_emergency__type_support.cpp.o[0m
+[46.649s] [ 62%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/health_node__type_support.cpp.o[0m
+[46.727s] [ 63%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/lift_info__type_support.cpp.o[0m
+[46.814s] [ 63%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/obs_laser__type_support.cpp.o[0m
+[47.059s] [ 63%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/color_info__type_support.cpp.o[0m
+[47.319s] [ 64%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/file_updata__type_support.cpp.o[0m
+[47.523s] [ 64%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/obs_laser__type_support.cpp.o[0m
+[47.544s] [ 64%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/srv/set_emergency__type_support.cpp.o[0m
+[47.665s] [ 64%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/action/detail/pallet__type_support.cpp.o[0m
+[47.671s] [ 64%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/pallet_info__type_support.cpp.o[0m
+[47.872s] [ 65%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/movecontrol_info__type_support.cpp.o[0m
+[48.157s] [ 65%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/motion_control__type_support.cpp.o[0m
+[48.213s] [ 65%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/pallet_info__type_support.cpp.o[0m
+[48.403s] [ 65%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/rcs_info__type_support.cpp.o[0m
+[48.536s] [ 65%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_cpp.so[0m
+[48.578s] [ 66%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/lift_control__type_support.cpp.o[0m
+[48.752s] [ 67%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/srv/detail/check_emergency__type_support.cpp.o[0m
+[48.769s] [ 67%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/bt_status__type_support.cpp.o[0m
+[48.922s] [ 67%] Built target base_interfaces_demo__rosidl_typesupport_cpp
+[48.967s] [ 68%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/car_status__type_support.cpp.o[0m
+[49.210s] [ 68%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/health_node__type_support.cpp.o[0m
+[49.415s] [ 68%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/action/pallet__type_support.cpp.o[0m
+[49.602s] [ 68%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/srv/detail/set_emergency__type_support.cpp.o[0m
+[49.626s] [ 69%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/movecontrol_info__type_support.cpp.o[0m
+[49.693s] [ 70%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/srv/check_emergency__type_support.cpp.o[0m
+[49.939s] [ 70%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/srv/set_emergency__type_support.cpp.o[0m
+[50.238s] [ 70%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_c.so[0m
+[50.595s] [ 70%] Built target base_interfaces_demo__rosidl_typesupport_c
+[50.626s] [ 71%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so[0m
+[50.798s] [ 71%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/rcs_info__type_support.cpp.o[0m
+[51.011s] [ 71%] Built target base_interfaces_demo__rosidl_typesupport_introspection_cpp
+[51.676s] [ 71%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/bt_status__type_support.cpp.o[0m
+[52.466s] [ 72%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/car_status__type_support.cpp.o[0m
+[53.223s] [ 72%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/health_node__type_support.cpp.o[0m
+[54.054s] [ 72%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/action/detail/dds_fastrtps/pallet__type_support.cpp.o[0m
+[54.962s] [ 73%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/srv/detail/dds_fastrtps/check_emergency__type_support.cpp.o[0m
+[55.724s] [ 73%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/srv/detail/dds_fastrtps/set_emergency__type_support.cpp.o[0m
+[56.485s] [ 74%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/lift_control__type_support.cpp.o[0m
+[57.252s] [ 74%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/motion_control__type_support.cpp.o[0m
+[58.000s] [ 74%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so[0m
+[58.419s] [ 74%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_cpp
+[58.472s] [ 75%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[62.660s] [35m[1mScanning dependencies of target base_interfaces_demo__rosidl_typesupport_fastrtps_c[0m
+[62.922s] [ 75%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/action/detail/nav__type_support_c.cpp.o[0m
+[63.653s] [ 75%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/location__type_support_c.cpp.o[0m
+[64.356s] [ 76%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/motor_cmd__type_support_c.cpp.o[0m
+[65.032s] [ 76%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/motor_status__type_support_c.cpp.o[0m
+[65.670s] [ 76%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/manual__type_support_c.cpp.o[0m
+[66.412s] [ 77%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/test__type_support_c.cpp.o[0m
+[67.092s] [ 77%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/srv/detail/hall__type_support_c.cpp.o[0m
+[67.776s] [ 77%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/bms_info__type_support_c.cpp.o[0m
+[68.486s] [ 78%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/charger_info__type_support_c.cpp.o[0m
+[69.089s] [ 78%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/manual_seek_label__type_support_c.cpp.o[0m
+[69.679s] [ 78%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/seek_cmd__type_support_c.cpp.o[0m
+[70.285s] [ 79%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/seek_ret__type_support_c.cpp.o[0m
+[70.955s] [ 79%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/system_status__type_support_c.cpp.o[0m
+[71.575s] [ 80%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/action/detail/reverse__type_support_c.cpp.o[0m
+[72.302s] [ 80%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/lift_info__type_support_c.cpp.o[0m
+[72.982s] [ 80%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/color_info__type_support_c.cpp.o[0m
+[73.690s] [ 81%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/file_updata__type_support_c.cpp.o[0m
+[74.304s] [ 81%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/obs_laser__type_support_c.cpp.o[0m
+[74.994s] [ 81%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/pallet_info__type_support_c.cpp.o[0m
+[75.725s] [ 82%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/movecontrol_info__type_support_c.cpp.o[0m
+[76.397s] [ 82%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/motion_control__type_support_c.cpp.o[0m
+[77.066s] [ 83%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/rcs_info__type_support_c.cpp.o[0m
+[77.769s] [ 83%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/lift_control__type_support_c.cpp.o[0m
+[78.428s] [ 83%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/bt_status__type_support_c.cpp.o[0m
+[79.115s] [ 84%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/car_status__type_support_c.cpp.o[0m
+[79.864s] [ 84%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/health_node__type_support_c.cpp.o[0m
+[80.597s] [ 84%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/action/detail/pallet__type_support_c.cpp.o[0m
+[81.370s] [ 85%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/srv/detail/check_emergency__type_support_c.cpp.o[0m
+[82.104s] [ 85%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/srv/detail/set_emergency__type_support_c.cpp.o[0m
+[82.828s] [ 86%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/hall_info__type_support_c.cpp.o[0m
+[83.519s] [ 86%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/ohom__type_support_c.cpp.o[0m
+[84.155s] [ 86%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so[0m
+[84.548s] [ 86%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c
+[84.642s] [ 86%] Built target base_interfaces_demo
+[84.694s] [35m[1mScanning dependencies of target base_interfaces_demo__py[0m
+[84.742s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[92.507s] [ 86%] Built target base_interfaces_demo__py
+[92.590s] [35m[1mScanning dependencies of target base_interfaces_demo__python[0m
+[92.992s] [ 87%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/action/_nav_s.c.o[0m
+[93.460s] [ 88%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/msg/_location_s.c.o[0m
+[93.749s] [ 88%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/msg/_motor_cmd_s.c.o[0m
+[93.982s] [ 88%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/msg/_motor_status_s.c.o[0m
+[94.234s] [ 89%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/msg/_manual_s.c.o[0m
+[94.491s] [ 89%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/msg/_test_s.c.o[0m
+[94.733s] [ 90%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/srv/_hall_s.c.o[0m
+[94.975s] [ 90%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/msg/_bms_info_s.c.o[0m
+[95.249s] [ 90%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/msg/_charger_info_s.c.o[0m
+[95.483s] [ 91%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/msg/_manual_seek_label_s.c.o[0m
+[95.703s] [ 91%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/msg/_seek_cmd_s.c.o[0m
+[95.949s] [ 91%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/msg/_seek_ret_s.c.o[0m
+[96.190s] [ 92%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/msg/_system_status_s.c.o[0m
+[96.436s] [ 92%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/action/_reverse_s.c.o[0m
+[96.713s] [ 93%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/msg/_lift_info_s.c.o[0m
+[96.945s] [ 93%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/msg/_color_info_s.c.o[0m
+[97.187s] [ 93%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/msg/_file_updata_s.c.o[0m
+[97.416s] [ 94%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/msg/_obs_laser_s.c.o[0m
+[97.686s] [ 94%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/msg/_pallet_info_s.c.o[0m
+[97.963s] [ 94%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/msg/_movecontrol_info_s.c.o[0m
+[98.205s] [ 95%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/msg/_motion_control_s.c.o[0m
+[98.456s] [ 95%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/msg/_rcs_info_s.c.o[0m
+[98.721s] [ 95%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/msg/_lift_control_s.c.o[0m
+[99.015s] [ 96%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/msg/_bt_status_s.c.o[0m
+[99.282s] [ 96%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/msg/_car_status_s.c.o[0m
+[99.581s] [ 97%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/msg/_health_node_s.c.o[0m
+[99.831s] [ 97%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/action/_pallet_s.c.o[0m
+[100.151s] [ 97%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/srv/_check_emergency_s.c.o[0m
+[100.421s] [ 98%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/srv/_set_emergency_s.c.o[0m
+[100.670s] [ 98%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/msg/_hall_info_s.c.o[0m
+[100.949s] [ 98%] [32mBuilding C object CMakeFiles/base_interfaces_demo__python.dir/rosidl_generator_py/base_interfaces_demo/msg/_ohom_s.c.o[0m
+[101.198s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/libbase_interfaces_demo__python.so[0m
+[101.418s] [ 98%] Built target base_interfaces_demo__python
+[101.469s] [35m[1mScanning dependencies of target base_interfaces_demo__rosidl_typesupport_introspection_c__pyext[0m
+[101.594s] [ 98%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[102.070s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[102.250s] [ 98%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c__pyext
+[102.304s] [35m[1mScanning dependencies of target base_interfaces_demo__rosidl_typesupport_c__pyext[0m
+[102.410s] [ 99%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c.o[0m
+[102.886s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[103.046s] [ 99%] Built target base_interfaces_demo__rosidl_typesupport_c__pyext
+[103.100s] [35m[1mScanning dependencies of target base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext[0m
+[103.217s] [100%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[103.680s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[103.978s] [100%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext
+[104.051s] Invoked command in '/home/cjs/Health_Node/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/cjs/Health_Node/build/base_interfaces_demo -- -j4 -l4
+[107.558s] Invoking command in '/home/cjs/Health_Node/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/cjs/Health_Node/build/base_interfaces_demo
+[107.611s] -- Install configuration: ""
+[107.614s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/ament_index/resource_index/rosidl_interfaces/base_interfaces_demo
+[107.615s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo
+[107.616s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action
+[107.616s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/nav.h
+[107.617s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail
+[107.622s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__type_support.h
+[107.623s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__functions.h
+[107.623s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__struct.h
+[107.624s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__type_support.h
+[107.624s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__struct.h
+[107.625s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__functions.c
+[107.625s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__functions.h
+[107.626s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__type_support.h
+[107.626s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__functions.h
+[107.627s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__functions.c
+[107.627s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__struct.h
+[107.628s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__functions.c
+[107.630s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/pallet.h
+[107.632s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/reverse.h
+[107.633s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv
+[107.633s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/check_emergency.h
+[107.633s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail
+[107.635s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__type_support.h
+[107.636s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__functions.h
+[107.636s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__functions.h
+[107.637s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__struct.h
+[107.637s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__struct.h
+[107.637s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__struct.h
+[107.637s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__functions.h
+[107.637s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__functions.c
+[107.637s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__type_support.h
+[107.637s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__functions.c
+[107.639s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__type_support.h
+[107.640s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__functions.c
+[107.641s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/set_emergency.h
+[107.641s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/hall.h
+[107.641s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg
+[107.641s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/bms_info.h
+[107.643s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/ohom.h
+[107.644s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/manual_seek_label.h
+[107.645s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/motor_cmd.h
+[107.646s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/lift_control.h
+[107.649s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/rosidl_generator_c__visibility_control.h
+[107.649s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail
+[107.649s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__functions.c
+[107.650s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__functions.h
+[107.650s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__functions.h
+[107.650s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__type_support.h
+[107.651s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__type_support.h
+[107.651s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__type_support.h
+[107.652s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__type_support.h
+[107.652s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__functions.c
+[107.653s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__struct.h
+[107.654s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__functions.h
+[107.656s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__struct.h
+[107.656s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__struct.h
+[107.657s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__type_support.h
+[107.658s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__struct.h
+[107.659s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__type_support.h
+[107.659s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__struct.h
+[107.660s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__functions.h
+[107.660s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__struct.h
+[107.661s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__functions.c
+[107.662s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__struct.h
+[107.662s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__type_support.h
+[107.663s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__functions.c
+[107.664s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__functions.c
+[107.664s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__struct.h
+[107.665s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__functions.h
+[107.665s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__struct.h
+[107.666s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__struct.h
+[107.667s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__functions.c
+[107.667s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__functions.h
+[107.668s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__type_support.h
+[107.668s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__functions.h
+[107.669s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__functions.h
+[107.669s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__struct.h
+[107.670s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__functions.h
+[107.672s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__functions.c
+[107.674s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__functions.h
+[107.674s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__functions.h
+[107.675s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__functions.c
+[107.678s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__functions.c
+[107.678s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__type_support.h
+[107.679s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__type_support.h
+[107.679s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__functions.h
+[107.680s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__functions.h
+[107.680s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__functions.h
+[107.681s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__functions.c
+[107.682s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__functions.h
+[107.682s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__type_support.h
+[107.683s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__functions.c
+[107.684s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__functions.h
+[107.684s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__functions.h
+[107.685s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__functions.c
+[107.686s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__struct.h
+[107.688s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__functions.c
+[107.689s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__functions.h
+[107.693s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__struct.h
+[107.693s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__functions.c
+[107.695s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__struct.h
+[107.695s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__type_support.h
+[107.696s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__functions.c
+[107.696s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__functions.h
+[107.697s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__type_support.h
+[107.698s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__type_support.h
+[107.699s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__functions.h
+[107.700s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__struct.h
+[107.700s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__functions.h
+[107.701s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__struct.h
+[107.701s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__functions.c
+[107.702s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__functions.h
+[107.703s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__functions.h
+[107.703s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__type_support.h
+[107.704s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__functions.c
+[107.704s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__type_support.h
+[107.705s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__type_support.h
+[107.705s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__struct.h
+[107.706s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__functions.c
+[107.707s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__functions.c
+[107.707s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__type_support.h
+[107.708s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__struct.h
+[107.708s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__functions.c
+[107.709s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__struct.h
+[107.709s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__type_support.h
+[107.710s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__type_support.h
+[107.710s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__type_support.h
+[107.711s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__struct.h
+[107.711s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__struct.h
+[107.712s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__struct.h
+[107.712s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__functions.c
+[107.713s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__struct.h
+[107.713s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__struct.h
+[107.714s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__type_support.h
+[107.714s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__functions.c
+[107.717s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__functions.c
+[107.717s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__functions.h
+[107.718s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__functions.h
+[107.719s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__struct.h
+[107.719s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__functions.c
+[107.720s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__type_support.h
+[107.720s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__type_support.h
+[107.721s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__type_support.h
+[107.721s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__functions.c
+[107.722s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/pallet_info.h
+[107.725s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/motor_status.h
+[107.727s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/location.h
+[107.729s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/charger_info.h
+[107.732s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/rcs_info.h
+[107.733s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/bt_status.h
+[107.735s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/lift_info.h
+[107.737s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/color_info.h
+[107.738s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/movecontrol_info.h
+[107.740s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/test.h
+[107.741s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/obs_laser.h
+[107.743s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/hall_info.h
+[107.744s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/health_node.h
+[107.748s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/car_status.h
+[107.750s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/motion_control.h
+[107.752s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/seek_cmd.h
+[107.755s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/system_status.h
+[107.756s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/manual.h
+[107.756s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/seek_ret.h
+[107.757s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/file_updata.h
+[107.758s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.sh
+[107.759s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.dsv
+[107.913s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so
+[107.918s] -- Set runtime path of "/home/cjs/Health_Node/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so" to ""
+[107.919s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo
+[107.919s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action
+[107.919s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail
+[107.920s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__rosidl_typesupport_fastrtps_c.h
+[107.920s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__rosidl_typesupport_fastrtps_c.h
+[107.920s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__rosidl_typesupport_fastrtps_c.h
+[107.921s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv
+[107.922s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail
+[107.922s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__rosidl_typesupport_fastrtps_c.h
+[107.923s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__rosidl_typesupport_fastrtps_c.h
+[107.923s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__rosidl_typesupport_fastrtps_c.h
+[107.923s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg
+[107.924s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail
+[107.924s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__rosidl_typesupport_fastrtps_c.h
+[107.924s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__rosidl_typesupport_fastrtps_c.h
+[107.924s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__rosidl_typesupport_fastrtps_c.h
+[107.925s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__rosidl_typesupport_fastrtps_c.h
+[107.925s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__rosidl_typesupport_fastrtps_c.h
+[107.925s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__rosidl_typesupport_fastrtps_c.h
+[107.926s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__rosidl_typesupport_fastrtps_c.h
+[107.927s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__rosidl_typesupport_fastrtps_c.h
+[107.927s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__rosidl_typesupport_fastrtps_c.h
+[107.928s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__rosidl_typesupport_fastrtps_c.h
+[107.928s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__rosidl_typesupport_fastrtps_c.h
+[107.929s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__rosidl_typesupport_fastrtps_c.h
+[107.929s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__rosidl_typesupport_fastrtps_c.h
+[107.930s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__rosidl_typesupport_fastrtps_c.h
+[107.931s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__rosidl_typesupport_fastrtps_c.h
+[107.931s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__rosidl_typesupport_fastrtps_c.h
+[107.931s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__rosidl_typesupport_fastrtps_c.h
+[107.932s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h
+[107.932s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__rosidl_typesupport_fastrtps_c.h
+[107.933s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__rosidl_typesupport_fastrtps_c.h
+[107.934s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__rosidl_typesupport_fastrtps_c.h
+[107.934s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__rosidl_typesupport_fastrtps_c.h
+[107.935s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_c.h
+[107.935s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__rosidl_typesupport_fastrtps_c.h
+[107.936s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__rosidl_typesupport_fastrtps_c.h
+[107.938s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[107.943s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so
+[107.948s] -- Set runtime path of "/home/cjs/Health_Node/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so" to ""
+[107.948s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo
+[107.948s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action
+[107.948s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail
+[107.948s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__rosidl_typesupport_fastrtps_cpp.hpp
+[107.949s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/dds_fastrtps
+[107.949s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__rosidl_typesupport_fastrtps_cpp.hpp
+[107.950s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__rosidl_typesupport_fastrtps_cpp.hpp
+[107.950s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv
+[107.951s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail
+[107.951s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__rosidl_typesupport_fastrtps_cpp.hpp
+[107.951s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__rosidl_typesupport_fastrtps_cpp.hpp
+[107.952s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/dds_fastrtps
+[107.952s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__rosidl_typesupport_fastrtps_cpp.hpp
+[107.953s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg
+[107.953s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail
+[107.955s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__rosidl_typesupport_fastrtps_cpp.hpp
+[107.955s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__rosidl_typesupport_fastrtps_cpp.hpp
+[107.955s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__rosidl_typesupport_fastrtps_cpp.hpp
+[107.955s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__rosidl_typesupport_fastrtps_cpp.hpp
+[107.959s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__rosidl_typesupport_fastrtps_cpp.hpp
+[107.959s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__rosidl_typesupport_fastrtps_cpp.hpp
+[107.960s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__rosidl_typesupport_fastrtps_cpp.hpp
+[107.960s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__rosidl_typesupport_fastrtps_cpp.hpp
+[107.960s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__rosidl_typesupport_fastrtps_cpp.hpp
+[107.960s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__rosidl_typesupport_fastrtps_cpp.hpp
+[107.962s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[107.964s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__rosidl_typesupport_fastrtps_cpp.hpp
+[107.965s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__rosidl_typesupport_fastrtps_cpp.hpp
+[107.965s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__rosidl_typesupport_fastrtps_cpp.hpp
+[107.966s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__rosidl_typesupport_fastrtps_cpp.hpp
+[107.969s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/dds_fastrtps
+[107.970s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[107.971s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__rosidl_typesupport_fastrtps_cpp.hpp
+[107.972s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__rosidl_typesupport_fastrtps_cpp.hpp
+[107.973s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__rosidl_typesupport_fastrtps_cpp.hpp
+[107.973s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__rosidl_typesupport_fastrtps_cpp.hpp
+[107.974s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp
+[107.975s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__rosidl_typesupport_fastrtps_cpp.hpp
+[107.976s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__rosidl_typesupport_fastrtps_cpp.hpp
+[107.977s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__rosidl_typesupport_fastrtps_cpp.hpp
+[107.978s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__rosidl_typesupport_fastrtps_cpp.hpp
+[107.980s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[107.985s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so
+[107.990s] -- Set runtime path of "/home/cjs/Health_Node/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so" to ""
+[107.992s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo
+[107.994s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action
+[107.995s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail
+[107.996s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__rosidl_typesupport_introspection_c.h
+[107.997s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__type_support.c
+[107.998s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__rosidl_typesupport_introspection_c.h
+[107.999s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__type_support.c
+[108.000s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__rosidl_typesupport_introspection_c.h
+[108.001s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__type_support.c
+[108.003s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv
+[108.003s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail
+[108.004s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__rosidl_typesupport_introspection_c.h
+[108.006s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__type_support.c
+[108.007s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__rosidl_typesupport_introspection_c.h
+[108.008s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__type_support.c
+[108.009s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__type_support.c
+[108.010s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__rosidl_typesupport_introspection_c.h
+[108.011s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg
+[108.012s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail
+[108.013s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__type_support.c
+[108.015s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__rosidl_typesupport_introspection_c.h
+[108.016s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__rosidl_typesupport_introspection_c.h
+[108.017s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__type_support.c
+[108.018s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__rosidl_typesupport_introspection_c.h
+[108.019s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__type_support.c
+[108.020s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__rosidl_typesupport_introspection_c.h
+[108.021s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__rosidl_typesupport_introspection_c.h
+[108.022s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__type_support.c
+[108.023s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__rosidl_typesupport_introspection_c.h
+[108.024s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__rosidl_typesupport_introspection_c.h
+[108.025s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__type_support.c
+[108.026s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__rosidl_typesupport_introspection_c.h
+[108.027s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__type_support.c
+[108.028s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__type_support.c
+[108.029s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__type_support.c
+[108.030s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__rosidl_typesupport_introspection_c.h
+[108.031s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__type_support.c
+[108.032s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__type_support.c
+[108.034s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__type_support.c
+[108.035s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__type_support.c
+[108.036s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__rosidl_typesupport_introspection_c.h
+[108.037s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__rosidl_typesupport_introspection_c.h
+[108.038s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__type_support.c
+[108.040s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__type_support.c
+[108.041s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__rosidl_typesupport_introspection_c.h
+[108.042s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__type_support.c
+[108.043s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__rosidl_typesupport_introspection_c.h
+[108.044s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__type_support.c
+[108.045s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__rosidl_typesupport_introspection_c.h
+[108.047s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__type_support.c
+[108.048s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__type_support.c
+[108.049s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__rosidl_typesupport_introspection_c.h
+[108.051s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__type_support.c
+[108.052s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__rosidl_typesupport_introspection_c.h
+[108.053s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__rosidl_typesupport_introspection_c.h
+[108.054s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__type_support.c
+[108.055s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__rosidl_typesupport_introspection_c.h
+[108.056s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__type_support.c
+[108.056s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__type_support.c
+[108.058s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__rosidl_typesupport_introspection_c.h
+[108.060s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__rosidl_typesupport_introspection_c.h
+[108.061s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__rosidl_typesupport_introspection_c.h
+[108.062s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__type_support.c
+[108.063s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__rosidl_typesupport_introspection_c.h
+[108.064s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__rosidl_typesupport_introspection_c.h
+[108.065s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__type_support.c
+[108.066s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__type_support.c
+[108.068s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__rosidl_typesupport_introspection_c.h
+[108.069s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__rosidl_typesupport_introspection_c.h
+[108.069s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[108.077s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so
+[108.082s] -- Set runtime path of "/home/cjs/Health_Node/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so" to ""
+[108.087s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so
+[108.092s] -- Set runtime path of "/home/cjs/Health_Node/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so" to ""
+[108.093s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo
+[108.093s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action
+[108.093s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail
+[108.095s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__builder.hpp
+[108.095s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__traits.hpp
+[108.096s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__struct.hpp
+[108.097s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__traits.hpp
+[108.099s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__type_support.hpp
+[108.099s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__struct.hpp
+[108.099s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__type_support.hpp
+[108.099s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__traits.hpp
+[108.101s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__builder.hpp
+[108.102s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__builder.hpp
+[108.102s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__struct.hpp
+[108.103s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__type_support.hpp
+[108.104s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/reverse.hpp
+[108.104s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/nav.hpp
+[108.105s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/pallet.hpp
+[108.106s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv
+[108.106s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/set_emergency.hpp
+[108.107s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail
+[108.107s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__builder.hpp
+[108.108s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__traits.hpp
+[108.109s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__struct.hpp
+[108.109s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__type_support.hpp
+[108.110s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__builder.hpp
+[108.112s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__type_support.hpp
+[108.112s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__struct.hpp
+[108.112s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__traits.hpp
+[108.113s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__builder.hpp
+[108.114s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__struct.hpp
+[108.115s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__type_support.hpp
+[108.116s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__traits.hpp
+[108.116s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/check_emergency.hpp
+[108.117s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/hall.hpp
+[108.118s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg
+[108.118s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/color_info.hpp
+[108.119s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/car_status.hpp
+[108.120s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/test.hpp
+[108.121s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/ohom.hpp
+[108.122s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/seek_ret.hpp
+[108.122s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/motor_cmd.hpp
+[108.123s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/rcs_info.hpp
+[108.124s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/pallet_info.hpp
+[108.125s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail
+[108.125s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__builder.hpp
+[108.125s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__type_support.hpp
+[108.126s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__struct.hpp
+[108.127s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__struct.hpp
+[108.127s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__builder.hpp
+[108.131s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__builder.hpp
+[108.132s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__traits.hpp
+[108.132s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__struct.hpp
+[108.132s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__traits.hpp
+[108.132s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__type_support.hpp
+[108.133s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__builder.hpp
+[108.134s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__type_support.hpp
+[108.134s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__struct.hpp
+[108.135s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__builder.hpp
+[108.139s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__traits.hpp
+[108.141s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__builder.hpp
+[108.141s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__traits.hpp
+[108.142s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__traits.hpp
+[108.143s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__builder.hpp
+[108.145s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__builder.hpp
+[108.145s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__type_support.hpp
+[108.145s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__type_support.hpp
+[108.148s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__builder.hpp
+[108.148s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__struct.hpp
+[108.149s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__struct.hpp
+[108.149s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__struct.hpp
+[108.149s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__struct.hpp
+[108.150s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__struct.hpp
+[108.150s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__builder.hpp
+[108.151s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__type_support.hpp
+[108.151s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__type_support.hpp
+[108.152s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__struct.hpp
+[108.152s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__traits.hpp
+[108.153s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__struct.hpp
+[108.154s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__type_support.hpp
+[108.154s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__traits.hpp
+[108.155s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__builder.hpp
+[108.156s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__traits.hpp
+[108.159s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__type_support.hpp
+[108.159s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__traits.hpp
+[108.161s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__type_support.hpp
+[108.162s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__traits.hpp
+[108.167s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__type_support.hpp
+[108.169s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__type_support.hpp
+[108.169s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__type_support.hpp
+[108.170s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__builder.hpp
+[108.171s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__traits.hpp
+[108.171s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__builder.hpp
+[108.171s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__struct.hpp
+[108.172s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__builder.hpp
+[108.173s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__type_support.hpp
+[108.174s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__traits.hpp
+[108.174s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__traits.hpp
+[108.175s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__builder.hpp
+[108.176s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__type_support.hpp
+[108.178s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__type_support.hpp
+[108.179s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__builder.hpp
+[108.183s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__traits.hpp
+[108.183s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__traits.hpp
+[108.183s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__traits.hpp
+[108.183s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__struct.hpp
+[108.184s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__builder.hpp
+[108.185s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__type_support.hpp
+[108.186s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__traits.hpp
+[108.190s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__builder.hpp
+[108.193s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__struct.hpp
+[108.193s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__traits.hpp
+[108.195s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__type_support.hpp
+[108.196s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__traits.hpp
+[108.197s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__type_support.hpp
+[108.198s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__builder.hpp
+[108.198s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__traits.hpp
+[108.200s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__type_support.hpp
+[108.200s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__builder.hpp
+[108.201s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__builder.hpp
+[108.201s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__struct.hpp
+[108.202s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__traits.hpp
+[108.203s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__traits.hpp
+[108.204s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__struct.hpp
+[108.204s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__type_support.hpp
+[108.205s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__struct.hpp
+[108.206s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__type_support.hpp
+[108.206s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__type_support.hpp
+[108.207s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__struct.hpp
+[108.208s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__struct.hpp
+[108.208s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__builder.hpp
+[108.209s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__traits.hpp
+[108.210s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__builder.hpp
+[108.211s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__builder.hpp
+[108.212s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__traits.hpp
+[108.213s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__struct.hpp
+[108.213s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__struct.hpp
+[108.214s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__type_support.hpp
+[108.214s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__type_support.hpp
+[108.215s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__struct.hpp
+[108.216s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__builder.hpp
+[108.216s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__traits.hpp
+[108.217s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__struct.hpp
+[108.217s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__struct.hpp
+[108.218s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__struct.hpp
+[108.218s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/manual_seek_label.hpp
+[108.219s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/motion_control.hpp
+[108.220s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/lift_control.hpp
+[108.221s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/motor_status.hpp
+[108.221s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/hall_info.hpp
+[108.222s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/charger_info.hpp
+[108.223s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/movecontrol_info.hpp
+[108.224s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/rosidl_generator_cpp__visibility_control.hpp
+[108.224s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/location.hpp
+[108.225s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/file_updata.hpp
+[108.226s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/seek_cmd.hpp
+[108.226s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/health_node.hpp
+[108.227s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/bt_status.hpp
+[108.228s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/obs_laser.hpp
+[108.229s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/system_status.hpp
+[108.230s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/bms_info.hpp
+[108.230s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/manual.hpp
+[108.231s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/lift_info.hpp
+[108.233s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo
+[108.233s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action
+[108.233s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail
+[108.233s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__rosidl_typesupport_introspection_cpp.hpp
+[108.234s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__type_support.cpp
+[108.235s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/reverse__rosidl_typesupport_introspection_cpp.hpp
+[108.236s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__type_support.cpp
+[108.236s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/pallet__rosidl_typesupport_introspection_cpp.hpp
+[108.238s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/action/detail/nav__type_support.cpp
+[108.239s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv
+[108.240s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail
+[108.240s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__rosidl_typesupport_introspection_cpp.hpp
+[108.241s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/check_emergency__type_support.cpp
+[108.242s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__rosidl_typesupport_introspection_cpp.hpp
+[108.243s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/hall__type_support.cpp
+[108.243s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__rosidl_typesupport_introspection_cpp.hpp
+[108.244s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/srv/detail/set_emergency__type_support.cpp
+[108.245s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg
+[108.245s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail
+[108.245s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__rosidl_typesupport_introspection_cpp.hpp
+[108.246s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__rosidl_typesupport_introspection_cpp.hpp
+[108.247s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__rosidl_typesupport_introspection_cpp.hpp
+[108.248s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__rosidl_typesupport_introspection_cpp.hpp
+[108.249s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__rosidl_typesupport_introspection_cpp.hpp
+[108.249s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__rosidl_typesupport_introspection_cpp.hpp
+[108.251s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__type_support.cpp
+[108.251s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__type_support.cpp
+[108.252s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/health_node__type_support.cpp
+[108.253s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__type_support.cpp
+[108.256s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/car_status__type_support.cpp
+[108.256s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__type_support.cpp
+[108.257s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__rosidl_typesupport_introspection_cpp.hpp
+[108.257s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motion_control__rosidl_typesupport_introspection_cpp.hpp
+[108.257s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__rosidl_typesupport_introspection_cpp.hpp
+[108.259s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__type_support.cpp
+[108.260s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__rosidl_typesupport_introspection_cpp.hpp
+[108.260s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__rosidl_typesupport_introspection_cpp.hpp
+[108.261s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/location__rosidl_typesupport_introspection_cpp.hpp
+[108.266s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__type_support.cpp
+[108.266s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__type_support.cpp
+[108.266s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual__type_support.cpp
+[108.267s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/rcs_info__rosidl_typesupport_introspection_cpp.hpp
+[108.267s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__type_support.cpp
+[108.267s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__type_support.cpp
+[108.267s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bt_status__rosidl_typesupport_introspection_cpp.hpp
+[108.269s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_info__type_support.cpp
+[108.269s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/manual_seek_label__rosidl_typesupport_introspection_cpp.hpp
+[108.272s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__rosidl_typesupport_introspection_cpp.hpp
+[108.273s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/charger_info__rosidl_typesupport_introspection_cpp.hpp
+[108.273s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__rosidl_typesupport_introspection_cpp.hpp
+[108.276s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_cmd__type_support.cpp
+[108.276s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/color_info__type_support.cpp
+[108.276s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__rosidl_typesupport_introspection_cpp.hpp
+[108.278s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__rosidl_typesupport_introspection_cpp.hpp
+[108.279s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_cmd__type_support.cpp
+[108.280s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__type_support.cpp
+[108.281s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/file_updata__type_support.cpp
+[108.282s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/ohom__type_support.cpp
+[108.283s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/lift_control__type_support.cpp
+[108.284s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/bms_info__rosidl_typesupport_introspection_cpp.hpp
+[108.286s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/seek_ret__rosidl_typesupport_introspection_cpp.hpp
+[108.287s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp
+[108.289s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__rosidl_typesupport_introspection_cpp.hpp
+[108.290s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/movecontrol_info__type_support.cpp
+[108.291s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/motor_status__rosidl_typesupport_introspection_cpp.hpp
+[108.293s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/pallet_info__type_support.cpp
+[108.294s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/test__type_support.cpp
+[108.296s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/obs_laser__type_support.cpp
+[108.297s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/include/base_interfaces_demo/msg/detail/hall_info__type_support.cpp
+[108.307s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so
+[108.315s] -- Set runtime path of "/home/cjs/Health_Node/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so" to ""
+[108.319s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so
+[108.325s] -- Set runtime path of "/home/cjs/Health_Node/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so" to ""
+[108.325s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.sh
+[108.326s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.dsv
+[108.330s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/__init__.py
+[108.414s] Compiling '/home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/__init__.py'...
+[108.421s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/action
+[108.422s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/action/_reverse_s.c
+[108.423s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/action/_nav_s.c
+[108.424s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/action/_reverse.py
+[108.426s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/action/_nav.py
+[108.427s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/action/_pallet.py
+[108.428s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/action/_pallet_s.c
+[108.429s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/action/__init__.py
+[108.430s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg
+[108.431s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_hall_info_s.c
+[108.432s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_health_node.py
+[108.433s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_car_status_s.c
+[108.435s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_health_node_s.c
+[108.436s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_color_info.py
+[108.437s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_lift_info_s.c
+[108.438s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_motor_status.py
+[108.439s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_pallet_info.py
+[108.440s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_obs_laser.py
+[108.442s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_movecontrol_info.py
+[108.443s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_seek_ret_s.c
+[108.445s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_seek_cmd_s.c
+[108.448s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_file_updata_s.c
+[108.449s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_manual_seek_label.py
+[108.449s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_motor_cmd_s.c
+[108.449s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_ohom.py
+[108.450s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_obs_laser_s.c
+[108.451s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_charger_info_s.c
+[108.451s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_seek_cmd.py
+[108.452s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_system_status.py
+[108.453s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_manual.py
+[108.453s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_movecontrol_info_s.c
+[108.454s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_charger_info.py
+[108.455s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_lift_control_s.c
+[108.455s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_manual_s.c
+[108.455s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_bt_status.py
+[108.456s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_motion_control_s.c
+[108.457s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_manual_seek_label_s.c
+[108.457s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_hall_info.py
+[108.457s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_location_s.c
+[108.460s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_seek_ret.py
+[108.461s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_ohom_s.c
+[108.463s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_car_status.py
+[108.464s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_lift_control.py
+[108.465s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_bt_status_s.c
+[108.465s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_motion_control.py
+[108.466s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_test.py
+[108.468s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_rcs_info_s.c
+[108.469s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_system_status_s.c
+[108.470s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_location.py
+[108.472s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_motor_cmd.py
+[108.472s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_color_info_s.c
+[108.472s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_motor_status_s.c
+[108.477s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_rcs_info.py
+[108.478s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_file_updata.py
+[108.478s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_lift_info.py
+[108.483s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_bms_info_s.c
+[108.483s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_pallet_info_s.c
+[108.483s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/__init__.py
+[108.483s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_bms_info.py
+[108.483s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/msg/_test_s.c
+[108.483s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/srv
+[108.484s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/srv/_hall.py
+[108.484s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/srv/_hall_s.c
+[108.484s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/srv/_check_emergency.py
+[108.484s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/srv/_set_emergency_s.c
+[108.484s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/srv/_set_emergency.py
+[108.484s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/srv/_check_emergency_s.c
+[108.485s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/srv/__init__.py
+[108.492s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[108.498s] -- Set runtime path of "/home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[108.503s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[108.508s] -- Set runtime path of "/home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[108.513s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[108.520s] -- Set runtime path of "/home/cjs/Health_Node/install/base_interfaces_demo/lib/python3.8/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[108.525s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/lib/libbase_interfaces_demo__python.so
+[108.531s] -- Set runtime path of "/home/cjs/Health_Node/install/base_interfaces_demo/lib/libbase_interfaces_demo__python.so" to ""
+[108.532s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/action/Nav.idl
+[108.533s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/Ohom.idl
+[108.534s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/HallInfo.idl
+[108.535s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/Location.idl
+[108.536s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/MotorCmd.idl
+[108.537s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/MotorStatus.idl
+[108.538s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/Manual.idl
+[108.540s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/Test.idl
+[108.540s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/srv/Hall.idl
+[108.542s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/BmsInfo.idl
+[108.543s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/ChargerInfo.idl
+[108.544s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/ManualSeekLabel.idl
+[108.545s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/SeekCmd.idl
+[108.546s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/SeekRet.idl
+[108.547s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/SystemStatus.idl
+[108.547s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/action/Reverse.idl
+[108.549s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/LiftInfo.idl
+[108.550s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/ColorInfo.idl
+[108.551s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/FileUpdata.idl
+[108.553s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/ObsLaser.idl
+[108.554s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/PalletInfo.idl
+[108.555s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/MovecontrolInfo.idl
+[108.556s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/MotionControl.idl
+[108.559s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/RcsInfo.idl
+[108.560s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/LiftControl.idl
+[108.562s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/BtStatus.idl
+[108.563s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/CarStatus.idl
+[108.564s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/HealthNode.idl
+[108.565s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/action/Pallet.idl
+[108.567s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/srv/CheckEmergency.idl
+[108.568s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/srv/SetEmergency.idl
+[108.570s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/action/Nav.action
+[108.571s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/Ohom.msg
+[108.572s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/HallInfo.msg
+[108.574s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/Location.msg
+[108.575s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/MotorCmd.msg
+[108.577s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/MotorStatus.msg
+[108.578s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/Manual.msg
+[108.580s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/Test.msg
+[108.581s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/srv/Hall.srv
+[108.582s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/srv/Hall_Request.msg
+[108.583s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/srv/Hall_Response.msg
+[108.584s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/BmsInfo.msg
+[108.586s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/ChargerInfo.msg
+[108.587s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/ManualSeekLabel.msg
+[108.589s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/SeekCmd.msg
+[108.591s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/SeekRet.msg
+[108.593s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/SystemStatus.msg
+[108.595s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/action/Reverse.action
+[108.596s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/LiftInfo.msg
+[108.597s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/ColorInfo.msg
+[108.598s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/FileUpdata.msg
+[108.600s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/ObsLaser.msg
+[108.601s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/PalletInfo.msg
+[108.602s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/MovecontrolInfo.msg
+[108.603s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/MotionControl.msg
+[108.604s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/RcsInfo.msg
+[108.605s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/LiftControl.msg
+[108.606s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/BtStatus.msg
+[108.607s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/CarStatus.msg
+[108.608s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/msg/HealthNode.msg
+[108.609s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/action/Pallet.action
+[108.610s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/srv/CheckEmergency.srv
+[108.612s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/srv/CheckEmergency_Request.msg
+[108.613s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/srv/CheckEmergency_Response.msg
+[108.615s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/srv/SetEmergency.srv
+[108.617s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/srv/SetEmergency_Request.msg
+[108.619s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/srv/SetEmergency_Response.msg
+[108.621s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/ament_index/resource_index/package_run_dependencies/base_interfaces_demo
+[108.622s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/ament_index/resource_index/parent_prefix_path/base_interfaces_demo
+[108.623s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.sh
+[108.624s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.dsv
+[108.626s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.sh
+[108.626s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.dsv
+[108.628s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.bash
+[108.629s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.sh
+[108.630s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.zsh
+[108.631s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.dsv
+[108.632s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv
+[108.634s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/ament_index/resource_index/packages/base_interfaces_demo
+[108.640s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_generator_cExport.cmake
+[108.641s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_generator_cExport-noconfig.cmake
+[108.645s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport.cmake
+[108.647s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[108.653s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport.cmake
+[108.653s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport-noconfig.cmake
+[108.654s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_generator_cppExport.cmake
+[108.656s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport.cmake
+[108.658s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[108.660s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport.cmake
+[108.661s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport-noconfig.cmake
+[108.662s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake-extras.cmake
+[108.664s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+[108.664s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_libraries-extras.cmake
+[108.665s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_targets-extras.cmake
+[108.665s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+[108.665s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[108.666s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[108.667s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig.cmake
+[108.667s] -- Up-to-date: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig-version.cmake
+[108.667s] -- Installing: /home/cjs/Health_Node/install/base_interfaces_demo/share/base_interfaces_demo/package.xml
+[108.683s] Invoked command in '/home/cjs/Health_Node/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/cjs/Health_Node/build/base_interfaces_demo

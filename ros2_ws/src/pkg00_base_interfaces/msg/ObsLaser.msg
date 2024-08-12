@@ -1,8 +1,0 @@
-int32 device_id
-int32 subpeak_quality
-int32 temp_code
-int32 subpeak_strength
-int32 mainpeak
-int32 mainpeak_correct
-int32 mainpeak_strength
-int32 sunlight_base

@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000238] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000307] (-) JobUnselected: {'identifier': 'pkg01_healthoper_cpp'}
+[0.000372] (pkg02_lifecycle_cpp) JobQueued: {'identifier': 'pkg02_lifecycle_cpp', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/cjs/Health_Node/ros2_ws/src/install/base_interfaces_demo')])}
+[0.000442] (pkg02_lifecycle_cpp) JobStarted: {'identifier': 'pkg02_lifecycle_cpp'}
+[0.051694] (pkg02_lifecycle_cpp) JobEnded: {'identifier': 'pkg02_lifecycle_cpp', 'rc': 1}
+[0.064017] (-) EventReactorShutdown: {}
